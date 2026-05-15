@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What Are Application Security Risks? (III)
+• There are two types of impact from a successful attack:
+• Technical impact, such as decreasing privacy, stealing sensitive data,and disabling computers.
+• Business impact, such as delayed sales or income, increased expenses.

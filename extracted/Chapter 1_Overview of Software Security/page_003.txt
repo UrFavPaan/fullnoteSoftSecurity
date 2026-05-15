@@ -1,0 +1,21 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Outline
+✓ The importance and relevance of
+Software Security:
+▪ What is Software Security?
+▪ Why Software Security?
+▪ Terminology in Software Security
+▪ Pillars of Software Security
+▪ Risk Management
+▪ Touchpoints
+▪ Knowledge
+✓ Software Security & SDLC
+▪ Software Development Lifecycle
+(SDLC)
+✓ Quality versus Secure Code
+✓ Threat Modeling and Attack
+Surface Validation
+• Summary

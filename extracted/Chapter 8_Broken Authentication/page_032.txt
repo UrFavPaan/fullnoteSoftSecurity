@@ -1,0 +1,20 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(3) Add a Strict Credential Recovery Process
+This should involve several verification checks and steps that make it hard and costly for
+attackers to abuse.
+services.Configure<IdentityOptions>(options => {
+// Password settings
+options.Password.RequireDigit = true;
+options.Password.RequiredLength = 8;
+options.Password.RequireNonAlphanumeric = true;
+options.Password.RequireUppercase = true;
+options.Password.RequireLowercase = true;
+options.Password.RequiredUniqueChars = 6;
+options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+options.Lockout.MaxFailedAccessAttempts = 10;
+options.SignIn.RequireConfirmedEmail = true;
+options.User.RequireUniqueEmail = true;
+});

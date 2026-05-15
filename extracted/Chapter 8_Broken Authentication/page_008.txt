@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Session Management Vulnerabilities (I)
+Basically, a session ID is created and assigned to a user whenever they log in to a site.
+The session ID is used to track what the user does and helps the site respond to the
+user’s actions.

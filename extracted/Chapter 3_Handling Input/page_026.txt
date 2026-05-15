@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (VIII) Example 3:
+• This will expose all credit card data in the login success page:
+The above query concatenates all data from the CreditCardData table
+using separators for rows and columns and returns as a string value.

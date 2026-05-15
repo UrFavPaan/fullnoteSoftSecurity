@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Don't Allow Weak Passwords (II)
+Example : we can do this by modifying the IdentityOptions method like so:
+services.Configure<IdentityOptions>(options => {
+// Password settings
+options.Password.RequireDigit = true;
+options.Password.RequiredLength = 8;
+options.Password.RequireNonAlphanumeric = true;
+options.Password.RequireUppercase = true;
+options.Password.RequireLowercase = true;
+options.Password.RequiredUniqueChars = 6;
+});

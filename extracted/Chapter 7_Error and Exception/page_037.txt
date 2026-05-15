@@ -1,0 +1,20 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Security Risks Logging
+Sensitive Data
+Exposure:
+• Logging passwords,
+tokens, or personal data.
+Log Injection Attacks:
+• Attackers manipulate log
+entries.
+Log Tampering:
+• Unauthorized
+modification/deletion of
+logs.
+Over-logging:
+• Excessive logs may
+degrade performance
+and overwhelm analysis.

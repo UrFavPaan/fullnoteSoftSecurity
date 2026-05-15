@@ -1,0 +1,27 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Security Implications
+Denial of Service
+(DoS):
+• Attackers
+repeatedly
+trigger resource
+allocation
+without release
+→ exhaust
+system resources.
+Privilege
+Escalation:
+• Leaked handles
+may expose
+unintended
+access to files or
+sockets.
+Information
+Leakage:
+• Incomplete
+cleanup may
+leave sensitive
+data in memory.

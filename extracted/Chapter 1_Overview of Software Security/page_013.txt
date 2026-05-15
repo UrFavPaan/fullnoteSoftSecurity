@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (II)
+2- Identify the business and technical risks
+• By identify the threat & vulnerabilty
+• Analyse the likelihood (probability)
+• Business risks impact business goals.
+• Mapping technical risks to business goals.
+• Developing a set of risk questionnaires.
+• Interviewing the target project team.
+• Analyzing the research interview data.
+Flashback from ISM subject:

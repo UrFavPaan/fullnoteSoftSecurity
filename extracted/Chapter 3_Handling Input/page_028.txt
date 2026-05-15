@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevent Sensitive Data Exposure
+• Prevent storage of unwanted data
+• Don’t store any sensitive information that is not required.
+• Classify the data processed, stored, or transmitted by our application.
+• Identify which data is sensitive according to privacy laws or business needs.
+• Encrypt all sensitive data stored
+• Encrypt all sensitive data that is stored by our application.
+• Use strong and updated standard algorithms, protocols, and keys to protect it.

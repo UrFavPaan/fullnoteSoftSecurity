@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios
+• Insecure Direct Object Reference (IDOR)
+• Broken Object Level Authorisation (BOLA)
+• Missing Function Level Access Control (MFLAC)
+• Broken Function Level Authorisation (BFLA)

@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Syntactical (I)
+• Input validation should be applied on both syntactical and semantic levels.
+• Syntactical validation involves checking the input data for compliance with a
+specific format or syntax.
+• For example, if a user is asked to input an email address, the input should be
+validated to ensure that it contains the "@" symbol and ends with a valid top-
+level domain (TLD) like ".com", ".net", or ".org".
+• The domain part contains only letters, numbers, hyphens (-) and periods (.).
+• The email address is a reasonable length:
+• The local part (before the @) should be no more than 63 characters.
+• The total length should be no more than 254 characters.

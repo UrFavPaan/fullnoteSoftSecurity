@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks
+• Access to Admin Pages
+• Directory Traversal File Include
+• Local File Inclusion (LFI)
+• Remote File Inclusion (RFI)
+• Spoofing
+• Phishing

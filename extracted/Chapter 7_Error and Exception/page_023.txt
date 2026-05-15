@@ -1,0 +1,19 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Main Categories of Exceptions (Cont)
+3. System Exceptions (Fatal Errors)
+• Definition: Errors related to the
+runtime environment or system
+resources.
+• Example: OutOfMemoryError,
+StackOverflowError.
+• Cause: Resource exhaustion, infinite
+loops, and memory leaks.
+• Security Concern: Attackers may
+deliberately consume resources →
+Denial of Service attack: System crashes
+instantly.
+Recurse: a method keeps calling itself without
+stopping).

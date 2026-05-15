@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Spoofing
+Spoofing is a technique used by cyber criminals to deceive
+individuals or computer systems by falsifying information to
+appear as though it came from a trustworthy source.
+This can include falsifying email addresses, IP addresses, or
+websites to make them appear legitimate.
+The goal of spoofing attacks is often to gain access to sensitive
+information or to trick individuals into taking a specific action.

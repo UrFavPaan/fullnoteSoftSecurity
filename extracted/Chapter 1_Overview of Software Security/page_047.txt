@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Quality vs Secure Code (IV)
+• High quality ≠ Secure → Bug-free app may still be hacked
+• Secure ≠ High quality → Secure app may still crash or lag
+• Best Practice: Balance both → Quality + Security = Reliable Software

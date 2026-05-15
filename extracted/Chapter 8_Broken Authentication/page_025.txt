@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Secure Password Storage (I)
+Secure password storage is an important aspect of web application security, as
+passwords are often the first line of defense against unauthorized access. There
+are several vulnerabilities that can arise when passwords are not stored securely,
+including:
+a. Plain-text password storage: This is the most basic vulnerability, where
+passwords are stored in plain text format, which can be easily read and accessed
+by anyone with access to the storage location.

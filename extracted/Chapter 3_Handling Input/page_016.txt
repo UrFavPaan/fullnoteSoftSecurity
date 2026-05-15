@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (II)
+• When an attacker can modify an SQL statement, the statement will
+execute with the same rights as the application user; when using the
+SQL server to execute commands that interact with the operating
+system, the process will run with the same permissions as the component
+that executed the command (e.g. database server, application server, or
+Web server), which is often highly privileged.
+• SQL injection has probably existed since SQL databases were first
+connected to Web applications.

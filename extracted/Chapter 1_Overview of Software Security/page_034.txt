@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+5- Code Review (I)
+• Source code analysis.
+• Focus is on finding and fixing bugs.
+• Use static analysis tools to find security bugs.
+• Static analysis tools suffer from false negatives and
+false positives.
+• Examples: Coverity, Fortify, Ounce Labs, and Secure
+Software.

@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Security Implications of Exception
+Classification
+• Checked exceptions: Encourage defensive coding.
+• Unchecked exceptions: Need secure programming practices to avoid
+vulnerabilities.
+• System exceptions: Must implement fail-safe defaults (e.g., safe
+shutdown, logging).

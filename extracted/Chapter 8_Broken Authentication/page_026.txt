@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Secure Password Storage (II)
+b. Weak password hashing: Passwords
+are often hashed before being stored in
+a database, but if the hashing algorithm
+is weak, it can be vulnerable to attacks
+like brute force or dictionary attacks.

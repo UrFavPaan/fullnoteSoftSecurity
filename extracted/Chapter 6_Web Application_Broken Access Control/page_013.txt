@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Horizontal access controls II
+According to the figure above, each user can reach their
+resources and actions. However, they cannot reach each
+other’s resources and actions although they are in the same
+privilege level as regular users. This is horizontal access control.

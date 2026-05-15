@@ -1,0 +1,22 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Best Practices in Secure Exception Handling
+Catch specific
+exceptions, not
+general ones.
+Never expose
+stack traces or
+system internals to
+end-users.
+Always log
+exceptions
+securely (for
+admins, not users).
+Use finally or try-
+with-resources to
+release resources.
+Design custom
+exception classes
+for clarity.

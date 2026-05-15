@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(8) Multifactor Authentication
+Multifactor authentication (MFA) is one of the most robust protection mechanisms at
+your disposal. MFA requires an additional credential to verify a user's identity. An
+example would be a one-time password (OTP) mailed or messaged to the user.

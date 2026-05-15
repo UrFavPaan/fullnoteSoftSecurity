@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Other Resources for SSDLC Best Practices
+• The OWASP Top 10 is a list of the ten most critical web application
+security risks as determined by the Open Web Application Security
+Project (OWASP).
+• The OWASP Top 10 provides a comprehensive view of the current threat
+landscape in web application security and helps organizations prioritize
+their security efforts.
+• https://owasp.org/Top10/

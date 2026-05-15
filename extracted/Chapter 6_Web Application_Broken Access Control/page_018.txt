@@ -1,0 +1,16 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Access to Admin
+Pages
+• Administrative functions should be linked from an
+administrator’s welcome page but not from a user’s welcome
+page.
+• However, a user might to access the administrative functions
+by browsing directly to the relevant admin URL.
+• https://target.com/admin
+• https://target.com/administrator
+• https://target.com/web_admin
+• Access to admin pages where sensitive functions take place
+generally results in vertical privilege escalation.

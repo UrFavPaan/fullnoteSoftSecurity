@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Handling Error Return Code
+• In traditional programming (especially in C, C++, and system-level
+code), return codes are widely used to indicate success or failure of a
+function.
+• Instead of stopping execution, a function signals an error by returning a
+special value (e.g., -1, NULL, or an error constant).
+• The calling function is responsible for checking and handling the return
+code.

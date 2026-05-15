@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (I)
+• To detect the design flaws:
+• Account for 50% of security problems.
+• Can't be detected by staring at code.
+• A higher-level understanding is required.
+• Architectural Risk Analysis:
+• Tracks risk over time.
+• Links system-level concerns to probability and impact measures.
+• Fits with RMF.

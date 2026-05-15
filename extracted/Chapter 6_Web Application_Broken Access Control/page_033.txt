@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Insecure Direct
+Object Reference (IDOR) II
+• If you can see the cart of the user whose user ID is 5678, then
+there is an Insecure Direct Object Reference vulnerability.
+• Since the application is vulnerable to IDOR, you can carry out
+further attacks with more impact such as changing address,
+changing payment method, deleting the account, and so on.
+• https://target.com/deleteAccount.php?userID=5678
+• https://target.com/changeAddress.php?userID=5678

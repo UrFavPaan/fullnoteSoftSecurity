@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Rank The Threats
+• Ranking provides the necessary insight into the risk of the threat
+• Risk can be
+• Accepted
+• Mitigated
+• Transferred
+• Ignored (Avoid this)
+• Two methods for ranking
+• Probability * Impact Ranking
+• DREAD Average Ranking

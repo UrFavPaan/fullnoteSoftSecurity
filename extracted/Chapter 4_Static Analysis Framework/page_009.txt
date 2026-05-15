@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Coverity
+• Coverity - a commercial static analysis tool that can
+analyze code written in C, C++, Java, and other
+languages.
+• It is widely used in industries such as aerospace,
+defense, and automotive, where safety and security are
+critical.
+• https://www.youtube.com/watch?v=K47shV_D6kw

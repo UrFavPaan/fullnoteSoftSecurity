@@ -1,0 +1,48 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Factors Contributing to Buffer Problems
+Factor
+Description
+Example
+Lack of Input
+Validation
+Input not checked for
+length/size before storage.
+User enters 100 chars into 20-char
+buffer → overflow.
+Unsafe Functions Functions like gets, strcpy
+don’t check boundaries.
+strcpy(buf, userInput); copies
+oversized input.
+Languages Without
+Bounds Checking
+C/C++ allow direct memory
+access, no auto-check.
+Writing outside an array in C → no
+error triggered.
+Legacy Code & Poor
+Design
+Old apps lack modern secure
+coding standards.
+1990s server app still uses unsafe
+memory handling.
+Complexity of
+Modern Software
+More modules/APIs = more
+insecure input paths.
+Third-party library mishandles
+buffer sizes.
+Insufficient Testing &
+Review
+Weak/limited testing misses
+overflow cases.
+App crashes with large random
+input.
+Mismanaged
+Dynamic Memory
+Errors in heap
+allocation/freeing → overflow.
+Developer allocates too little
+memory for a string.

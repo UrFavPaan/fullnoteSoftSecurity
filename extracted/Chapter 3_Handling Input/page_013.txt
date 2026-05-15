@@ -1,0 +1,17 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention Measures (Handle input securely)
+• There are several prevention measures can be applied to handle input securely.
+(1) Another measure is to use prepared statements or parameterized queries to
+prevent SQL injection attacks.
+(2) These include input encoding, which involves converting input data into a
+secure format, such as HTML encoding, to prevent SQL Injection & cross-site
+scripting (XSS) attacks.
+(3) Input data should also be checked for buffer overflows, which can be avoided
+by disallowed any input value is larger than the allocated buffer size, leading
+to memory corruption and potentially remote code execution.
+(4) Additionally, implementing access controls and privilege management can
+limit the impact of input-related attacks by restricting user access to critical
+system resources.

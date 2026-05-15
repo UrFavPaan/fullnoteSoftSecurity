@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+2- Security Requirements (I)
+• Cover both functional security and emergent characteristics.
+• Satisfy three criteria:
+• Definition: Must be explicitly defined what security requirements are.
+• Assumption: Must consider the assumptions that the system will behave as
+expected.
+• Satisfaction: Security requirements must satisfy the security goals, and the
+system must satisfy the security requirements.

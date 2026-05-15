@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Secure Password Storage (IV)
+d. Vulnerable password recovery mechanisms: Password recovery mechanisms,
+such as email password reset links, can be vulnerable to attacks if they are not
+properly secured. For example, if an attacker gains access to a user's email
+account, they can use the reset link to gain access to the user's account.
+e. Insider attacks: Insiders with access to the password storage system can pose a
+threat to password security. This includes employees or contractors who may
+abuse their access or accidentally leak information.

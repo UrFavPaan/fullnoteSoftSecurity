@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(3) Session Hijacking (I)
+Session hijacking is an attack where a user session is taken over by an attacker. A
+session starts when you log into a service, for example your banking application,
+and ends when you log out. The attack relies on the attacker’s knowledge of your
+session cookie, so it is also called cookie hijacking or cookie side-jacking. Although
+any computer session could be hijacked, session hijacking most commonly applies
+to browser sessions and web applications.

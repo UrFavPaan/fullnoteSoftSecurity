@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example of Resource Leak & Prevention I
+• Problem here: The file was opened
+but never closed without fclose(f).
+• This creates a resource leak:
+• Each time readFile() is called, a new
+file handle is allocated.
+• If fclose(f) is missing, these handles
+are never released.
+• Over time, this can exhaust system
+resources (file descriptors), leading to
+a crash or denial of service.

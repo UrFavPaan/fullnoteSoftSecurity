@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Missing Function
+Level Access Control (MFLAC) II
+• What if a user wants to delete his account instead of editing?
+Investigate the request below.
+• When this request succeeds in deleting the user account, it
+means any user can abuse the function which is not
+presented to users in the front-end. This is because of Missing
+Function Level Access Control.

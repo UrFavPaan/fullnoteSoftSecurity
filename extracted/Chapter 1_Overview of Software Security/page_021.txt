@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+1- Abuse Cases (I)
+• Determining what the software can't and won't do (No positive
+features). Example: users can't enter more than 50 characters.
+• Must anticipate abnormal behaviors.
+• Don't accept the idea that says, "No one would do these things".
+• What happens when functional security mechanisms are
+compromised?

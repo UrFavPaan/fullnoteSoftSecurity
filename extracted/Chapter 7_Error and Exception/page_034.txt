@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Logging & Debugging
+• Logging: Recording events, errors, and system activities for later
+analysis.
+• Debugging: The process of identifying, analyzing, and fixing bugs in
+software.
+• Both are essential in secure software development because:
+• Logging provides visibility into system behavior.
+• Debugging ensures errors are fixed systematically.
+• Together, they support incident response, auditing, and forensics.

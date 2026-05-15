@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (II)
+2. Design Phase
+• Threat Modeling: Utilize threat modeling techniques to identify
+potential security risks in the design.
+• Secure Design Principles: To mitigate risks, apply secure design
+principles, such as least privilege and defense in depth.

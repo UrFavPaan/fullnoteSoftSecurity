@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Managing Exceptions
+• Exceptions are events that disrupt normal program execution.
+• Unlike return codes, exceptions allow separating normal logic from
+error-handling logic.
+• Widely used in modern languages: Java, Python, C#, C++.
+• Essential in software security to prevent crashes, leaks, and
+unintended information disclosure.

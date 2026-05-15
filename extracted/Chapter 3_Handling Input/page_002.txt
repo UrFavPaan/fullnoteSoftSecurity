@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Outline
+▪ Part 1:Handling Input
+▪ Introduction to Handling Input
+▪ Classification Inputs
+▪ Validate Input
+▪ Prevention Measurement
+▪ Part 2:OWASP Top 10 :
+▪ Sensitive Data Exposure
+▪

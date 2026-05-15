@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (V)
+5. Deployment Phase
+• Configuration Management: Ensure secure configurations are applied
+before deployment.
+• Access Controls: Implement strict access controls (i.e. roles) to limit
+exposure to sensitive data.

@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What & Why is Software Security? (I)
+• Software security is the idea of engineering
+software so that it continues to function
+correctly under malicious attack.
+• Software Security aims to avoid security
+vulnerabilities by addressing security from
+the early stages of software development
+life cycle.
+• "Security is a risk management."

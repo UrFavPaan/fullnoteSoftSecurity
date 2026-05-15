@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include III
+Local File Inclusion (LFI)
+• In the example given, the attacker is attempting to access the
+password file on the system by navigating up to the etc.
+directory using "..".
+• This vulnerability can allow an attacker to read sensitive data
+or execute arbitrary code on the server.
+• http://example.com/getUserProfile.jsp?item=../../../../etc/pa
+sswd

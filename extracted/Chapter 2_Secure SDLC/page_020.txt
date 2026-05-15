@@ -1,0 +1,24 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+ISO/IEC 27034—Information Technology—Security
+Techniques—Application Security (III)
+ISO/IEC 27034: Provides the
+framework
+• Defines concepts: ASC, ASCL, ONF,
+ANF, ASMP
+• Explains the process to manage
+application security
+• Does NOT provide a ready-made list
+of security controls
+Other Standards: Provide the controls
+• ISO/IEC 27001 → General information
+security controls
+• OWASP ASVS → Web & mobile application
+security requirements
+• PCI DSS → Payment card industry data
+protection
+• NIST SP 800-53 → Security & privacy control
+catalog
+• CWE → Known software weakness patterns

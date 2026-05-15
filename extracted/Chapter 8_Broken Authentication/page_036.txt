@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(6) Improve Session Management
+It's imperative that your platform provides individual session IDs after every successful
+authentication attempt. In addition, your system must invalidate old session IDs to
+prevent hijacking as soon as a session ends.

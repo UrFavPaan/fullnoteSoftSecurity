@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Solution2: Prepared Statement (hardcoding data)
+Phyton
+stmt = “SELECT * FROM students WHERE name = ?”
+cursor.execute (stmt, (“John”,))
+- stmt = “SELECT * FROM students WHERE name = ?” –the Prepared Statement
+- ? Is a placeholder. The database knows it will a get a value later, but it doesn’t treat
+it as a code.
+- cursor.execute (stmt, (“John”)) :run query with ‘John’ as the value for ?
+placeholder

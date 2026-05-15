@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Broken Access Control
+Design and management of access controls is a complex and
+dynamic problem that applies business, organizational to a
+technical implementation.
+Common weaknesses that invites the access control’s attacks
+• Lack of proper authentication
+• Weak passwords
+• Insufficient authorization
+• Lack of auditing

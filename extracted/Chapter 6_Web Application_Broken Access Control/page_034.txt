@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Object
+Level Authorisation (BOLA)
+• The logic behind Broken Object Level Authorisation (BOLA)
+and IDOR are the same. Therefore, we can define BOLA as
+“IDOR in APIs”.
+• APIs tend to expose endpoints that handle object identifiers,
+creating a wide attack surface Level Access Control issue.
+Object-level authorization checks should be considered in
+every function that accesses a data source using input from
+the user.

@@ -1,0 +1,23 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+ISO/IEC 27034—Information Technology—Security
+Techniques—Application Security (I)
+Introduction
+• Part of the ISO 27000 family
+(Information Security)
+• Focuses on application security
+during the software lifecycle
+• Provides guidelines, principles,
+and frameworks to ensure secure
+apps
+Why it matters?
+• Applications are a major attack
+target
+• Common risks: SQL Injection, XSS,
+Broken Authentication
+• Secure apps = protect data,
+business, and users
+• Supports compliance with
+regulations

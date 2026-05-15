@@ -1,0 +1,20 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention Measures (Process Level)
+Secure Software Development Lifecycle (SSDLC)
+• Integrate security practices from design, coding, testing, and
+deployment.
+• Security is built-in, not bolted on.
+Static & Dynamic Analysis
+• Static tools find risky code patterns before execution.
+• Dynamic testing and fuzzing expose vulnerabilities during
+runtime.
+Regular Code Reviews
+• Peer reviews catch insecure practices early.
+• Encourages knowledge sharing and a secure coding culture.
+Developer Training & Awareness
+• Continuous education on secure coding and common
+vulnerabilities.
+• Prevents reintroduction of insecure patterns.

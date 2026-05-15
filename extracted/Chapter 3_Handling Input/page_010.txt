@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Semantic (I)
+• Semantic validation, on the other hand, involves checking the input data
+for compliance with the application's business rules and logic.
+• This ensures that the input data makes sense and valid in the context of
+the application.
+• For example, if a user is asked to input their age, the input should be
+validated to ensure that it falls within an acceptable range for the
+application, such as between 18 and 100 years old.
+• For example, to ensure email address is correct and legitimate: Send an
+email to the user and require that they click a link in the email or enter a
+code that has been sent to them.

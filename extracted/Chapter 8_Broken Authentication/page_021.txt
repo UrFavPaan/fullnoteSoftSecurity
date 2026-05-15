@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(4) Session ID URL (II)
+• When a user visits an online store, the store server generates an individual session ID
+that is stored locally on the visitor's computer.
+• If the user leaves the shopping cart, the cookie is transmitted along with the request
+to ensure the session won't get lost.
+• The products in the shopping cart are also assigned to the session ID and stored in
+the session cookie.
+• Example of a URL with session ID attached as a parameter:
+https://www.example.com/index.php?sid=123454321abcde-54321dcba

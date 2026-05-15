@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Questions:
+• The risk assessment is so important in order to know the level of
+security in your software. So, give me the basic steps to conduct risk
+assessment.

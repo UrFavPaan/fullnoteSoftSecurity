@@ -1,0 +1,63 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Normal Stack (Left Side)
+Stack Structure:
+The stack grows downward
+in memory (from high
+addresses at the top to low
+addresses at the bottom).
+• At the bottom: Local
+variables (e.g., Buffer 1 and
+Buffer 2).
+• Below them: the return
+pointer, which stores the
+address to which execution
+should return after the
+function call.
+• Below that: function call
+arguments and other data.
+• Key Point:
+In a normal situation, data
+written to Buffer 1 or Buffer
+2 stays within their allocated
+space and does not affect
+the return pointer.
+Smashed Stack (Right Side)
+• Buffer Overflow Occurs:
+If too much data is written into
+Buffer 1, it spills over into
+adjacent memory.
+• Consequences:
+• Buffer 1 Space is Overwritten:
+Extra data overwrites not only
+Buffer 2 but also the return
+pointer.
+• Return Pointer is Overwritten:
+Attackers replace the return
+pointer with a new pointer that
+directs execution to malicious
+code.
+• Injected Malicious Code: The
+attacker places shellcode (like
+execve(/bin/sh)) into the buffer.
+When the function returns,
+instead of going back to legitimate
+code, execution jumps to the
+injected code.
+• Effect:
+The attacker gains control of the
+program flow, often opening a
+shell or executing arbitrary
+commands.
+Memory Layout on the Left
+(Blue Box)
+Shows the relationship
+between different memory
+segments:
+• Executable Code (bottom,
+lowest addresses).
+• Data Segment.
+• Heap (grows upward).
+• Stack (grows downward).

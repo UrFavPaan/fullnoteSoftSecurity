@@ -1,0 +1,16 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Imagine your program builds an SQL command like
+this:
+Phyton (Bad coding):
+SELECT * FROM users WHERE name = ‘ “ + user input
++ “ ‘ ;
+If someone types: John
+The query become: SELECT * FROM users WHERE
+name = ‘ John’ ;
+- * :show me all the columns from the table called
+users, but only for the row where the name is ‘John’.
+Result:

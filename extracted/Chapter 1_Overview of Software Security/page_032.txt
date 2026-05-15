@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+4- Risk-Based Security Testing (II)
+• Security Testing must involve two approaches:
+• Functional security testing:
+-Testing mechanisms that ensure that functionality is well implemented.
+-From Security Requirements
+• Adversarial security testing:
+-Risk-based security testing motivated by understanding the attacker's
+approach.
+-From Abuse Cases & Risk Architecture Analysis

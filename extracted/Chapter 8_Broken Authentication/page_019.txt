@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(4) Session ID URL (I)
+When a user logs in to a website, the server generates a unique session ID and stores it
+in a cookie on the user's browser. This session ID is then appended to the end of the
+URL as a parameter, allowing the server to associate subsequent requests from the
+user with the correct session.

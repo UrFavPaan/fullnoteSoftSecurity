@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Session Management Vulnerabilities (II)
+If an attacker can get a hold of a user’s session ID while they are logged in, then that
+is essentially as good as having their password. They can use the stolen session ID to
+impersonate the user and perform actions within the website.

@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Algorithms, rules & Reporting results
+• Static analysis frameworks use various algorithms and
+rules to analyze code.
+• These algorithms and rules are designed to identify
+specific types of errors or weaknesses in the code.
+• Once the analysis is complete, the results are reported
+to the user in various formats, including graphical
+representations, lists, and detailed reports.
+• The user can then use these results to identify and fix
+any issues in the code.

@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention of Resource Leak
+• Resource leak occurs when a program acquires a resource (e.g., memory, file
+handles, sockets, database connections) but fails to release it properly.
+• Common in long-running applications → leads to performance degradation,
+instability, or system crash.
+• In software security, attackers may exploit resource leaks to launch Denial of
+Service (DoS) attacks.
+• A resource leak does not leak confidential data, it leaks system resources,
+such as memory, files, or network connections where it affects the
+availability of the system.

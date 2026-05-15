@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Software Security Interactive Notes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Chapter navigation">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">SS</span>
+          <div>
+            <h1>Software Security</h1>
+            <p>Interactive notes from Chapters 1-8</p>
+          </div>
+        </div>
+
+        <label class="search-label" for="searchInput">Search notes</label>
+        <input id="searchInput" type="search" placeholder="Try STRIDE, BOLA, SQL..." autocomplete="off">
+
+        <nav id="chapterNav" class="chapter-nav"></nav>
+
+        <div class="source-card">
+          <strong>Source rule</strong>
+          <p>All study content is based only on the provided lecture PDFs. No outside sources were used.</p>
+        </div>
+      </aside>
+
+      <main class="main">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">CCSB5133 Software Security</p>
+            <h2>Complete Study Notes and Practice Board</h2>
+            <p>
+              Search the notes, switch chapters, drill flashcards, answer quizzes, and use the risk tools
+              while staying anchored to the slide material.
+            </p>
+            <div class="stat-row" aria-label="Course coverage">
+              <span><strong>8</strong> chapters</span>
+              <span><strong>293</strong> slide pages</span>
+              <span><strong>0</strong> outside sources</span>
+            </div>
+          </div>
+          <img src="assets/security-study-map.png" alt="Software security study map showing the eight covered topics.">
+        </section>
+
+        <section class="workspace" aria-live="polite">
+          <div class="chapter-header">
+            <div>
+              <p id="chapterSource" class="eyebrow"></p>
+              <h2 id="chapterTitle"></h2>
+              <p id="chapterSummary"></p>
+            </div>
+            <button id="markCompleteBtn" class="secondary-btn" type="button">Mark chapter studied</button>
+          </div>
+
+          <div class="tabs" role="tablist" aria-label="Study modes">
+            <button class="tab active" data-view="notes" type="button">Notes</button>
+            <button class="tab" data-view="memory" type="button">Memory Aids</button>
+            <button class="tab" data-view="flashcards" type="button">Flashcards</button>
+            <button class="tab" data-view="quiz" type="button">Quiz</button>
+            <button class="tab" data-view="tools" type="button">Tools</button>
+            <button class="tab" data-view="coverage" type="button">Slide Coverage</button>
+          </div>
+
+          <div id="content" class="content"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="coverage.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

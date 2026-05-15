@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Methodologies (I)
+(1) Traditional Methodologies
+• Waterfall Model: Linear, security added late
+(reactive), flaws found during testing.
+• V-Model: Testing at every stage, maps security
+testing, limited flexibility.

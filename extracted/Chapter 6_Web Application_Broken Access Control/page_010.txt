@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Vertical access controls III
+The figure above shows that admin users can reach resources
+and functions that require admin privileges and regular users
+can reach resources and functions which require users’
+privileges. However, users cannot reach resources and functions
+that require admin privileges due to the vertical access control.

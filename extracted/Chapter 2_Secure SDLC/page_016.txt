@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (VI)
+6. Maintenance Phase
+• Regular Updates: Keep software and dependencies updated to
+protect against known vulnerabilities.
+• Incident Response Plan: Develop and maintain an incident response
+plan to address potential security breaches swiftly.

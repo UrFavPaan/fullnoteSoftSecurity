@@ -1,0 +1,16 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Confidentiality
+To ensure the information is
+protected from unauthorized
+disclosure
+Integrity
+To ensure the original messages or
+setting cannot be altered
+unauthorizedly
+Availability
+To ensure the information or
+service is available as intended
+when required without delay

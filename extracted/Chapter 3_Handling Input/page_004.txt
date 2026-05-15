@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Classification Inputs:
+• Before processing input, it is essential to classify it into different
+categories based on its source, format, and content.
+• Inputs can be classified into two categories: trusted and untrusted.
+• Trusted inputs come from reliable sources, such as internal systems or
+trusted users,
+• While untrusted inputs come from untrusted or unknown sources, such
+as user input from the web or other external systems.

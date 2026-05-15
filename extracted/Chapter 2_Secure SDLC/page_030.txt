@@ -1,0 +1,26 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Relations OWASP and CWE
+Aspect OWASP Top 10 CWE
+Focus Risks → attacker’s view (how attackers
+exploit)
+Weaknesses → developer’s view
+(coding/design flaws that allow exploitation)
+Level High-level categories (e.g., “Broken
+Access Control”)
+Low-level, detailed issues (e.g., CWE-285
+Improper Authorization)
+Purpose Raise awareness of the most critical
+risks in web applications
+Provide a catalog of root causes of software
+flaws
+Examples OWASP A01:2021 – Broken Access
+Control
+CWE-284: Improper Access Control CWE-285:
+Improper Authorization
+Relationship Each OWASP Top 10 category can map
+to many CWE entries
+Each CWE entry may belong to one or more
+OWASP risk categories

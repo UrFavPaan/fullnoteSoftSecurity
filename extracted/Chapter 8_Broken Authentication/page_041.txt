@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Summary
+Broken Authentication is a security vulnerability when
+authentication methods are weak, easily guessable, or
+bypassable, or sensitive information is stored or transmitted
+in an insecure manner.

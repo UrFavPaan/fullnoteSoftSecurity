@@ -1,0 +1,6 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(7) Don't Use Session ID URLs
+In all cases, you must secure web URLs with SSL without including the session ID.

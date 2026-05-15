@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Authorization Security
+• Do Not Rely on Obfuscation
+• Deny Access by Default
+• Single Application-Wide Mechanism (consistent for all
+modules)
+• Continuous Audit and Test Access Control
+• Minimize CORS (Cross-Origin Resource Sharing) Usage
+• Web page can only make requests to the same domain it was loaded from
+(this is called the Same-Origin Policy).

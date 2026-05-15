@@ -1,0 +1,42 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Authentication Factors
+Something you have
+Users verify their identity
+with a unique object such
+as an access card or key
+fob. This authentication
+removes the risk of
+forgetting passwords;
+however, it means the
+user must have the object
+with them whenever they
+need to access a system,
+and they run the risk of
+losing it by accident or
+theft.
+Something you
+know
+This is the most common
+authentication factor. It
+verifies identity by
+confirming users through
+confidential information
+they have, such as a login
+and password.
+Something you are
+An inherence factor
+verifies identity through
+inherent biometric
+characteristics of the
+user—like a fingerprint,
+voice, or iris pattern. The
+advantage of biometric
+authentication is that
+they’re harder to lose or
+replicate. But they can be
+expensive and less
+accurate than traditional
+authentication factors.

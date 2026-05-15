@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+7- Security Operations
+• Software security operations can be integrated with network security
+operations.
+• Defensive technique: Understanding software behaviour that leads
+into successful attack.
+• Knowledge gained by understanding attacks should be cycled back
+into software development.

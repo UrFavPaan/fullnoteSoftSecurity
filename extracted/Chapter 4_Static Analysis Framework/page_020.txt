@@ -1,0 +1,16 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Importance of understanding the
+results of static analysis
+• Interpreting and understanding the results of static analysis
+is critical to effectively using this tool for software security.
+• False positives, where the analysis flags code as vulnerable
+when it is actually secure, can be a common issue. False
+negatives, where the analysis fails to detect a vulnerability,
+can also occur.
+• Therefore, it is important to understand the limitations of
+static analysis and to use it in conjunction with other testing
+and analysis methods to ensure a comprehensive approach
+to software security.

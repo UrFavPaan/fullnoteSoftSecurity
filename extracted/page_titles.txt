@@ -1,0 +1,308 @@
+# Chapter 1_Overview of Software Security
+001: Topic 1: Overview of Software
+002: About Me
+003: Outline
+004: What & Why is Software Security? (I)
+005: Confidentiality
+006: What & Why is Software Security? (III)
+007: Terminology (I)
+008: Terminology (II)
+009: Pillars of Software Security
+010: Pillar I: Risk Management
+011: RMF Activities (I)
+012: RMF Activities (I)
+013: RMF Activities (II)
+014: RMF Activities (III)
+015: RMF Activities (V)
+016: RMF Activities (V)
+017: RMF Activities (VI)
+018: RMF Activities
+019: Questions:
+020: Pillar II: Touchpoints
+021: 1- Abuse Cases (I)
+022: 1- Abuse Cases (II)
+023: 2- Security Requirements (I)
+024: 2- Security Requirements (II)
+025: 3- Architectural Risk Analysis (I)
+026: 3- Architectural Risk Analysis (II)
+027: 3- Architectural Risk Analysis (III)
+028: 3- Architectural Risk Analysis (IV)
+029: 3- Architectural Risk Analysis (V)
+030: 3- Architectural Risk Analysis (VI)
+031: 4- Risk-Based Security Testing (I)
+032: 4- Risk-Based Security Testing (II)
+033: 4- Risk-Based Security Testing (III)
+034: 5- Code Review (I)
+035: 5- Code Review (II)
+036: 5- Code Review (III)
+037: 6- Software Penetration Testing (I)
+038: 6- Software Penetration Testing (II)
+039: 7- Security Operations
+040: Pillar III: Knowledge (I)
+041: Pillar III: Knowledge (II)
+042: Software Development Lifecycle (SDLC)
+043: Software Development Lifecycle (SDLC) (II)
+044: Quality vs Secure Code (I)
+045: Quality vs Secure Code (II)
+046: Quality vs Secure Code (III)
+047: Quality vs Secure Code (IV)
+048: Threat Modelling
+049: Threat Modelling Management Process
+050: Threat Modelling Process
+051: 1. Identify Security Objectives
+052: 2. Application Overview
+053: 3. Decompose Your Application (Generate Application
+054: 4a. Identifying Threats
+055: 4b: STRIDE and DREAD Modelling
+056: 5. Identifying Vulnerabilities
+057: Rank The Threats
+058: DREAD Average Ranking
+059: Summary
+
+# Chapter 2_Secure SDLC
+001: Topic 2: Secure Software
+002: Outline
+003: Software Security Maturity Model (I)
+004: Software Security Maturity Model (II)
+005: Software Security Maturity Model (III)
+006: Software Security Maturity Model (IV)
+007: Software Security Maturity Model (V)
+008: What Are Application Security Risks? (I)
+009: What Are Application Security Risks? (II)
+010: What Are Application Security Risks? (III)
+011: Integrating Security into Each Phase of the SDLC (I)
+012: Integrating Security into Each Phase of the SDLC (II)
+013: Integrating Security into Each Phase of the SDLC (III)
+014: Integrating Security into Each Phase of the SDLC (IV)
+015: Integrating Security into Each Phase of the SDLC (V)
+016: Integrating Security into Each Phase of the SDLC (VI)
+017: ISO/IEC 27034—Information Technology—Security
+018: ISO/IEC 27034—Information Technology—Security
+019: ISO/IEC 27034—Information Technology—Security
+020: ISO/IEC 27034—Information Technology—Security
+021: Other Resources for SSDLC Best Practices
+022: Open Web Application Security Project (OWASP)
+023: OWASP Top 10 Application Security Risks (I)
+024: OWASP Top 10 Application Security Risks (I)
+025: OWASP Top 10 Application Security Risks (I)
+026: CWE: Common Weakness Enumeration
+027: CWE: Common Weakness Enumeration
+028: CWE: Common Weakness Enumeration
+029: CWE: Common Weakness Enumeration
+030: Relations OWASP and CWE
+031: Software Development Methodologies (I)
+032: Software Development Methodologies (II)
+033: Software Development Methodologies (II)
+034: Software Development Methodologies (II)
+035: Software Development Methodologies (II)
+036: END
+
+# Chapter 3_Handling Input
+001: Handling Input
+002: Outline
+003: Handling Input
+004: Classification Inputs:
+005: Reasons For Validate Input
+006: Validate Input
+007: Input validation strategies: Syntactical (I)
+008: Input validation strategies: Syntactical (II)
+009: Input validation strategies: Syntactical (III)
+010: Input validation strategies: Semantic (I)
+011: Input validation strategies: Semantic (II)
+012: Input validation strategies: Semantic (III)
+013: Prevention Measures (Handle input securely)
+014: Prevention Measures
+015: SQL Injection (I)
+016: SQL Injection (II)
+017: SQL Injection (III)
+018: SQL Injection (IV) Example 1:
+019: SQL Injection (IV) Example 1:
+020: SQL Injection (IV) Example 1:
+021: SQL Injection (IV) Example 1:
+022: SQL Injection (IV) Example 1:
+023: SQL Injection (IV) Example 2:
+024: SQL Injection (IV) Example 2:
+025: SQL Injection (VII) Example 3:
+026: SQL Injection (VIII) Example 3:
+027: SQL Injection (IX) Example 3:
+028: Prevent Sensitive Data Exposure
+029: Prevent Sensitive Data Exposure (II)
+030: Summary
+
+# Chapter 4_Static Analysis Framework
+001: Static Analysis Framework
+002: How to detect security issues early ?
+003: Static Analysis
+004: Continue
+005: Current Frameworks and Models
+006: Models
+007: SonarQube
+008: Continue
+009: Coverity
+010: Continue
+011: Checkmarx
+012: Semgrep
+013: Selection of Models
+014: Continue
+015: Algorithms, rules & Reporting results
+016: Benefits of static analysis
+017: Limitations of static analysis
+018: Factors of static analysis framework
+019: Examples of static analysis rules
+020: Importance of understanding the
+021: End
+
+# Chapter 5_Buffer Overflow
+001: Buffer Overflows
+002: What is a Buffer
+003: Why is it Important in Software
+004: Identification & Analysis of Buffer
+005: Code-Level Indicators
+006: Code Level Indicators
+007: Code Level Indicators
+008: Code Level Indicators
+009: Factors Contributing to Buffer Problems
+010: Root Cause Analysis
+011: Prevention Measures (System & Compiler
+012: Prevention Measures (Process Level)
+013: Examples Buffer Overflow Exploits Software Security Stack
+014: Normal Stack (Left Side)
+015: Real-World Impact of Buffer Overflows
+016: Buffer overflow =
+017: End
+
+# Chapter 6_Web Application_Broken Access Control
+001: Web Application: Broken
+002: Agenda I
+003: Agenda II
+004: What is access control?
+005: Continue
+006: Broken Access Control
+007: Access Controls Categories
+008: Vertical access controls I
+009: Vertical access controls II
+010: Vertical access controls III
+011: Horizontal access controls
+012: Horizontal access controls I
+013: Horizontal access controls II
+014: Context-dependent access controls
+015: Context-dependent access controls I
+016: Context-dependent access controls II
+017: Common Attacks
+018: Common Attacks: Access to Admin
+019: Common Attacks: Directory Traversal
+020: Common Attacks: Directory Traversal
+021: Common Attacks: Directory Traversal
+022: Common Attacks: Directory Traversal
+023: Common Attacks: Directory Traversal
+024: Common Attacks: Directory Traversal
+025: Common Attacks: Phishing
+026: Common Attacks: Phishing I
+027: Common Attacks: Spoofing
+028: Common Attacks: Spoofing I
+029: Differences: Spoofing & Phishing
+030: Real-World Scenarios
+031: Real-World Scenarios: Insecure Direct
+032: Real-World Scenarios: Insecure Direct
+033: Real-World Scenarios: Insecure Direct
+034: Real-World Scenarios: Broken Object
+035: Real-World Scenarios: Broken Object
+036: Real-World Scenarios: Broken Object
+037: Real-World Scenarios: Missing Function
+038: Real-World Scenarios: Missing Function
+039: Real-World Scenarios: Missing Function
+040: Real-World Scenarios: Broken Function
+041: Real-World Scenarios: Broken Function
+042: Real-World Scenarios: Broken Function
+043: Real-World Scenarios: Broken Function
+044: Remediation Guidelines
+045: Authorization Security
+046: Authorization Security I
+047: End
+
+# Chapter 7_Error and Exception
+001: Error & Exception
+002: Agenda
+003: Introduction
+004: Handling Error Return Code
+005: Concept of Return Codes
+006: Concept of Return Codes
+007: Concept of Return Codes
+008: Common of Return Codes
+009: Advantages of Return Codes
+010: Best Practices for Secure Use
+011: Managing Exceptions
+012: What is Exception Handling?
+013: What is Exception Handling?
+014: Exception Handling Model
+015: Example
+016: Advantages of Exceptions
+017: Best Practices in Secure Exception Handling
+018: Example – Secure
+019: Return
+020: Classification of Exceptions
+021: Main Categories of Exceptions
+022: Main Categories of Exceptions (Cont)
+023: Main Categories of Exceptions (Cont)
+024: Additional Sub-classifications
+025: Security Implications of Exception
+026: Prevention of Resource Leak
+027: Examples of Resources
+028: Example of Resource Leak & Prevention I
+029: Example of Resource Leak & Prevention I
+030: Example of Resource Leak & Prevention II
+031: Security Implications
+032: Techniques to Prevent Resource Leaks
+033: Example of Prevention of Resource Leak
+034: Logging & Debugging
+035: Purpose of Logging
+036: Types of Logs
+037: Security Risks Logging
+038: Secure Logging Best Practices
+039: Purpose of Debugging
+040: Debugging Techniques
+041: Security Risks & Practices Debugging
+042: Summary
+
+# Chapter 8_Broken Authentication
+001: Broken Authentication
+002: Outline
+003: What is an Authentication?
+004: What is an Authorization?
+005: Authentication and Authorization Diagram
+006: Authentication Factors
+007: What Is Broken Authentication? (I)
+008: (1) Session Management Vulnerabilities (I)
+009: (1) Session Management Vulnerabilities (II)
+010: (2) Credential Management Vulnerabilities
+011: Examples of Broken Authentication (I)
+012: (1) Password Spraying (I)
+013: (1) Password Spraying (II)
+014: (2) Credential Stuffing (I)
+015: (2) Credential Stuffing (II)
+016: (3) Session Hijacking (I)
+017: (3) Session Hijacking (II)
+018: (3) Session Hijacking (III)
+019: (4) Session ID URL (I)
+020: (4) Session ID URL (II)
+021: (4) Session ID URL (II)
+022: (5) Phishing Attacks (I)
+023: (5) Phishing Attacks (II)
+024: Addressing Broken Authentication Vulnerabilities
+025: (1) Secure Password Storage (I)
+026: (1) Secure Password Storage (II)
+027: (1) Secure Password Storage (III)
+028: (1) Secure Password Storage (IV)
+029: How to address the broken authentication?
+030: (2) Don't Allow Weak Passwords (I)
+031: (2) Don't Allow Weak Passwords (II)
+032: (3) Add a Strict Credential Recovery Process
+033: (4) Implement Protection of Breached Password
+034: (5) Regulate Session Length (I)
+035: (5) Regulate Session Length (II)
+036: (6) Improve Session Management
+037: (7) Don't Use Session ID URLs
+038: (8) Multifactor Authentication
+039: (9) Awareness
+040: Broken Authentication Testing Tools
+041: Summary

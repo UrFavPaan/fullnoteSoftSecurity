@@ -1,0 +1,23 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+CWE: Common Weakness Enumeration
+• What is CWE?
+• It is a catalog (list) of common
+software coding mistakes
+(weaknesses).
+• Published and maintained by MITRE
+(a nonprofit that manages security
+standards like CVE too).
+• Each weakness is given a unique ID
+number (e.g., CWE-20: Improper
+Input Validation).
+• Why CWE matters?
+• Helps developers: know what
+coding errors to avoid.
+• Helps testers/security teams: check
+if software has these known flaws.
+• Helps organizations: set coding
+standards and measure security
+maturity.

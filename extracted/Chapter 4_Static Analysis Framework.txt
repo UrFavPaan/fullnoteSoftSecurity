@@ -1,0 +1,306 @@
+--- Page 1 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Static Analysis Framework
+By: Dr. Khairunnisa bt Osman
+Subject: Software Security (CCSB5133)
+Sem 2 (2025/2026)
+
+--- Page 2 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+How to detect security issues early ?
+• Static analysis can help detect security issues early
+in the development process, before the code is
+deployed in production.
+• It is achieved by identifying potential vulnerabilities
+before they can be exploited by attackers.
+
+--- Page 3 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Static Analysis
+• Static analysis is a method of analyzing software without
+executing it. It is used to identify potential errors or
+weaknesses in the source code of software.
+
+--- Page 4 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Continue
+• Static analysis can be used for various purposes, including
+finding vulnerabilities, improving code quality, and ensuring
+compliance with coding standards.
+
+--- Page 5 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Current Frameworks and Models
+• There are several static analysis frameworks
+available, such as SonarQube, Coverity, and
+Checkmarx.
+• These frameworks use various models to analyze
+code, including control flow models, data flow
+models, and abstract syntax trees.
+• Each framework has its own strengths and
+weaknesses, and the selection of a framework
+depends on the specific requirements of the
+project.
+
+--- Page 6 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Models
+• SonarQube
+• Coverity
+• Checkmarx
+• Semgrep
+
+--- Page 7 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SonarQube
+• SonarQube - an open-source platform that provides
+a dashboard for tracking and analyzing code quality
+and security issues. It supports a wide range of
+programming languages and integrates with many
+development tools.
+• https://www.youtube.com/watch?v=vE39Fg8pvZg
+
+--- Page 8 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Continue
+
+--- Page 9 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Coverity
+• Coverity - a commercial static analysis tool that can
+analyze code written in C, C++, Java, and other
+languages.
+• It is widely used in industries such as aerospace,
+defense, and automotive, where safety and security are
+critical.
+• https://www.youtube.com/watch?v=K47shV_D6kw
+
+--- Page 10 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Continue
+
+--- Page 11 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Checkmarx
+• Checkmarx - a commercial static analysis tool that can
+analyze code written in over 20 programming languages,
+including Java, .NET, and PHP .
+• It is often used in industries such as finance, healthcare, and
+government, where compliance and security are important.
+• https://www.youtube.com/watch?v=gaQAhoEgN7w&list=PL
+utAeDk0sfciZw4UMMPkXBXVP8ZUlCef2
+
+--- Page 12 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Semgrep
+• Semgrep is a static analysis tool used to find bugs,
+security vulnerabilities, and code quality issues by
+scanning source code — without running it.
+• Works with over 30+ language including Phyton
+https://www.youtube.com/watch?v=MMR78pgYx_k
+
+--- Page 13 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Selection of Models
+• The selection of a model depends on the type of
+analysis required. Core technique”s in the static code
+analysis
+• Data Flow Analysis is useful for identifying security
+vulnerabilities such as injection attacks, while Control
+Flow Analysis (CFA) is useful for identifying code
+execution paths and potential deadlocks.
+
+--- Page 14 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Continue
+Abstract syntax
+trees are
+useful for
+identifying
+syntax errors
+and enforcing
+coding
+standards.
+Program
+│
+├── FunctionDef: calculate_total(price, quantity)
+│ │
+│ ├── Assign: subtotal = price * quantity
+│ │ └── BinOp (*)
+│ │ ├── price
+│ │ └── quantity
+│ │
+│ ├── If (subtotal > 100)
+│ │ ├── Compare (>)
+│ │ │ ├── subtotal
+│ │ │ └── 100
+│ │ │
+│ │ ├── True Block
+│ │ │ └── Assign: discount = subtotal * 0.10
+│ │ │ └── BinOp (*)
+│ │ │
+│ │ └── Else Block
+│ │ └── Assign: discount = 0
+│ │
+│ ├── Assign: total = subtotal - discount
+│ │ └── BinOp (-)
+│ │
+│ └── Return total
+│
+├── Assign: bill = calculate_total(50, 3)
+│ └── Function Call
+│
+└── print(bill)
+
+--- Page 15 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Algorithms, rules & Reporting results
+• Static analysis frameworks use various algorithms and
+rules to analyze code.
+• These algorithms and rules are designed to identify
+specific types of errors or weaknesses in the code.
+• Once the analysis is complete, the results are reported
+to the user in various formats, including graphical
+representations, lists, and detailed reports.
+• The user can then use these results to identify and fix
+any issues in the code.
+
+--- Page 16 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Benefits of static analysis
+• Static analysis can help improve software security by
+identifying potential vulnerabilities in the code before it is
+deployed.
+• It can also help improve code quality and maintainability,
+reducing the likelihood of future security issues.
+• By analyzing the code at the source level, static analysis can
+detect issues that may be difficult to find using other testing
+methods.
+• This can ultimately lead to faster and more efficient
+software development, with a lower risk of security
+incidents.
+
+--- Page 17 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Limitations of static analysis
+• While static analysis is a useful tool for identifying
+potential security issues in software, it has its
+limitations.
+• For example, it may not detect all vulnerabilities or may
+generate false positives. Additionally, it cannot detect
+issues that arise from runtime behavior or system
+interactions.
+• Therefore, it is important to complement static
+analysis with other methods of testing and analysis,
+such as dynamic analysis, penetration testing, and
+code reviews.
+
+--- Page 18 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Factors of static analysis framework
+• When selecting a static analysis framework, it is
+important to consider several factors. Cost is one
+consideration, as some frameworks may be more
+expensive than others.
+• Ease of use is also important, as some frameworks
+may require specialized expertise to use effectively.
+Integration with other tools, such as development
+environments or bug tracking systems, can also be
+important for streamlining the development
+process.
+
+--- Page 19 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Examples of static analysis rules
+• Static analysis rules are used to identify potential
+vulnerabilities or issues in software.
+• For example, buffer overflow detection can help
+identify code that may be vulnerable to buffer
+overflow attacks, while code complexity analysis
+can help identify areas of code that may be difficult
+to maintain or prone to errors.
+• Other examples of static analysis rules include SQL
+injection detection, cross-site scripting (XSS)
+detection, and memory leak detection.
+
+--- Page 20 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Importance of understanding the
+results of static analysis
+• Interpreting and understanding the results of static analysis
+is critical to effectively using this tool for software security.
+• False positives, where the analysis flags code as vulnerable
+when it is actually secure, can be a common issue. False
+negatives, where the analysis fails to detect a vulnerability,
+can also occur.
+• Therefore, it is important to understand the limitations of
+static analysis and to use it in conjunction with other testing
+and analysis methods to ensure a comprehensive approach
+to software security.
+
+--- Page 21 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+End

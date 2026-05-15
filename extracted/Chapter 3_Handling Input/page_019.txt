@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Attacker manipulate the bad coding by
+typing input : John’ OR ‘1’=‘1
+The query become:
+SELECT * FROM users WHERE name = ‘
+John’ OR ‘1’=‘1’;
+- ‘1’=‘1’ makes the condition always true.
+- So, the attacker can see all the users
+without proper authentication = SQL
+INJECTION
+Result:

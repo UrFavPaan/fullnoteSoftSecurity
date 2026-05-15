@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+5- Code Review (II)
+• Useful source code analysis tools must:
+1- Be designed for security.
+2- Support multiple tires.
+3- Be extensible.
+4- Be useful for security analysts and developers alike.
+5- Support existing development processes.
+6- Make sense to multiple stakeholders.

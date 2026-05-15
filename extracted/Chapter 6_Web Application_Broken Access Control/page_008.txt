@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Vertical access controls I
+• Vertical access controls refer to access controls that are
+applied to different levels of an organization or system
+hierarchy.
+• This means that access controls are implemented at different
+levels, and users are granted or denied access based on their
+role or level of authority within the organization or system.

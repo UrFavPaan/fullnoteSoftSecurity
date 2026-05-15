@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include
+• Using input validation methods that have not been well designed
+or deployed, an aggressor could exploit the system to read or
+write files that are not intended to be accessible.
+• Access Control Lists (ACL) identifies which users or groups are
+supposed to be able to access, modify, or execute a specific file on
+the server.
+• ACL designed to prevent malicious users from accessing sensitive
+files.

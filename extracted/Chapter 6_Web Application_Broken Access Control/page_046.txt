@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Authorization Security I
+• Disable Web Server Directory Listing
+• Log & Alert
+• Rate Limit API
+• Force All Requests to Go Through Access Control Checks
+• Give As Least or As Little Necessary Access as Possible

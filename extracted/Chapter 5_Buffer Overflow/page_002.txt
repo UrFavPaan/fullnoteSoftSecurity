@@ -1,0 +1,24 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is a Buffer
+Overflow?
+• A buffer overflow occurs when a
+program writes more data to a
+memory buffer than it was
+allocated to hold.
+• Buffers are fixed-size blocks of
+memory used to store data such
+as input strings, arrays, or
+temporary variables.
+• When data exceeds the buffer’s
+capacity, it “overflows” into
+adjacent memory, potentially
+overwriting valid data or
+program control information.
+• This unintended behavior can
+lead to software crashes, data
+corruption, or, most critically, a
+pathway for attackers to execute
+malicious code.

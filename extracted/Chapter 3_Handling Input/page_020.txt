@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Solution1: Parametrized query
+Phyton
+cursor.execute (SELECT * FROM users WHERE name = ? “, (user_input,))
+? Is a placeholder. The database knows it will a get a value later, but it doesn’t treat it
+as a code.
+Even if the user types like “John’ OR ‘1’=‘1’, the db will treat it as a text only, not a
+command.

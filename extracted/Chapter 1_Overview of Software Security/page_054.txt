@@ -1,0 +1,16 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+4a. Identifying Threats
+• Identify threats that apply only to the application Context & scenarios
+generated in the previous step
+• 2 Approaches to Identify Threats
+• Use Attack Trees (CI4AM)
+• Think like an Attacker (STRIDE/DREAD, OCTAVE etc)
+• Create the threat list
+• SQL Injection
+• XSS
+• Replay Attacks
+• MITM
+• Eavesdropping

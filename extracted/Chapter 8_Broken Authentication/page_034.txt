@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(5) Regulate Session Length (I)
+All web applications must end user sessions after a certain period of inactivity. The length
+of this period depends on the type of application. For example, a streaming platform
+might require a long period of inactivity, while a sensitive banking website should have a
+short time limit.
+To regulate the length of a session, add the following lines to the project config file.

@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (IV)
+• Ambiguity Analysis:
+• It captures the creative activity required to discover new risks.
+• It requires at least two analysts and experience.
+• Weakness Analysis:
+• Is aimed at understanding the impact of software dependencies.
+• Software is built on top of complex middleware frameworks.
+• Understand what kind of assumptions we make about outside software.
+• What happens when assumptions fail?

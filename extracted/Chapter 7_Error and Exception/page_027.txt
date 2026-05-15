@@ -1,0 +1,21 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Examples of Resources
+Memory (heap
+allocation not
+freed).
+File handles
+(opened file not
+closed).
+Network sockets
+(not released after
+communication)
+Database
+connections (left
+open → connection
+pool exhaustion).
+Threads/Processes
+(not terminated
+properly).

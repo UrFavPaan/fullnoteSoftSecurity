@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Syntactical (III)
+• This helps to prevent input of invalid data and potential vulnerabilities
+that could arise from it
+• As such, the best way to validate email addresses:
+(1) to perform some basic initial validation (Syntactical)
+(2) then pass the address to the mail server and catch the exception if it rejects
+it. (Semantic)
+• This means that any application can be confident that its mail server
+is able to send emails to all addresses it is configured to accept.

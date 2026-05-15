@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Secure Password Storage (III)
+c. Inadequate salt usage: Salting is the
+process of adding a unique, random
+value to each password before it is
+hashed. If the salt is not unique or
+random enough, it can make it easier for
+attackers to crack passwords.

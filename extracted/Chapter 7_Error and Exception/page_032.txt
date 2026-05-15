@@ -1,0 +1,21 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Techniques to Prevent Resource Leaks
+Structured Cleanup • Always release resources in a finally block or equivalent.
+Automatic Resource
+Management
+• Use try-with-resources in Java or with statement in Python.
+• Ensures resources are automatically closed.
+RAII (Resource
+Acquisition Is
+Initialization)
+• Resource wrapped in a class; destructor releases it automatically.
+Monitoring & Logging • Track resource usage to detect leaks early.
+• Use profiling tools to identify unreleased resources.
+Defensive
+Programming
+• Set unused pointers to NULL after freeing memory.
+• Implement timeouts for network and database connections.
+• Use connection pools with maximum limits.

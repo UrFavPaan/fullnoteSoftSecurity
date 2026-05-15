@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Semgrep
+• Semgrep is a static analysis tool used to find bugs,
+security vulnerabilities, and code quality issues by
+scanning source code — without running it.
+• Works with over 30+ language including Phyton
+https://www.youtube.com/watch?v=MMR78pgYx_k

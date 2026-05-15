@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Exception Handling Model
+Try block
+• Code that may cause an
+error.
+Catch block
+• Handles the error.
+Finally block
+• Executes cleanup code
+(e.g., releasing
+resources).

@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Outline
+▪ What are Authentication, Authorization?
+▪ Why is authentication important in cybersecurity?
+▪ What Is Broken Authentication?
+▪ Categories vulnerabilities of broken authentication
+▪ Addressing Broken Authentication Vulnerabilities
+▪ Summary
+▪

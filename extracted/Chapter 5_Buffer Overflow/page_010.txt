@@ -1,0 +1,55 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Root Cause Analysis
+• Determine whether the
+overflow is stack-based
+(affects return
+address/instruction
+flow) or heap-based
+(affects dynamic
+memory).
+• Trace the exact input
+that caused the
+overflow.
+• Examine whether poor
+coding practice, lack of
+input validation, or
+mismanaged memory is
+the source.
+Impact Assessment
+• Confidentiality Breach:
+Sensitive data leaked
+through memory
+corruption.
+• Integrity Violation:
+Data or instructions
+altered maliciously.
+• Availability Risk:
+Program crash leading
+to denial of service.
+• Privilege Escalation:
+Attacker gains elevated
+rights by injecting code.
+Tools for Analysis
+• Static Analysis Tools:
+SonarQube, Coverity,
+Flawfinder → detect
+risky code patterns.
+• Dynamic Testing Tools:
+Valgrind,
+AddressSanitizer
+(ASan), Purify → detect
+memory leaks and
+overflows during
+execution.
+• Fuzz Testing: Sending
+malformed or oversized
+inputs to check if the
+program crashes.
+• Debugger/Disassemble
+r: GDB, IDA Pro,
+OllyDbg → trace
+memory behavior and
+potential exploit paths.

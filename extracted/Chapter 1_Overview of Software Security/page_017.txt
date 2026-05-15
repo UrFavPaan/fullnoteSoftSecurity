@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (VI)
+5- Carry out fixes and validate that they are correct.
+• Implement the mitigation strategy.
+• The artifacts should be rectified.
+• Progress is measured in terms of completeness against mitigation strategy.
+• Use validation techniques to validate that artifacts no longer bear unacceptable
+risk.
+• Metrics include artifact quality metrics and levels of risk mitigation effectiveness.

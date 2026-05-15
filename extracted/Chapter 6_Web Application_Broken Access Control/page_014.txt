@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Context-dependent access controls
+• Context-dependent access controls are access controls that
+are applied based on specific contextual factors, such as
+location, time, device, or network.
+• These controls take into consideration the specific
+environment in which a user is accessing resources and
+adjust access permissions accordingly.

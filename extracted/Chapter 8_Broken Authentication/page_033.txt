@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(4) Implement Protection of Breached Password
+A breached password protection mechanism will lock the accounts of users whose
+passwords have been compromised. In addition, we can configure this mechanism
+to return access when users change their passwords. This way, we guarantee that
+the users have a chance to prevent damage if attackers steal their passwords.

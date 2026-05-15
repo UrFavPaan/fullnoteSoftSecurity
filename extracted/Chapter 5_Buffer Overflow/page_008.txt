@@ -1,0 +1,19 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Code Level Indicators
+phyton
+user_input = input("Enter
+something: ")
+buf = user_input
+•Phyton safer because:
+•Automatically creates a string of exactly
+the right size in memory.
+•Automatically adds its own internal end-
+of-string marker (you never see it)
+•Automatically resizes as needed (no fixed
+20 characters)
+•Automatically frees memory when the
+variable is no longer used (garbage
+collection).

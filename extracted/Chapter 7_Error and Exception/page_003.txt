@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Introduction
+• Error and exception handling is a critical aspect of software security.
+• Improper handling can lead to system crashes, denial of service (DoS),
+or even exploitation by attackers.
+• Secure software must handle errors gracefully, prevent information
+leakage, and ensure that resources are always released correctly.

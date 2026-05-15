@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (II)
+• Critical Aspects of Architectural Risk Analysis:
+• Attack Resistance Analysis.
+• Ambiguity Analysis.
+• Weakness Analysis.

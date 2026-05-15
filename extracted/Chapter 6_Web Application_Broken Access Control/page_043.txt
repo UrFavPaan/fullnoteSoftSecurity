@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Function
+Level Authorization (BFLA) III
+• API calls (requests) may vary, but the logic behind
+the action is the same. For example;

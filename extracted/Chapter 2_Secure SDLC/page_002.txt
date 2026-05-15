@@ -1,0 +1,19 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Outline
+✓ Software Security Models
+▪ OWASP SAMM (Software
+Assurance Maturity Model)
+✓ Mapping SSDLC to SDLC
+✓ ISO/IEC 27034—Information
+Technology—Security Techniques—
+Application Security
+✓ Other Resources for SSDLC Best
+Practices
+▪ OWASP Top 10 Application Security
+Risks
+▪ CWE
+✓ Software Development
+Methodologies

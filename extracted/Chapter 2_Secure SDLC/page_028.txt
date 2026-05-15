@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+CWE: Common Weakness Enumeration
+The system does not verify user identity correctly, allowing unauthorized access.
+6. CWE-287: Improper Authentication
+7. CWE-316: Cleartext Storage in Memory
+Sensitive information is stored in memory without encryption, making it easy to steal.
+Logs contain unsafe or unchecked data, allowing tampering or information leaks.
+8. CWE-117: Improper Logging
+9. CWE-223: Missing Security Info
+The system omits important security-related details in logs, making attacks harder to detect.
+10. CWE-209: Info Exposure in Error Message
+Error messages reveal too much technical detail, helping attackers learn about the system.

@@ -1,0 +1,17 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+OWASP Top 10 Application Security Risks (I)
+When software or data isn’t verified properly (e.g., installing updates from untrusted sources, supply chain attacks).
+Software and data integrity failures relate to code and infrastructure that does not protect against integrity
+violations.
+8: Software & Data Integrity Failures
+9: Security Logging & Monitoring Failures
+Not detecting or responding to attacks because logs are missing, weak, or ignored. this category is to help detect,
+escalate, and respond to active breaches. Without logging and monitoring, breaches cannot be detected.
+10: Server-Side Request Forgery (SSRF)
+When attackers trick a server into making requests on their behalf, often to internal or protected systems. SSRF flaws
+occur whenever a web application is fetching a remote resource without validating the user-supplied URL. It allows an
+attacker to coerce the application to send a crafted request to an unexpected destination, even when protected by a
+firewall, VPN, or another type of network access control list (ACL).

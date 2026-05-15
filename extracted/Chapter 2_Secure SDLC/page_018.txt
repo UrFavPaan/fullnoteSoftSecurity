@@ -1,0 +1,34 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+ISO/IEC 27034—Information Technology—Security
+Techniques—Application Security (II)
+1) ISO/IEC 27034-1:2011 — Overview and
+Concepts
+• Introduces key concepts: ASC, ASCL, ASLC,
+ASMP , ONF.
+2) ISO/IEC 27034-2 — Organization Normative
+Framework (ONF) (still under development in
+some editions)
+• Framework of policies, standards, and
+procedures for application security.
+3) ISO/IEC 27034-3:2018 — Application Security
+Management Process (ASMP)
+• Practical guidance on managing app
+security.
+4) ISO/IEC 27034-4 — Application Security
+Validation (ASV) (under development)
+• How to validate that an application meets
+security requirements
+5) ISO/IEC 27034-5 — Protocol Bindings
+(planned / under development)
+• Guidance on implementing application
+security in specific technical protocols.
+6) ISO/IEC 27034-6 — Case Studies (planned)
+• Real-world examples of applying ISO/IEC
+27034.
+7) ISO/IEC 27034-7:2018 — Assurance
+Prediction Framework (APF)
+• How to predict and measure assurance of
+security controls.

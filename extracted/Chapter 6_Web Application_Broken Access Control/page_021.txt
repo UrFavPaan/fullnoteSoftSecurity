@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include II
+Local File Inclusion (LFI)
+LFI occurs when a web application allows a user to include a
+local file, such as a configuration file or password file, by
+specifying a path to the file in a parameter of the web request.
+The attacker may use ".." to navigate up the directory structure
+and access files outside of the application's root directory.

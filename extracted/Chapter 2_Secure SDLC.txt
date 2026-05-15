@@ -1,0 +1,589 @@
+--- Page 1 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Topic 2: Secure Software
+Development Lifecycle (SSDLC)
+By: Dr. Khairunnisa bt Osman
+Subject: Software Security (CCSB5133)
+Sem 2 (2025/2026)
+
+--- Page 2 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Outline
+✓ Software Security Models
+▪ OWASP SAMM (Software
+Assurance Maturity Model)
+✓ Mapping SSDLC to SDLC
+✓ ISO/IEC 27034—Information
+Technology—Security Techniques—
+Application Security
+✓ Other Resources for SSDLC Best
+Practices
+▪ OWASP Top 10 Application Security
+Risks
+▪ CWE
+✓ Software Development
+Methodologies
+
+--- Page 3 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (I)
+What is OWASP SAMM (Software Assurance Maturity Model)?
+• OWASP: Open Worldwide Application Security Project
+• Open-source framework for software security maturity.
+• Helps organizations:
+• Evaluate current security practices.
+• Build a roadmap for improvement.
+• Measure progress over time.
+• Help by showing where you are right now & guide to mature & secure practices
+https://owaspsamm.org/model/
+
+--- Page 4 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (II)
+SAMM Structure
+• 5 Business Functions → each with 2
+Practices:
+(1) Governance
+• Strategy & Metrics
+• Policy & Compliance
+(2) Design
+• Threat Assessment
+• Security Requirements
+(3) Implementation
+• Secure Build
+• Secure Deployment
+(4) Verification
+• Security Testing
+• Security Review
+(5) Operations
+• Incident Management
+• Environment Management
+
+--- Page 5 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (III)
+Maturity Levels
+• Level 1 → Ad-hoc / basic activities.
+• Level 2 → Defined, repeatable, organization-wide.
+• Level 3 → Optimized, measured, continuous improvement.
+
+--- Page 6 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (IV)
+The components:
+Example of the result:
+
+--- Page 7 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (V)
+• Step 1: Assessment from
+OWASP SAMM
+They had strong compliance
+policies (Governance: Level 2)
+but weak secure coding practices
+(Implementation: Level 1).
+• Step 2: Set a Target Maturity
+Level
+Business decides they need Level
+2 maturity in all domains within
+2 years to reduce risks.
+• Step 3: Improvement Plan
+• Governance: Establish a formal AppSec steering
+committee.
+• Design: Adopt threat modeling workshops for
+high-risk applications.
+• Implementation: Train developers on OWASP Top
+10, introduce SAST/DAST tools.
+• Verification: Add regular penetration tests and
+CI/CD security checks.
+• Operations: Develop incident response playbooks
+and security monitoring dashboards.
+
+--- Page 8 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What Are Application Security Risks? (I)
+• Attackers can potentially use many different paths through your application to do
+harm to your business or organization. Each of these paths represents a risk that may,
+or may not, be serious enough to warrant attention.
+
+--- Page 9 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What Are Application Security Risks? (II)
+• Sometimes these paths are trivial to find and exploit, and sometimes they are extremely
+difficult. To determine the risk to your organization, you can evaluate the likelihood associated
+with each threat agent, attack vector, and security weakness and combine it with an estimate
+of the technical and business impact to your organization. Together, these factors determine
+your overall risk.
+
+--- Page 10 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What Are Application Security Risks? (III)
+• There are two types of impact from a successful attack:
+• Technical impact, such as decreasing privacy, stealing sensitive data,and disabling computers.
+• Business impact, such as delayed sales or income, increased expenses.
+
+--- Page 11 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (I)
+1. Planning & Requirements Phase
+• Risk Assessment: Conduct a thorough risk assessment to identify
+potential security threats and vulnerabilities.
+• Abuse Cases: Provide insights into how attackers will approach the
+system's assumptions.
+• Security Requirements: Define security and functional requirements
+to ensure they are considered immediately.
+
+--- Page 12 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (II)
+2. Design Phase
+• Threat Modeling: Utilize threat modeling techniques to identify
+potential security risks in the design.
+• Secure Design Principles: To mitigate risks, apply secure design
+principles, such as least privilege and defense in depth.
+
+--- Page 13 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (III)
+3. Implementation Phase
+• Secure Coding Practices: Educate developers on secure coding
+practices to prevent common vulnerabilities, such as SQL injection
+and cross-site scripting (XSS).
+• Code Reviews: Implement regular code reviews focused on security
+to catch vulnerabilities early.
+
+--- Page 14 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (IV)
+4. Testing Phase
+• Security Testing: Incorporate security testing methods, such as static
+and dynamic analysis, penetration testing, and vulnerability scanning.
+• Risk Based Security Test: Grounded in both system's architectural
+reality and the attacker's mindset. Inside-Out approach
+• Automated Tools: Utilize automated security testing tools to
+streamline the identification of vulnerabilities.
+
+--- Page 15 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (V)
+5. Deployment Phase
+• Configuration Management: Ensure secure configurations are applied
+before deployment.
+• Access Controls: Implement strict access controls (i.e. roles) to limit
+exposure to sensitive data.
+
+--- Page 16 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (VI)
+6. Maintenance Phase
+• Regular Updates: Keep software and dependencies updated to
+protect against known vulnerabilities.
+• Incident Response Plan: Develop and maintain an incident response
+plan to address potential security breaches swiftly.
+
+--- Page 17 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+ISO/IEC 27034—Information Technology—Security
+Techniques—Application Security (I)
+Introduction
+• Part of the ISO 27000 family
+(Information Security)
+• Focuses on application security
+during the software lifecycle
+• Provides guidelines, principles,
+and frameworks to ensure secure
+apps
+Why it matters?
+• Applications are a major attack
+target
+• Common risks: SQL Injection, XSS,
+Broken Authentication
+• Secure apps = protect data,
+business, and users
+• Supports compliance with
+regulations
+
+--- Page 18 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+ISO/IEC 27034—Information Technology—Security
+Techniques—Application Security (II)
+1) ISO/IEC 27034-1:2011 — Overview and
+Concepts
+• Introduces key concepts: ASC, ASCL, ASLC,
+ASMP , ONF.
+2) ISO/IEC 27034-2 — Organization Normative
+Framework (ONF) (still under development in
+some editions)
+• Framework of policies, standards, and
+procedures for application security.
+3) ISO/IEC 27034-3:2018 — Application Security
+Management Process (ASMP)
+• Practical guidance on managing app
+security.
+4) ISO/IEC 27034-4 — Application Security
+Validation (ASV) (under development)
+• How to validate that an application meets
+security requirements
+5) ISO/IEC 27034-5 — Protocol Bindings
+(planned / under development)
+• Guidance on implementing application
+security in specific technical protocols.
+6) ISO/IEC 27034-6 — Case Studies (planned)
+• Real-world examples of applying ISO/IEC
+27034.
+7) ISO/IEC 27034-7:2018 — Assurance
+Prediction Framework (APF)
+• How to predict and measure assurance of
+security controls.
+
+--- Page 19 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+ISO/IEC 27034—Information Technology—Security
+Techniques—Application Security (III)
+• Application Security Control (ASC): Specific security function (e.g., input validation)
+• use HTTPS, encrypt credit card numbers.
+• Application Security Control Library (ASCL): A reusable catalog of ASCs
+• company’s library has “payment encryption control,” “session timeout control.”
+• Application Security Life Cycle (ASLC): Secure design, development, testing, deployment, maintenance
+• Integration of security into every stage of SDLC.
+• Application Security Management Process (ASMP): Governance structure ensuring continuous app security
+• Managers monitors and ensure developers follow these controls.
+• Organizational Normative Framework (ONF): Collection of reusable policies, standards, guidelines, and
+resources that help ensure applications are developed and maintained securely.
+• company policy says, “all payment apps must comply with PCI DSS.”
+
+--- Page 20 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+ISO/IEC 27034—Information Technology—Security
+Techniques—Application Security (III)
+ISO/IEC 27034: Provides the
+framework
+• Defines concepts: ASC, ASCL, ONF,
+ANF, ASMP
+• Explains the process to manage
+application security
+• Does NOT provide a ready-made list
+of security controls
+Other Standards: Provide the controls
+• ISO/IEC 27001 → General information
+security controls
+• OWASP ASVS → Web & mobile application
+security requirements
+• PCI DSS → Payment card industry data
+protection
+• NIST SP 800-53 → Security & privacy control
+catalog
+• CWE → Known software weakness patterns
+
+--- Page 21 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Other Resources for SSDLC Best Practices
+• The OWASP Top 10 is a list of the ten most critical web application
+security risks as determined by the Open Web Application Security
+Project (OWASP).
+• The OWASP Top 10 provides a comprehensive view of the current threat
+landscape in web application security and helps organizations prioritize
+their security efforts.
+• https://owasp.org/Top10/
+
+--- Page 22 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Open Web Application Security Project (OWASP)
+Top 10 Application Security Risks
+
+--- Page 23 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+OWASP Top 10 Application Security Risks (I)
+When users can do things, they’re not supposed to (e.g., normal users accessing admin functions or other people’s
+data). Access control enforces policy such that users cannot act outside of their intended permissions. Failures
+typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a
+business function outside the user's limits.
+1: Broken Access Control
+2: Cryptography Failures
+Weak, missing, or misused encryption that exposes sensitive data (like passwords or credit card info). The first thing is
+to determine the protection needs of data in transit and at rest.
+Attacker puts malicious data into a program (like SQL, command, or XSS), tricking it into running unintended
+commands. Source code review is the best method of detecting if applications are vulnerable to injections. Automated
+testing of all parameters, headers, URL, cookies, JSON, SOAP , and XML data inputs is strongly encouraged.
+3: Injection
+
+--- Page 24 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+OWASP Top 10 Application Security Risks (I)
+Flaws in the system’s architecture or design that create security weaknesses (e.g., no threat modeling, insecure
+workflows). Secure design is a culture and methodology that constantly evaluates threats and ensures that code is
+robustly designed and tested to prevent known attack methods. Threat modeling should be integrated into
+refinement sessions (or similar activities); look for changes in data flows and access control or other security
+controls.
+4: Insecure Design
+5: Security Misconfiguration
+Poorly set security settings—like default passwords, open cloud storage, or unnecessary features left on.
+Using old libraries, frameworks, or software with known bugs that attackers can exploit.
+6: Vulnerable & Outdated Components
+7: Identification & Authentication Failures
+Weak login systems—like broken password resets, no multi-factor authentication, or session problems—that let
+attackers impersonate users. Confirmation of the user's identity, authentication, and session management is critical to
+protect against authentication-related attacks.
+
+--- Page 25 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+OWASP Top 10 Application Security Risks (I)
+When software or data isn’t verified properly (e.g., installing updates from untrusted sources, supply chain attacks).
+Software and data integrity failures relate to code and infrastructure that does not protect against integrity
+violations.
+8: Software & Data Integrity Failures
+9: Security Logging & Monitoring Failures
+Not detecting or responding to attacks because logs are missing, weak, or ignored. this category is to help detect,
+escalate, and respond to active breaches. Without logging and monitoring, breaches cannot be detected.
+10: Server-Side Request Forgery (SSRF)
+When attackers trick a server into making requests on their behalf, often to internal or protected systems. SSRF flaws
+occur whenever a web application is fetching a remote resource without validating the user-supplied URL. It allows an
+attacker to coerce the application to send a crafted request to an unexpected destination, even when protected by a
+firewall, VPN, or another type of network access control list (ACL).
+
+--- Page 26 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+CWE: Common Weakness Enumeration
+• What is CWE?
+• It is a catalog (list) of common
+software coding mistakes
+(weaknesses).
+• Published and maintained by MITRE
+(a nonprofit that manages security
+standards like CVE too).
+• Each weakness is given a unique ID
+number (e.g., CWE-20: Improper
+Input Validation).
+• Why CWE matters?
+• Helps developers: know what
+coding errors to avoid.
+• Helps testers/security teams: check
+if software has these known flaws.
+• Helps organizations: set coding
+standards and measure security
+maturity.
+
+--- Page 27 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+CWE: Common Weakness Enumeration
+The software does not check or restrict input properly, which may allow unexpected or dangerous data.
+1. CWE-20: Improper Input Validation
+2. CWE-74: Injection
+User input is not handled safely, allowing malicious code or commands to be executed.
+The program copies data without checking size limits, causing memory corruption.
+3. CWE-120: Buffer Overflow
+4. CWE-119: Memory Bound Error
+The software allows operations outside the allocated memory, leading to crashes or exploits.
+5. CWE-384: Session Fixation
+The system reuses or accepts an attacker’s session ID, letting them hijack sessions.
+
+--- Page 28 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+CWE: Common Weakness Enumeration
+The system does not verify user identity correctly, allowing unauthorized access.
+6. CWE-287: Improper Authentication
+7. CWE-316: Cleartext Storage in Memory
+Sensitive information is stored in memory without encryption, making it easy to steal.
+Logs contain unsafe or unchecked data, allowing tampering or information leaks.
+8. CWE-117: Improper Logging
+9. CWE-223: Missing Security Info
+The system omits important security-related details in logs, making attacks harder to detect.
+10. CWE-209: Info Exposure in Error Message
+Error messages reveal too much technical detail, helping attackers learn about the system.
+
+--- Page 29 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+CWE: Common Weakness Enumeration
+Sensitive data is exposed to users who should not see it.
+11. CWE-200: Information Exposure
+
+--- Page 30 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Relations OWASP and CWE
+Aspect OWASP Top 10 CWE
+Focus Risks → attacker’s view (how attackers
+exploit)
+Weaknesses → developer’s view
+(coding/design flaws that allow exploitation)
+Level High-level categories (e.g., “Broken
+Access Control”)
+Low-level, detailed issues (e.g., CWE-285
+Improper Authorization)
+Purpose Raise awareness of the most critical
+risks in web applications
+Provide a catalog of root causes of software
+flaws
+Examples OWASP A01:2021 – Broken Access
+Control
+CWE-284: Improper Access Control CWE-285:
+Improper Authorization
+Relationship Each OWASP Top 10 category can map
+to many CWE entries
+Each CWE entry may belong to one or more
+OWASP risk categories
+
+--- Page 31 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Methodologies (I)
+(1) Traditional Methodologies
+• Waterfall Model: Linear, security added late
+(reactive), flaws found during testing.
+• V-Model: Testing at every stage, maps security
+testing, limited flexibility.
+
+--- Page 32 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Methodologies (II)
+(2) Iterative & Incremental Models
+• Spiral Model: Risk-driven, iterative, security
+considered early (threat/risk analysis).
+• RUP (Rational Unified Process): Iterative,
+architecture-centric, security in requirements &
+design
+
+--- Page 33 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Methodologies (II)
+(3) Agile Methodologies
+• Agile Development: Speed & adaptability, but
+security often ignored.
+• Secure Agile / DevSecOps: Security in every sprint,
+threat modeling, automated testing in CI/CD.
+
+--- Page 34 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Methodologies (II)
+(4) Security-Specific Methodologies
+• Microsoft SDL: Security in all phases (threat modeling, secure coding, testing, incident response).
+
+--- Page 35 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Methodologies (II)
+(4) Security-Specific Methodologies
+• OWASP SAMM: Framework to assess & improve security practices.
+
+--- Page 36 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+END
+✓ Software Security Models
+▪ OWASP SAMM (Software
+Assurance Maturity Model)
+✓ Mapping SSDLC to SDLC
+✓ ISO/IEC 27034—Information
+Technology—Security Techniques—
+Application Security
+✓ Other Resources for SSDLC Best
+Practices
+▪ OWASP Top 10 Application Security
+Risks
+▪ CWE
+✓ Software Development
+Methodologies

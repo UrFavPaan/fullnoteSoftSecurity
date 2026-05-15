@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Quality vs Secure Code (I)
+• Quality Code
+• Focus: Functionality, performance, usability, maintainability
+• Goal: Meets user requirements and performs tasks efficiently
+• Examples:
+• - Fewer bugs and crashes
+• - Well-documented, easy to maintain
+• - Fast and reliable performance

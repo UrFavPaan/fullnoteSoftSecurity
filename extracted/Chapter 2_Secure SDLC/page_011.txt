@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (I)
+1. Planning & Requirements Phase
+• Risk Assessment: Conduct a thorough risk assessment to identify
+potential security threats and vulnerabilities.
+• Abuse Cases: Provide insights into how attackers will approach the
+system's assumptions.
+• Security Requirements: Define security and functional requirements
+to ensure they are considered immediately.

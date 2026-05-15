@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Terminology (II)
+• Risks capture the probability that a flaw or a bug will impact the
+purpose of the software.
+o Risk = probability (of what?) x impact
+• Vulnerabilities are weaknesses or errors that an attacker can exploit.
+o Either flaws in the design or flaws in the implementation.
+o Design-level vulnerabilities are the hardest defects to handle.

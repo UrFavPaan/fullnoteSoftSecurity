@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Function
+Level Authorization (BFLA)
+• Complex access control policies with different
+hierarchies, groups, and roles, and an unclear
+separation between administrative and regular
+functions, tend to lead to authorization flaws.
+• By exploiting these issues, attackers gain access to
+other users’ resources and/or administrative
+functions.

@@ -1,0 +1,43 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Continue
+Abstract syntax
+trees are
+useful for
+identifying
+syntax errors
+and enforcing
+coding
+standards.
+Program
+│
+├── FunctionDef: calculate_total(price, quantity)
+│ │
+│ ├── Assign: subtotal = price * quantity
+│ │ └── BinOp (*)
+│ │ ├── price
+│ │ └── quantity
+│ │
+│ ├── If (subtotal > 100)
+│ │ ├── Compare (>)
+│ │ │ ├── subtotal
+│ │ │ └── 100
+│ │ │
+│ │ ├── True Block
+│ │ │ └── Assign: discount = subtotal * 0.10
+│ │ │ └── BinOp (*)
+│ │ │
+│ │ └── Else Block
+│ │ └── Assign: discount = 0
+│ │
+│ ├── Assign: total = subtotal - discount
+│ │ └── BinOp (-)
+│ │
+│ └── Return total
+│
+├── Assign: bill = calculate_total(50, 3)
+│ └── Function Call
+│
+└── print(bill)

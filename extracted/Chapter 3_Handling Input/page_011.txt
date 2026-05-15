@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Semantic (II)
+• For example, to ensure email address is correct and legitimate:
+• At least 32 characters long.
+• Time limited (e.g., expiring after eight hours).
+• After validating the ownership of the email address, the user should then be
+required to authenticate on the application through the usual mechanism.

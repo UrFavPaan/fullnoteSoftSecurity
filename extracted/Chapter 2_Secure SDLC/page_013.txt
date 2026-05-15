@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (III)
+3. Implementation Phase
+• Secure Coding Practices: Educate developers on secure coding
+practices to prevent common vulnerabilities, such as SQL injection
+and cross-site scripting (XSS).
+• Code Reviews: Implement regular code reviews focused on security
+to catch vulnerabilities early.

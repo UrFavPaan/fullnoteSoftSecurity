@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is Exception Handling?
+• Mechanism to detect, raise, and handle abnormal conditions.
+• A program can transfer control to a catch block when an exception
+occurs.
+• Promotes cleaner, safer, and more maintainable code.

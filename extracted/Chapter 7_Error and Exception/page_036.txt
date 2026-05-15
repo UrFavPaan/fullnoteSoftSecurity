@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Types of Logs
+System Logs • OS-level activities.
+Application
+Logs • Program-specific events.
+Security Logs • Authentication, access control, intrusion
+attempts.
+Audit Logs • Records of user actions, transactions, or
+changes.

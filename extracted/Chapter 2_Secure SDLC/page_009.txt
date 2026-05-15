@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What Are Application Security Risks? (II)
+• Sometimes these paths are trivial to find and exploit, and sometimes they are extremely
+difficult. To determine the risk to your organization, you can evaluate the likelihood associated
+with each threat agent, attack vector, and security weakness and combine it with an estimate
+of the technical and business impact to your organization. Together, these factors determine
+your overall risk.

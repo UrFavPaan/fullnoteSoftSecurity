@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Examples of Broken Authentication (I)
+02 03 0401 05
+Password Spraying
+Credential Stuffing
+Session Hijacking
+Session ID URL
+Phishing Attacks
+Broken Authentication

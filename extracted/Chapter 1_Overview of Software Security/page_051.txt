@@ -1,0 +1,23 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+1. Identify Security Objectives
+• Use the CI4AM security
+mechanism
+• Confidentiality
+• Integrity
+• Availability
+• Authentication
+• Authorization
+• Auditing
+• Management
+• Use the Policies & standards,
+Legal/Compliance directives &
+business requirements to list
+the security objectives
+• Examples
+• Prevent Data Theft
+• Protect IP
+• Attain Compliance
+• Provide high availability

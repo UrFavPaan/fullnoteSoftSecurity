@@ -1,0 +1,6 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(3) Session Hijacking (III)
+Illustration of session hijacking using XSS

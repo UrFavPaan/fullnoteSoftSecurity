@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (III)
+• Attack Resistance Analysis:
+• It captures the check-list like approach to the risk analysis taken in Microsoft
+Threat Modelling approach.
+• Steps:
+1. Identify general flaws using secure design literature and checklists.
+2. Map attack patterns using either the results of abuse case development or a list of
+historical risks.
+3. Identify risks in the architecture based on the use of checklists.
+4. Understand and demonstrate the viability of these known attacks.

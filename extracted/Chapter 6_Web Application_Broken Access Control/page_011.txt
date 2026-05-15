@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Horizontal access controls
+• Horizontal access controls refer to access controls that are
+applied across different users or entities at the same level
+within an organization or system hierarchy.
+• This means that access controls are implemented based on
+specific attributes or characteristics of the user, rather than
+their position or level of authority within the organization or
+system.

@@ -1,0 +1,16 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Benefits of static analysis
+• Static analysis can help improve software security by
+identifying potential vulnerabilities in the code before it is
+deployed.
+• It can also help improve code quality and maintainability,
+reducing the likelihood of future security issues.
+• By analyzing the code at the source level, static analysis can
+detect issues that may be difficult to find using other testing
+methods.
+• This can ultimately lead to faster and more efficient
+software development, with a lower risk of security
+incidents.

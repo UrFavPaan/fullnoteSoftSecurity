@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What Are Application Security Risks? (I)
+• Attackers can potentially use many different paths through your application to do
+harm to your business or organization. Each of these paths represents a risk that may,
+or may not, be serious enough to warrant attention.

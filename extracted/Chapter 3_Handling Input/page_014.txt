@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention Measures
+(5) Hide database errors- Never show raw error messages on your website
+(6) User Web Application Firewall (WAF)
+(7) Keep software and frameworks updated- Phyton, PHP , MySQL

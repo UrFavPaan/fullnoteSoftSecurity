@@ -1,0 +1,811 @@
+--- Page 1 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Topic 1: Overview of Software
+Security
+By: Dr. Khairunnisa bt Osman
+Subject: Software Security (CCSB5133)
+Sem 2 (2025/2026)
+
+--- Page 2 ---
+2
+About Me
+Qualification
+• Certified in ISMS Lead Auditor
+• Certified in EC-Council Security Analyst (ECSA)
+• PhD at UTEM
+Title research: The Rhetorical Structure of Cyber Terrorists in Protecting
+Critical Infrastructure
+• Master of Computer Science 2009-2011 (Majoring: Information Security) at
+UTM KL
+• Bachelor Degree of Computer Science 2005-2009m (Majoring: Information
+Security Assurance) at USIM
+• Matriculation Programme of Science Physical 2004 at MMC
+• Secondary School 1999-2003 at SMKA Maahad Hamidiah, Kajang
+• Primary School 1993-1998 at SK Petaling Jaya
+Career History- 15 years++ industry experience
+• Malaysia Airports Holdings Berhad (MAHB)
+- 1 May 2017 – January 2025 as Manager Internal Audit Division in IT Unit
+- June 2013 – 30 April 2017 as Senior Executive IAD in IT Unit
+• 2016-2023 as Part Time Consultant and External Auditor of Jalinan Ilmu Sdn
+Bhd for ISO related Information Security
+• CyberSecurity Malaysia (CSM)
+June 2009 – June 2013 as Analyst (Department Information Security
+Certification Body (ISCB))
+• GCERT, MAMPU
+- Dec 2008 - April 2009: Industrial Training
+Dr.
+Khairunnisa
+bt
+Osman
+
+--- Page 3 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Outline
+✓ The importance and relevance of
+Software Security:
+▪ What is Software Security?
+▪ Why Software Security?
+▪ Terminology in Software Security
+▪ Pillars of Software Security
+▪ Risk Management
+▪ Touchpoints
+▪ Knowledge
+✓ Software Security & SDLC
+▪ Software Development Lifecycle
+(SDLC)
+✓ Quality versus Secure Code
+✓ Threat Modeling and Attack
+Surface Validation
+• Summary
+
+--- Page 4 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What & Why is Software Security? (I)
+• Software security is the idea of engineering
+software so that it continues to function
+correctly under malicious attack.
+• Software Security aims to avoid security
+vulnerabilities by addressing security from
+the early stages of software development
+life cycle.
+• "Security is a risk management."
+
+--- Page 5 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Confidentiality
+To ensure the information is
+protected from unauthorized
+disclosure
+Integrity
+To ensure the original messages or
+setting cannot be altered
+unauthorizedly
+Availability
+To ensure the information or
+service is available as intended
+when required without delay
+
+--- Page 6 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What & Why is Software Security? (III)
+Most software systems today are insecure and contain numerous flaws
+and bugs that attackers exploit. There are different reasons for insecure
+software, such as:
+• Lack of education in secure methods.
+• Lack of thought in the design process
+• Lack of testing.
+• Poor development environments.
+
+--- Page 7 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Terminology (I)
+• Defects are problems that deviates from the requirements and specification.
+o Example: The requirement says the app must allow password of at least 8 characters, but the
+app allows 5 characters.
+• Bugs are implementation-level or coding errors that cause software to behave
+incorrectly
+o Example: The app crashes when click “Login” button.
+• Flaws are weakness or imperfection in the design, architecture, or logic that may
+lead to problems.
+o Example: The app stores passwords in plain text instead of encrypted. This is a design flaw.
+• Failures are the inability of the software to perform its required function.
+
+--- Page 8 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Terminology (II)
+• Risks capture the probability that a flaw or a bug will impact the
+purpose of the software.
+o Risk = probability (of what?) x impact
+• Vulnerabilities are weaknesses or errors that an attacker can exploit.
+o Either flaws in the design or flaws in the implementation.
+o Design-level vulnerabilities are the hardest defects to handle.
+
+--- Page 9 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Pillars of Software Security
+The three pillars of software security
+
+--- Page 10 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Pillar I: Risk Management
+• A risk management process is an essential part to software security.
+• It identifies, ranks, tracks, and understands software security risks.
+• Risk management framework (RMF)
+o An overall approach to risk management.
+o Allows a consistent and continuous expertise-driven approach to risk
+management.
+o The goal is to consistently track and handle risks.
+
+--- Page 11 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (I)
+
+--- Page 12 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (I)
+1- Understand the business context.
+• Extract and describe business goals.
+• Set priorities/criticality:
+❑ Critical Asset
+❑ Critical/Main Operation <->business goals
+• Understanding what risks to consider.
+• Gathering the artifacts.
+• Conducting project research to the scope.
+Flashback from ISM subject:
+
+--- Page 13 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (II)
+2- Identify the business and technical risks
+• By identify the threat & vulnerabilty
+• Analyse the likelihood (probability)
+• Business risks impact business goals.
+• Mapping technical risks to business goals.
+• Developing a set of risk questionnaires.
+• Interviewing the target project team.
+• Analyzing the research interview data.
+Flashback from ISM subject:
+
+--- Page 14 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (III)
+3- Synthesize, prioritize, and rank the risks.
+• Prioritize the risks based on the business goals.
+• Riskmetrics:
+o Likelihood.
+o Impact.
+o Number of risks emerging over time.
+• What shall we do first give the current risk situation?
+• What is the best allocation of resources?
+Flashback from ISM subject:
+
+--- Page 15 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (V)
+4- Define the risk mitigation strategy.
+• Create a coherent strategy for mitigating the risks that considers:
+o Cost.
+o Implementation time.
+o Likelihood of success.
+o Competence.
+o Impact.
+• Identify the validation techniques.
+• Metrics are financial in nature:
+o Flashback from ISM subject: Cost-Benefits Analysis
+
+--- Page 16 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (V)
+Flashback from ISM subject:
+
+--- Page 17 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities (VI)
+5- Carry out fixes and validate that they are correct.
+• Implement the mitigation strategy.
+• The artifacts should be rectified.
+• Progress is measured in terms of completeness against mitigation strategy.
+• Use validation techniques to validate that artifacts no longer bear unacceptable
+risk.
+• Metrics include artifact quality metrics and levels of risk mitigation effectiveness.
+
+--- Page 18 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities
+• Risk management is a central software security practice.
+• Successful use of RMF relies on continuous and consistent identification of
+risks.
+• Use project management tools to track risk information.
+o Example: Open Workbench.
+• RMF is a multilevel loop.
+• Identifying risks only once during the project IS INCORRECT.
+• The risk assessments need to be applied repeatedly throughout the
+project.
+
+--- Page 19 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Questions:
+• The risk assessment is so important in order to know the level of
+security in your software. So, give me the basic steps to conduct risk
+assessment.
+
+--- Page 20 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Pillar II: Touchpoints
+
+--- Page 21 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+1- Abuse Cases (I)
+• Determining what the software can't and won't do (No positive
+features). Example: users can't enter more than 50 characters.
+• Must anticipate abnormal behaviors.
+• Don't accept the idea that says, "No one would do these things".
+• What happens when functional security mechanisms are
+compromised?
+
+--- Page 22 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+1- Abuse Cases (II)
+Generating abuse cases:
+• Creating Anti-Requirements:
+1. Provide insights into how
+attackers will approach the
+system's assumptions.
+2. Applied throughout the
+lifecycle.
+3. Generated by security
+analysts.
+• Creating an attack model:
+1. Explicit consideration of
+well-known attacks.
+2. Select attack patterns
+relevant to the system.
+3. Build abuse cases around
+attack patterns.
+4. Include anyone who can
+gain access to the system.
+
+--- Page 23 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+2- Security Requirements (I)
+• Cover both functional security and emergent characteristics.
+• Satisfy three criteria:
+• Definition: Must be explicitly defined what security requirements are.
+• Assumption: Must consider the assumptions that the system will behave as
+expected.
+• Satisfaction: Security requirements must satisfy the security goals, and the
+system must satisfy the security requirements.
+
+--- Page 24 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+2- Security Requirements (II)
+
+--- Page 25 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (I)
+• To detect the design flaws:
+• Account for 50% of security problems.
+• Can't be detected by staring at code.
+• A higher-level understanding is required.
+• Architectural Risk Analysis:
+• Tracks risk over time.
+• Links system-level concerns to probability and impact measures.
+• Fits with RMF.
+
+--- Page 26 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (II)
+• Critical Aspects of Architectural Risk Analysis:
+• Attack Resistance Analysis.
+• Ambiguity Analysis.
+• Weakness Analysis.
+
+--- Page 27 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (III)
+• Attack Resistance Analysis:
+• It captures the check-list like approach to the risk analysis taken in Microsoft
+Threat Modelling approach.
+• Steps:
+1. Identify general flaws using secure design literature and checklists.
+2. Map attack patterns using either the results of abuse case development or a list of
+historical risks.
+3. Identify risks in the architecture based on the use of checklists.
+4. Understand and demonstrate the viability of these known attacks.
+
+--- Page 28 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (IV)
+• Ambiguity Analysis:
+• It captures the creative activity required to discover new risks.
+• It requires at least two analysts and experience.
+• Weakness Analysis:
+• Is aimed at understanding the impact of software dependencies.
+• Software is built on top of complex middleware frameworks.
+• Understand what kind of assumptions we make about outside software.
+• What happens when assumptions fail?
+
+--- Page 29 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (V)
+
+--- Page 30 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3- Architectural Risk Analysis (VI)
+
+--- Page 31 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+4- Risk-Based Security Testing (I)
+• Testers must follow:
+• Risk-based approach:
+• Grounded in both system's architectural reality and the attacker's mindset.
+• Focused on areas of code where an attack is likely to succeed.
+• Different from Penetration Testing:
+• Level of approach: Inside-out approach.
+• Timing of testing: Before the software is complete.
+• Should start prior to system integration.
+• Risk analysts should identify and rank risks.
+
+--- Page 32 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+4- Risk-Based Security Testing (II)
+• Security Testing must involve two approaches:
+• Functional security testing:
+-Testing mechanisms that ensure that functionality is well implemented.
+-From Security Requirements
+• Adversarial security testing:
+-Risk-based security testing motivated by understanding the attacker's
+approach.
+-From Abuse Cases & Risk Architecture Analysis
+
+--- Page 33 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+4- Risk-Based Security Testing (III)
+
+--- Page 34 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+5- Code Review (I)
+• Source code analysis.
+• Focus is on finding and fixing bugs.
+• Use static analysis tools to find security bugs.
+• Static analysis tools suffer from false negatives and
+false positives.
+• Examples: Coverity, Fortify, Ounce Labs, and Secure
+Software.
+
+--- Page 35 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+5- Code Review (II)
+• Useful source code analysis tools must:
+1- Be designed for security.
+2- Support multiple tires.
+3- Be extensible.
+4- Be useful for security analysts and developers alike.
+5- Support existing development processes.
+6- Make sense to multiple stakeholders.
+
+--- Page 36 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+5- Code Review (III)
+
+--- Page 37 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+6- Software Penetration Testing (I)
+• A method of evaluating software security by simulating an attack in
+an outside-in manner.
+• Testing the system in its final.
+• Most applied of all seven touchpoints.
+• Use static and dynamic penetration testing tools.
+• Examples: fault injection tools, Cenzic, Holodeck, SPI Dynamics, Immunity
+CANVAS, and IEInspector HTTP Analyzer.
+
+--- Page 38 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+6- Software Penetration Testing (II)
+• Evidence from Pen testing:
+What is that means?
+
+--- Page 39 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+7- Security Operations
+• Software security operations can be integrated with network security
+operations.
+• Defensive technique: Understanding software behaviour that leads
+into successful attack.
+• Knowledge gained by understanding attacks should be cycled back
+into software development.
+
+--- Page 40 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Pillar III: Knowledge (I)
+• Involves gathering, encapsulating, and sharing security knowledge.
+• Software Security Knowledge Catalogs:
+o Principles.
+o Guidelines.
+o Rules.
+o Vulnerabilities.
+o Exploits.
+o Attack Patterns.
+o Historical Risks.
+
+--- Page 41 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Pillar III: Knowledge (II)
+Mapping of software security knowledge catalogs to various software artifacts and software security best practices.
+
+--- Page 42 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Lifecycle (SDLC)
+
+--- Page 43 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Lifecycle (SDLC) (II)
+1.Planning: Identifying project goals, requirements, and feasibility.
+2.Design: Creating architecture and design specifications.
+3.Implementation: Writing and compiling the code.
+4.Testing: Validating the software against requirements and identifying
+defects.
+5.Deployment: Releasing the software to users.
+6.Maintenance: Ongoing support and updates post-deployment.
+
+--- Page 44 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Quality vs Secure Code (I)
+• Quality Code
+• Focus: Functionality, performance, usability, maintainability
+• Goal: Meets user requirements and performs tasks efficiently
+• Examples:
+• - Fewer bugs and crashes
+• - Well-documented, easy to maintain
+• - Fast and reliable performance
+
+--- Page 45 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Quality vs Secure Code (II)
+Secure Code
+• Focus: Protection against threats, vulnerabilities, and attacks
+• Goal: Ensures confidentiality, integrity, and availability of data
+• Examples:
+• - Proper input validation
+• - Safe authentication & access control
+• - Resilience against SQL injection, buffer overflows, etc.
+
+--- Page 46 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Quality vs Secure Code (III)
+The differences:
+
+--- Page 47 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Quality vs Secure Code (IV)
+• High quality ≠ Secure → Bug-free app may still be hacked
+• Secure ≠ High quality → Secure app may still crash or lag
+• Best Practice: Balance both → Quality + Security = Reliable Software
+
+--- Page 48 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Threat Modelling
+• A systematic & structured security technique used to identify an
+application's security objectives, threats & vulnerabilities.
+• To help make design and engineering decisions and determine where
+to prioritize efforts in designing, developing, and deploying secure
+applications
+
+--- Page 49 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Threat Modelling Management Process
+
+--- Page 50 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Threat Modelling Process
+• Threat Modeling process is Iterative
+(continuous)
+• Threat Modeling process takes
+inputs and generates Outputs for
+each step in the process
+
+--- Page 51 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+1. Identify Security Objectives
+• Use the CI4AM security
+mechanism
+• Confidentiality
+• Integrity
+• Availability
+• Authentication
+• Authorization
+• Auditing
+• Management
+• Use the Policies & standards,
+Legal/Compliance directives &
+business requirements to list
+the security objectives
+• Examples
+• Prevent Data Theft
+• Protect IP
+• Attain Compliance
+• Provide high availability
+
+--- Page 52 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+2. Application Overview
+i) Where will the application be
+deployed
+• DMZ/Internal – complete end-to-
+end scenarios
+ii) Who will be the Users (Actors)
+• Customers, sales agents, public
+users, administrators, DBAs
+iii) What are the Data Elements?
+• User account data, credit card info,
+patient disease information…
+iv) What rights will the actors have?
+v) What Technologies will be used?
+• OS, Web/App Servers, Databases,
+Architectures (SOA/EJB), Programming
+Language
+vi) What security mechanisms apply?
+• CI4AM
+vii) Use the use cases, functional
+specifications & architectural
+diagrams for profiling the application
+
+--- Page 53 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3. Decompose Your Application (Generate Application
+Context & Scenarios)
+• Exit Points
+• Pages that display data functions
+sending out values
+• Data Flows
+• Should we validate data at each node?
+• Use the use cases, functional
+specifications, DFDs & architectural
+diagrams for decomposing the
+application
+• Trust Boundaries (indicates where
+trust level changes)
+• Firewall (Internet -> Intranet)
+• Webserver -> Database
+• Your App -> External 3rd party
+Services
+• Entry Points (Principal attack
+Targets)
+• Ports, Pages, Components, APIs,
+Stored Procedures etc
+
+--- Page 54 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+4a. Identifying Threats
+• Identify threats that apply only to the application Context & scenarios
+generated in the previous step
+• 2 Approaches to Identify Threats
+• Use Attack Trees (CI4AM)
+• Think like an Attacker (STRIDE/DREAD, OCTAVE etc)
+• Create the threat list
+• SQL Injection
+• XSS
+• Replay Attacks
+• MITM
+• Eavesdropping
+
+--- Page 55 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+4b: STRIDE and DREAD Modelling
+A process of identifying potential security vulnerabilities within a system.
+
+--- Page 56 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+5. Identifying Vulnerabilities
+• Identify vulnerabilities that apply only to the threats generated in the previous step
+• Vulnerabilities identified should be factored to
+• Shape the design of the application
+• Generate security test cases for testing in the development stage (Typical
+vulnerabilities maybe):
+• Weak Encryption
+• Clear Text Credentials
+• Unhandled Exception
+• Dynamic SQL
+• Long Session Timeouts
+
+--- Page 57 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Rank The Threats
+• Ranking provides the necessary insight into the risk of the threat
+• Risk can be
+• Accepted
+• Mitigated
+• Transferred
+• Ignored (Avoid this)
+• Two methods for ranking
+• Probability * Impact Ranking
+• DREAD Average Ranking
+
+--- Page 58 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+DREAD Average Ranking
+
+--- Page 59 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Summary
+▪ Most software systems today are insecure and contain numerous flaws and bugs
+that attackers exploit.
+▪ Defects, Bugs, Flaws, Risks, and vulnerabilities are the terms used in software.
+▪ There are three pillars in software security: risk management, touchpoints, and
+knowledge.
+▪ Threat modeling is a structured process used in cybersecurity to identify, assess,
+and mitigate security risks within a system, application, or network.

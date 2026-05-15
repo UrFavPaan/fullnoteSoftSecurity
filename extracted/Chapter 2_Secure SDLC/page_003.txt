@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (I)
+What is OWASP SAMM (Software Assurance Maturity Model)?
+• OWASP: Open Worldwide Application Security Project
+• Open-source framework for software security maturity.
+• Helps organizations:
+• Evaluate current security practices.
+• Build a roadmap for improvement.
+• Measure progress over time.
+• Help by showing where you are right now & guide to mature & secure practices
+https://owaspsamm.org/model/

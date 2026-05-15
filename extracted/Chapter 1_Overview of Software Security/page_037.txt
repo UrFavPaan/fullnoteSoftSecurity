@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+6- Software Penetration Testing (I)
+• A method of evaluating software security by simulating an attack in
+an outside-in manner.
+• Testing the system in its final.
+• Most applied of all seven touchpoints.
+• Use static and dynamic penetration testing tools.
+• Examples: fault injection tools, Cenzic, Holodeck, SPI Dynamics, Immunity
+CANVAS, and IEInspector HTTP Analyzer.

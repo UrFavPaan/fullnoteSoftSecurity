@@ -1,0 +1,23 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (II)
+SAMM Structure
+• 5 Business Functions → each with 2
+Practices:
+(1) Governance
+• Strategy & Metrics
+• Policy & Compliance
+(2) Design
+• Threat Assessment
+• Security Requirements
+(3) Implementation
+• Secure Build
+• Secure Deployment
+(4) Verification
+• Security Testing
+• Security Review
+(5) Operations
+• Incident Management
+• Environment Management

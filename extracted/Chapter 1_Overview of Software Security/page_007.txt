@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Terminology (I)
+• Defects are problems that deviates from the requirements and specification.
+o Example: The requirement says the app must allow password of at least 8 characters, but the
+app allows 5 characters.
+• Bugs are implementation-level or coding errors that cause software to behave
+incorrectly
+o Example: The app crashes when click “Login” button.
+• Flaws are weakness or imperfection in the design, architecture, or logic that may
+lead to problems.
+o Example: The app stores passwords in plain text instead of encrypted. This is a design flaw.
+• Failures are the inability of the software to perform its required function.

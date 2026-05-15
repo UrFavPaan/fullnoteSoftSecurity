@@ -1,0 +1,25 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Advantages of Exceptions
+• Cleaner Code – Separates normal
+flow from error handling.
+• Flexibility – Different errors can be
+handled differently.
+• Scalability – Easier to maintain large
+systems.
+• Centralized Handling – Exceptions
+can be caught at higher levels.
+Security Risks of Poor Exception
+Handling
+• Unhandled Exceptions → Program
+crash → Denial of Service (DoS).
+• Overly generic catch blocks (e.g., catch
+(Exception e)) → May hide real issues.
+• Information Disclosure → Detailed
+exception messages may reveal
+sensitive system info.
+• Silent Failures → Catching errors but
+doing nothing can allow attacks to go
+unnoticed.

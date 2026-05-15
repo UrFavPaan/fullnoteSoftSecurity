@@ -1,0 +1,25 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+2. Application Overview
+i) Where will the application be
+deployed
+• DMZ/Internal – complete end-to-
+end scenarios
+ii) Who will be the Users (Actors)
+• Customers, sales agents, public
+users, administrators, DBAs
+iii) What are the Data Elements?
+• User account data, credit card info,
+patient disease information…
+iv) What rights will the actors have?
+v) What Technologies will be used?
+• OS, Web/App Servers, Databases,
+Architectures (SOA/EJB), Programming
+Language
+vi) What security mechanisms apply?
+• CI4AM
+vii) Use the use cases, functional
+specifications & architectural
+diagrams for profiling the application

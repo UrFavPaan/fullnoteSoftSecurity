@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Methodologies (II)
+(3) Agile Methodologies
+• Agile Development: Speed & adaptability, but
+security often ignored.
+• Secure Agile / DevSecOps: Security in every sprint,
+threat modeling, automated testing in CI/CD.

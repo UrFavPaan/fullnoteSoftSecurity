@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Semantic (III)
+• This provides a basic level of assurance that: the email address is
+correct, the application can successfully send emails to it, the user
+has access to the mailbox.
+• Semantic validation helps to prevent data that is technically correct
+but not meaningful in the context of the application.

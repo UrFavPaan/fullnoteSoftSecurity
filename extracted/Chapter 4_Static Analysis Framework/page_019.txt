@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Examples of static analysis rules
+• Static analysis rules are used to identify potential
+vulnerabilities or issues in software.
+• For example, buffer overflow detection can help
+identify code that may be vulnerable to buffer
+overflow attacks, while code complexity analysis
+can help identify areas of code that may be difficult
+to maintain or prone to errors.
+• Other examples of static analysis rules include SQL
+injection detection, cross-site scripting (XSS)
+detection, and memory leak detection.

@@ -1,0 +1,25 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+3. Decompose Your Application (Generate Application
+Context & Scenarios)
+• Exit Points
+• Pages that display data functions
+sending out values
+• Data Flows
+• Should we validate data at each node?
+• Use the use cases, functional
+specifications, DFDs & architectural
+diagrams for decomposing the
+application
+• Trust Boundaries (indicates where
+trust level changes)
+• Firewall (Internet -> Intranet)
+• Webserver -> Database
+• Your App -> External 3rd party
+Services
+• Entry Points (Principal attack
+Targets)
+• Ports, Pages, Components, APIs,
+Stored Procedures etc

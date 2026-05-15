@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Insecure Direct
+Object Reference (IDOR) I
+• Assume that there is an e-commerce application, and we are
+expected to see only our cart. However, some missing access
+controls can give us access to other users’ carts.
+• Log into your account and go to see your cart. For example,
+https://target.com/viewCart.php?userID=1234
+• The application has a user ID on a URL parameter. Let’s tamper
+with it.
+• https://target.com/viewCart.php?userID=5678

@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Missing Function
+Level Access Control (MFLAC)
+• Web applications should verify function-level access
+rights for all requested actions by any user .
+• If checks are not performed and enforced,
+malicious users may be able to penetrate critical
+areas of a web application without proper
+authorization.

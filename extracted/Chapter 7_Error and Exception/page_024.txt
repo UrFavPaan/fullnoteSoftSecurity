@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Additional Sub-classifications
+• Application-defined Exceptions → Custom exceptions for
+business/security rules.
+• Recoverable vs. Non-Recoverable Exceptions:
+• Recoverable: File not found, retry possible.
+• Non-Recoverable: Memory corruption, cannot proceed safely.

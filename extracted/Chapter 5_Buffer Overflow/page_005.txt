@@ -1,0 +1,30 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Code-Level Indicators
+• Use of unsafe functions (gets,
+strcpy, scanf("%s")).
+• %s tells scanf to read a string
+until no limit
+• Absence of input size checks
+before copying data.
+• Fixed-size buffers without
+dynamic validation.
+• Direct pointer manipulation
+in memory (common in
+C/C++).
+System/Runtime Indicators
+• Program crashes with
+segmentation faults (e.g.,
+SegFault in Linux).
+• Unexpected changes in
+program behavior after
+unusual input.
+• Security tools (e.g., fuzzers,
+static code analyzers)
+reporting memory access
+violations.
+• Debugging tools showing
+overwritten stack/heap
+values.

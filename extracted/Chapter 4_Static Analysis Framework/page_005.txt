@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Current Frameworks and Models
+• There are several static analysis frameworks
+available, such as SonarQube, Coverity, and
+Checkmarx.
+• These frameworks use various models to analyze
+code, including control flow models, data flow
+models, and abstract syntax trees.
+• Each framework has its own strengths and
+weaknesses, and the selection of a framework
+depends on the specific requirements of the
+project.

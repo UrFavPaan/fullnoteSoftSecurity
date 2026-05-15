@@ -1,0 +1,27 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (V)
+• Step 1: Assessment from
+OWASP SAMM
+They had strong compliance
+policies (Governance: Level 2)
+but weak secure coding practices
+(Implementation: Level 1).
+• Step 2: Set a Target Maturity
+Level
+Business decides they need Level
+2 maturity in all domains within
+2 years to reduce risks.
+• Step 3: Improvement Plan
+• Governance: Establish a formal AppSec steering
+committee.
+• Design: Adopt threat modeling workshops for
+high-risk applications.
+• Implementation: Train developers on OWASP Top
+10, introduce SAST/DAST tools.
+• Verification: Add regular penetration tests and
+CI/CD security checks.
+• Operations: Develop incident response playbooks
+and security monitoring dashboards.

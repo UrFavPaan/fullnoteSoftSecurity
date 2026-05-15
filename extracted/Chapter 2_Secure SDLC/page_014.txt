@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Integrating Security into Each Phase of the SDLC (IV)
+4. Testing Phase
+• Security Testing: Incorporate security testing methods, such as static
+and dynamic analysis, penetration testing, and vulnerability scanning.
+• Risk Based Security Test: Grounded in both system's architectural
+reality and the attacker's mindset. Inside-Out approach
+• Automated Tools: Utilize automated security testing tools to
+streamline the identification of vulnerabilities.

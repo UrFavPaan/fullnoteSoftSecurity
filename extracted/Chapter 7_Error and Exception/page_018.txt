@@ -1,0 +1,22 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example – Secure
+Practice
+• Program tries to open a file named data.txt in read mode ("r").
+• with open(...) as file: → ensures the file will be automatically closed (prevents
+resource leaks).
+• data = file.read() → reads the entire content of the file.
+• Catches the case where the file doesn’t exist.
+• Instead of crashing, the program shows a user-friendly message.
+• Handles the case where the file exists, but the program doesn’t have permission to
+read it.
+• This is a generic exception handler.
+• It will catch any other error that was not specifically listed above.
+• Comment suggests that in real-world practice, details (e) should be logged for
+administrators, but not shown to users (to prevent leaking sensitive system info).
+• Finally always executes — whether an error occurred or not.
+• It’s usually used for cleanup tasks (closing files, releasing memory, freeing network
+connections).
+• Simply prints a message to signal the program is done.

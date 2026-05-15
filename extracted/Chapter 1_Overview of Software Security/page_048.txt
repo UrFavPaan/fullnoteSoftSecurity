@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Threat Modelling
+• A systematic & structured security technique used to identify an
+application's security objectives, threats & vulnerabilities.
+• To help make design and engineering decisions and determine where
+to prioritize efforts in designing, developing, and deploying secure
+applications

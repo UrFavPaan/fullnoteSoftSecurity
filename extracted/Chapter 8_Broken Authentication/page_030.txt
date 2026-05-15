@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Don't Allow Weak Passwords (I)
+You must require all users to achieve specific requirements when specifying their
+passwords. For example, setting passwords to a particular length and requiring special
+characters and letters as well as numbers helps prevent credential theft. Consequently,
+your system will reject passwords that don't meet the requirements.

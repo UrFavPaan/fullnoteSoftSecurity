@@ -1,0 +1,17 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+ISO/IEC 27034—Information Technology—Security
+Techniques—Application Security (III)
+• Application Security Control (ASC): Specific security function (e.g., input validation)
+• use HTTPS, encrypt credit card numbers.
+• Application Security Control Library (ASCL): A reusable catalog of ASCs
+• company’s library has “payment encryption control,” “session timeout control.”
+• Application Security Life Cycle (ASLC): Secure design, development, testing, deployment, maintenance
+• Integration of security into every stage of SDLC.
+• Application Security Management Process (ASMP): Governance structure ensuring continuous app security
+• Managers monitors and ensure developers follow these controls.
+• Organizational Normative Framework (ONF): Collection of reusable policies, standards, guidelines, and
+resources that help ensure applications are developed and maintained securely.
+• company policy says, “all payment apps must comply with PCI DSS.”

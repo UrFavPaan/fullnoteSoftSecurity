@@ -1,0 +1,22 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Code Level Indicators
+C (Danger)
+char buf[5];
+char userInput[] = "Hello";
+strcpy(buf, userInput);
+strcpy = string copy function
+buf = the destination buffer (where
+you want to store the data)
+userInput = the source string (from
+users)
+C (Alternative safe)
+char buf[5];
+strncpy(buf, userInput, sizeof(buf) - 1);
+buf[sizeof(buf) - 1] = '\0’;
+// ensure null terminator
+This version copies at most 4
+characters and stops safely.
+Copies safely up to buffer size

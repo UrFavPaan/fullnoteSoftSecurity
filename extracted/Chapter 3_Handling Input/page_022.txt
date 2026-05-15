@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Solution2: Prepared Statement (user input)
+Phyton
+// Ask the user to type a name
+name = input (“Enter students name to search: “)
+//Prepared Statement
+stmt= “SELECT * FROM students WHERE name = ?”
+//execute query with user input
+cursor.execute (stmt, (name,))

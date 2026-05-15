@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is an Authentication?
+Authentication is the process of
+verifying that you are who you
+say you are by passing these
+credentials you provide
+(username and password) across
+the identity and directory
+systems.

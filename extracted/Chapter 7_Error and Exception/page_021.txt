@@ -1,0 +1,16 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Main Categories of Exceptions
+1. Checked Exceptions
+• Definition: Exceptions that must be
+handled at compile time (in
+languages like Java).
+• Example: IOException,
+SQLException.
+• Purpose: Force developers to
+anticipate recoverable errors.
+• Security Role: Encourages safe
+coding (e.g., validating file access,
+handling network errors).

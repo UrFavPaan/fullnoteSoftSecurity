@@ -1,0 +1,50 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Syntactical (II)
+• The email address does not contain dangerous characters (such as backticks ( ` ` ),
+single ( ' )or double quotes ( " ), or null bytes ( \0 )).
+backticks ( ` ` ) single ( ' ) double quotes ( " ) null bytes ( \0 )
+Reason In Linux/Unix shells,
+backticks mean “execute
+this command”.
+In SQL, single quotes
+delimit strings:
+Used in many languages to
+wrap strings (JavaScript,
+HTML, SQL, etc.).
+Symbol: \0 (not
+visible, represents
+end of string in
+C/C++).
+Example: echo `ls`
+→ runs ls and replaces it
+with the output.
+SELECT * FROM
+users WHERE name
+= 'alice';
+<input
+value="USER_INPUT">
+char filename[20];
+strcpy(filename,
+"evil.php\0.jpg");
+Attack
+use:
+If input is passed into a
+shell command, backticks
+let attackers run arbitrary
+system commands
+(command injection).
+Adding ' OR '1'='1
+can break out of the
+string and cause SQL
+injection.
+In HTML attributes →
+breaking out of quotes
+leads to SQL injection
+The program thinks
+the string ends at
+evil.php, ignoring
+.jpg. = path
+manipulation

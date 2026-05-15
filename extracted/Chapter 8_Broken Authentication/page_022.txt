@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(5) Phishing Attacks (I)
+A phishing attack is a category of cyber attack in which malicious actors send messages
+pretending to be a trusted person or entity. Phishing messages manipulate users,
+causing them to perform actions like installing malicious files, clicking harmful links, or
+divulging sensitive information such as account credentials. This message can be sent to
+the target via emails, messaging applications, or even SMS services.

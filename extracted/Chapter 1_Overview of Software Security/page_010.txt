@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Pillar I: Risk Management
+• A risk management process is an essential part to software security.
+• It identifies, ranks, tracks, and understands software security risks.
+• Risk management framework (RMF)
+o An overall approach to risk management.
+o Allows a consistent and continuous expertise-driven approach to risk
+management.
+o The goal is to consistently track and handle risks.

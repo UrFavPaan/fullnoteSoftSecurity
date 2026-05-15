@@ -1,0 +1,23 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 2:
+- The attacker can manipulate the URL by
+inserting
+http://www.victim.com/products.php?val
+=100’ OR ‘1’=‘1
+- The result:
+(1) The attacker can see all data
+(2) OR the application might crash (affect
+Availability)
+(3) OR inproper error message where leak
+technical details.
+- Solution: Prepared Statement
+PHP
+$stmt = $pdo->prepare(“SELECT *
+FROM products WHERE is = ?”);
+$stmt->execute([$val]);
+- With the Prepared Statement, the db
+treat that whole text as a string valie,
+not SQL code.

@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Identification & Analysis of Buffer
+Overflow Issues
+1. Identification of Buffer Overflow
+• To identify potential buffer problems, developers
+and security analysts look for warning signs at both
+code-level and system-level:
+• Code-Level Indicators
+• System/Runtime Indicators

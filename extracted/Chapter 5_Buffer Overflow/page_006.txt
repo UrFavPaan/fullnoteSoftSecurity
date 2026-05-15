@@ -1,0 +1,19 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Code Level Indicators
+C (Danger)
+char name[20];
+scanf("%s", name);
+•%s tells scanf to read a string until
+no limit
+•If the user types more than 20
+characters, overflow happens.
+C (Alternative safe)
+char name[20];
+scanf("%19s", name);
+// Only read up to 19 characters
+This version copies at most 19
+characters and stops safely.
+Copies safely up to buffer size

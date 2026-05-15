@@ -1,0 +1,17 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Agenda I
+✓What is Access Control?
+✓Access Control Categories
+• Vertical Access Control
+• Horizontal Access
+Control
+• Context-dependant
+Access Control
+✓Common Attacks
+• Access to Admin Page
+• Directory Traversal File
+• Phishing
+• Spoofing

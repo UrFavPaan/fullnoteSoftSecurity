@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+RMF Activities
+• Risk management is a central software security practice.
+• Successful use of RMF relies on continuous and consistent identification of
+risks.
+• Use project management tools to track risk information.
+o Example: Open Workbench.
+• RMF is a multilevel loop.
+• Identifying risks only once during the project IS INCORRECT.
+• The risk assessments need to be applied repeatedly throughout the
+project.

@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Methodologies (II)
+(2) Iterative & Incremental Models
+• Spiral Model: Risk-driven, iterative, security
+considered early (threat/risk analysis).
+• RUP (Rational Unified Process): Iterative,
+architecture-centric, security in requirements &
+design

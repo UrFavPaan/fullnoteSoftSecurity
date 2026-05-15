@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Selection of Models
+• The selection of a model depends on the type of
+analysis required. Core technique”s in the static code
+analysis
+• Data Flow Analysis is useful for identifying security
+vulnerabilities such as injection attacks, while Control
+Flow Analysis (CFA) is useful for identifying code
+execution paths and potential deadlocks.

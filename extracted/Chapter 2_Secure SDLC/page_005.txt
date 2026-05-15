@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Security Maturity Model (III)
+Maturity Levels
+• Level 1 → Ad-hoc / basic activities.
+• Level 2 → Defined, repeatable, organization-wide.
+• Level 3 → Optimized, measured, continuous improvement.

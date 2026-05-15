@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Missing Function
+Level Access Control (MFLAC) I
+• Assume that an application allows users to edit their
+accounts, user information with a request shown below but,
+users are not allowed to delete their accounts.

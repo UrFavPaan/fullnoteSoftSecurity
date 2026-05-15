@@ -1,0 +1,20 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Buffer overflow =
+memory overrun →
+severe security risk.
+Root causes: poor
+coding, unsafe
+functions, lack of
+checks.
+Identification: tools,
+testing, runtime
+behavior.
+Prevention: coding
+best practices,
+compiler protections,
+training.
+Summary
+Security is not just coding — it’s a culture.

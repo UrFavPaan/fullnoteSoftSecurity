@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What & Why is Software Security? (III)
+Most software systems today are insecure and contain numerous flaws
+and bugs that attackers exploit. There are different reasons for insecure
+software, such as:
+• Lack of education in secure methods.
+• Lack of thought in the design process
+• Lack of testing.
+• Poor development environments.

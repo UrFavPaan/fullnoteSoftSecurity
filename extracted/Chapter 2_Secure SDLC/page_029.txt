@@ -1,0 +1,7 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+CWE: Common Weakness Enumeration
+Sensitive data is exposed to users who should not see it.
+11. CWE-200: Information Exposure

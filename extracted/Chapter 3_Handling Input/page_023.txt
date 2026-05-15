@@ -1,0 +1,19 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 2:
+The store provides an option to view all products
+within the store that cost less than $100, allowing
+users to sift and sort through products of particular
+interest, and we could use the following URL:
+http://www.victim.com/products.php?val=100
+- ?val=100 is a query parameter: key=val, value=100
+- PHP (bad coding):
+$val = $_GET[‘val’];
+“SELECT * FROM products WHERE id=$val”;
+And $val is 100,
+- The query become (in sql):
+SELECT * FROM products WHERE id = 100;
+- If the DB has a row id = 100, the page
+can show the product details:

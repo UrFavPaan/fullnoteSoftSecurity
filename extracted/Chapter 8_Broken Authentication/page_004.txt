@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is an Authorization?
+An authorization is the process
+of giving someone permission to
+do or have something. The
+system administrator specifies
+which users have access to the
+system and what privileges each
+user has.

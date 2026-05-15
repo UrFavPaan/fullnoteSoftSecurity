@@ -1,0 +1,428 @@
+--- Page 1 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Buffer Overflows
+By: Dr. Khairunnisa bt Osman
+Subject: Software Security (CCSB5133)
+Sem 2 (2025/2026)
+
+--- Page 2 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is a Buffer
+Overflow?
+• A buffer overflow occurs when a
+program writes more data to a
+memory buffer than it was
+allocated to hold.
+• Buffers are fixed-size blocks of
+memory used to store data such
+as input strings, arrays, or
+temporary variables.
+• When data exceeds the buffer’s
+capacity, it “overflows” into
+adjacent memory, potentially
+overwriting valid data or
+program control information.
+• This unintended behavior can
+lead to software crashes, data
+corruption, or, most critically, a
+pathway for attackers to execute
+malicious code.
+
+--- Page 3 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Why is it Important in Software
+Security?
+
+--- Page 4 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Identification & Analysis of Buffer
+Overflow Issues
+1. Identification of Buffer Overflow
+• To identify potential buffer problems, developers
+and security analysts look for warning signs at both
+code-level and system-level:
+• Code-Level Indicators
+• System/Runtime Indicators
+
+--- Page 5 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Code-Level Indicators
+• Use of unsafe functions (gets,
+strcpy, scanf("%s")).
+• %s tells scanf to read a string
+until no limit
+• Absence of input size checks
+before copying data.
+• Fixed-size buffers without
+dynamic validation.
+• Direct pointer manipulation
+in memory (common in
+C/C++).
+System/Runtime Indicators
+• Program crashes with
+segmentation faults (e.g.,
+SegFault in Linux).
+• Unexpected changes in
+program behavior after
+unusual input.
+• Security tools (e.g., fuzzers,
+static code analyzers)
+reporting memory access
+violations.
+• Debugging tools showing
+overwritten stack/heap
+values.
+
+--- Page 6 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Code Level Indicators
+C (Danger)
+char name[20];
+scanf("%s", name);
+•%s tells scanf to read a string until
+no limit
+•If the user types more than 20
+characters, overflow happens.
+C (Alternative safe)
+char name[20];
+scanf("%19s", name);
+// Only read up to 19 characters
+This version copies at most 19
+characters and stops safely.
+Copies safely up to buffer size
+
+--- Page 7 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Code Level Indicators
+C (Danger)
+char buf[5];
+char userInput[] = "Hello";
+strcpy(buf, userInput);
+strcpy = string copy function
+buf = the destination buffer (where
+you want to store the data)
+userInput = the source string (from
+users)
+C (Alternative safe)
+char buf[5];
+strncpy(buf, userInput, sizeof(buf) - 1);
+buf[sizeof(buf) - 1] = '\0’;
+// ensure null terminator
+This version copies at most 4
+characters and stops safely.
+Copies safely up to buffer size
+
+--- Page 8 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Code Level Indicators
+phyton
+user_input = input("Enter
+something: ")
+buf = user_input
+•Phyton safer because:
+•Automatically creates a string of exactly
+the right size in memory.
+•Automatically adds its own internal end-
+of-string marker (you never see it)
+•Automatically resizes as needed (no fixed
+20 characters)
+•Automatically frees memory when the
+variable is no longer used (garbage
+collection).
+
+--- Page 9 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Factors Contributing to Buffer Problems
+Factor
+Description
+Example
+Lack of Input
+Validation
+Input not checked for
+length/size before storage.
+User enters 100 chars into 20-char
+buffer → overflow.
+Unsafe Functions Functions like gets, strcpy
+don’t check boundaries.
+strcpy(buf, userInput); copies
+oversized input.
+Languages Without
+Bounds Checking
+C/C++ allow direct memory
+access, no auto-check.
+Writing outside an array in C → no
+error triggered.
+Legacy Code & Poor
+Design
+Old apps lack modern secure
+coding standards.
+1990s server app still uses unsafe
+memory handling.
+Complexity of
+Modern Software
+More modules/APIs = more
+insecure input paths.
+Third-party library mishandles
+buffer sizes.
+Insufficient Testing &
+Review
+Weak/limited testing misses
+overflow cases.
+App crashes with large random
+input.
+Mismanaged
+Dynamic Memory
+Errors in heap
+allocation/freeing → overflow.
+Developer allocates too little
+memory for a string.
+
+--- Page 10 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Root Cause Analysis
+• Determine whether the
+overflow is stack-based
+(affects return
+address/instruction
+flow) or heap-based
+(affects dynamic
+memory).
+• Trace the exact input
+that caused the
+overflow.
+• Examine whether poor
+coding practice, lack of
+input validation, or
+mismanaged memory is
+the source.
+Impact Assessment
+• Confidentiality Breach:
+Sensitive data leaked
+through memory
+corruption.
+• Integrity Violation:
+Data or instructions
+altered maliciously.
+• Availability Risk:
+Program crash leading
+to denial of service.
+• Privilege Escalation:
+Attacker gains elevated
+rights by injecting code.
+Tools for Analysis
+• Static Analysis Tools:
+SonarQube, Coverity,
+Flawfinder → detect
+risky code patterns.
+• Dynamic Testing Tools:
+Valgrind,
+AddressSanitizer
+(ASan), Purify → detect
+memory leaks and
+overflows during
+execution.
+• Fuzz Testing: Sending
+malformed or oversized
+inputs to check if the
+program crashes.
+• Debugger/Disassemble
+r: GDB, IDA Pro,
+OllyDbg → trace
+memory behavior and
+potential exploit paths.
+
+--- Page 11 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention Measures (System & Compiler
+Level)
+Stack Canaries
+Special values are placed next to return addresses.
+Detect overwrites before returning; program aborts if altered.
+ASLR (Address Space Layout Randomization)
+Randomizes memory addresses of stack, heap, and libraries.
+Makes predicting targets for exploitation much harder.
+DEP / NX Bit (Data Execution Prevention)
+Mark’ memory regions (stack/heap) as non-executable.
+Prevents running injected shellcode from data areas.
+Runtime Protection Libraries (libsafe, StackGuard)
+Interpose or recompile code to detect/stop unsafe calls.
+StackGuard integrated into GCC’s stack protector; libsafe wraps libc.
+
+--- Page 12 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention Measures (Process Level)
+Secure Software Development Lifecycle (SSDLC)
+• Integrate security practices from design, coding, testing, and
+deployment.
+• Security is built-in, not bolted on.
+Static & Dynamic Analysis
+• Static tools find risky code patterns before execution.
+• Dynamic testing and fuzzing expose vulnerabilities during
+runtime.
+Regular Code Reviews
+• Peer reviews catch insecure practices early.
+• Encourages knowledge sharing and a secure coding culture.
+Developer Training & Awareness
+• Continuous education on secure coding and common
+vulnerabilities.
+• Prevents reintroduction of insecure patterns.
+
+--- Page 13 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Examples Buffer Overflow Exploits Software Security Stack
+(LIFO)
+
+--- Page 14 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Normal Stack (Left Side)
+Stack Structure:
+The stack grows downward
+in memory (from high
+addresses at the top to low
+addresses at the bottom).
+• At the bottom: Local
+variables (e.g., Buffer 1 and
+Buffer 2).
+• Below them: the return
+pointer, which stores the
+address to which execution
+should return after the
+function call.
+• Below that: function call
+arguments and other data.
+• Key Point:
+In a normal situation, data
+written to Buffer 1 or Buffer
+2 stays within their allocated
+space and does not affect
+the return pointer.
+Smashed Stack (Right Side)
+• Buffer Overflow Occurs:
+If too much data is written into
+Buffer 1, it spills over into
+adjacent memory.
+• Consequences:
+• Buffer 1 Space is Overwritten:
+Extra data overwrites not only
+Buffer 2 but also the return
+pointer.
+• Return Pointer is Overwritten:
+Attackers replace the return
+pointer with a new pointer that
+directs execution to malicious
+code.
+• Injected Malicious Code: The
+attacker places shellcode (like
+execve(/bin/sh)) into the buffer.
+When the function returns,
+instead of going back to legitimate
+code, execution jumps to the
+injected code.
+• Effect:
+The attacker gains control of the
+program flow, often opening a
+shell or executing arbitrary
+commands.
+Memory Layout on the Left
+(Blue Box)
+Shows the relationship
+between different memory
+segments:
+• Executable Code (bottom,
+lowest addresses).
+• Data Segment.
+• Heap (grows upward).
+• Stack (grows downward).
+
+--- Page 15 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Impact of Buffer Overflows
+•
+Denial of Service (DoS)
+• Crash or hang → service downtime, repeated attacks can knock systems
+offline.
+•
+Data Leakage
+• Memory beyond the buffer may expose passwords, keys, or sensitive
+data.
+•
+Arbitrary Code Execution
+• Overwritten return addresses let attackers run malicious instructions.
+•
+Privilege Escalation
+• If a vulnerable program runs with admin/root, the attacker gains full
+system control.
+
+--- Page 16 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Buffer overflow =
+memory overrun →
+severe security risk.
+Root causes: poor
+coding, unsafe
+functions, lack of
+checks.
+Identification: tools,
+testing, runtime
+behavior.
+Prevention: coding
+best practices,
+compiler protections,
+training.
+Summary
+Security is not just coding — it’s a culture.
+
+--- Page 17 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+End

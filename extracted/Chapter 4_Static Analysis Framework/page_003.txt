@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Static Analysis
+• Static analysis is a method of analyzing software without
+executing it. It is used to identify potential errors or
+weaknesses in the source code of software.

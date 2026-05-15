@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Credential Management Vulnerabilities
+▪ The theft of usernames and passwords is the first thing that usually comes to mind
+when we think of attackers gaining unauthorized access to an application. Proper
+credential management is critical for the users of any system, and applications
+themselves must take all possible precautions when dealing with passwords and their
+creation.
+▪ In this case, broken authentication occurs when a site fails to protect its users from
+attackers that try to gain access via hacked or stolen passwords.

@@ -1,0 +1,16 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Limitations of static analysis
+• While static analysis is a useful tool for identifying
+potential security issues in software, it has its
+limitations.
+• For example, it may not detect all vulnerabilities or may
+generate false positives. Additionally, it cannot detect
+issues that arise from runtime behavior or system
+interactions.
+• Therefore, it is important to complement static
+analysis with other methods of testing and analysis,
+such as dynamic analysis, penetration testing, and
+code reviews.

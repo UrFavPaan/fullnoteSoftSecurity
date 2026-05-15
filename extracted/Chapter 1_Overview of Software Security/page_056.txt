@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+5. Identifying Vulnerabilities
+• Identify vulnerabilities that apply only to the threats generated in the previous step
+• Vulnerabilities identified should be factored to
+• Shape the design of the application
+• Generate security test cases for testing in the development stage (Typical
+vulnerabilities maybe):
+• Weak Encryption
+• Clear Text Credentials
+• Unhandled Exception
+• Dynamic SQL
+• Long Session Timeouts

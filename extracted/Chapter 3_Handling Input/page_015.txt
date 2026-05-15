@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (I)
+SQL injection is an attack in which
+the SQL code is inserted or
+appended into application/user
+input parameters that are later
+passed to a back-end SQL server
+for parsing and execution.

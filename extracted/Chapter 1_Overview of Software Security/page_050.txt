@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Threat Modelling Process
+• Threat Modeling process is Iterative
+(continuous)
+• Threat Modeling process takes
+inputs and generates Outputs for
+each step in the process

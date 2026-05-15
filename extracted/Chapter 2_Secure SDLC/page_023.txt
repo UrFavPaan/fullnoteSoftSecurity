@@ -1,0 +1,17 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+OWASP Top 10 Application Security Risks (I)
+When users can do things, they’re not supposed to (e.g., normal users accessing admin functions or other people’s
+data). Access control enforces policy such that users cannot act outside of their intended permissions. Failures
+typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a
+business function outside the user's limits.
+1: Broken Access Control
+2: Cryptography Failures
+Weak, missing, or misused encryption that exposes sensitive data (like passwords or credit card info). The first thing is
+to determine the protection needs of data in transit and at rest.
+Attacker puts malicious data into a program (like SQL, command, or XSS), tricking it into running unintended
+commands. Source code review is the best method of detecting if applications are vulnerable to injections. Automated
+testing of all parameters, headers, URL, cookies, JSON, SOAP , and XML data inputs is strongly encouraged.
+3: Injection

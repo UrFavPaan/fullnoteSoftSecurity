@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Checkmarx
+• Checkmarx - a commercial static analysis tool that can
+analyze code written in over 20 programming languages,
+including Java, .NET, and PHP .
+• It is often used in industries such as finance, healthcare, and
+government, where compliance and security are important.
+• https://www.youtube.com/watch?v=gaQAhoEgN7w&list=PL
+utAeDk0sfciZw4UMMPkXBXVP8ZUlCef2

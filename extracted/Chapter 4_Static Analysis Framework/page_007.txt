@@ -1,0 +1,11 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SonarQube
+• SonarQube - an open-source platform that provides
+a dashboard for tracking and analyzing code quality
+and security issues. It supports a wide range of
+programming languages and integrates with many
+development tools.
+• https://www.youtube.com/watch?v=vE39Fg8pvZg

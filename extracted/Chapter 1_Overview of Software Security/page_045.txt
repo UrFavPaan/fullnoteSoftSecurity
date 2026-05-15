@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Quality vs Secure Code (II)
+Secure Code
+• Focus: Protection against threats, vulnerabilities, and attacks
+• Goal: Ensures confidentiality, integrity, and availability of data
+• Examples:
+• - Proper input validation
+• - Safe authentication & access control
+• - Resilience against SQL injection, buffer overflows, etc.

@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Validate Input
+• Validating input is an essential step in ensuring software security.
+• Input validation refers to the process of checking the input for validity and
+verifying that it meets specific requirements or constraints.
+• Objectives: (1) validating that user input contains only alphanumeric
+characters, (2) verifying that input values are within acceptable ranges, and (3)
+validating that input data does not contain malicious code or characters that
+can lead to SQL injection or other types of attacks.
+• Input validation can be performed using different techniques, such as input
+filtering (Accept only the good stuff), input sanitization (clean what’s dirty), and
+input normalization (make it consistent).

@@ -1,0 +1,496 @@
+--- Page 1 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Handling Input
+By: Dr. Khairunnisa bt Osman
+Subject: Software Security (CCSB5133)
+Sem 2 (2025/2026)
+
+--- Page 2 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Outline
+▪ Part 1:Handling Input
+▪ Introduction to Handling Input
+▪ Classification Inputs
+▪ Validate Input
+▪ Prevention Measurement
+▪ Part 2:OWASP Top 10 :
+▪ Sensitive Data Exposure
+▪
+
+--- Page 3 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Handling Input
+• Handling input is a critical aspect of
+software security.
+• Input from users, other systems, or external
+sources can contain malicious code or data
+that can compromise the security of the
+software.
+• Therefore, it is essential to carefully handle
+input and ensure that it is validated and
+processed securely to prevent
+vulnerabilities and attacks.
+
+--- Page 4 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Classification Inputs:
+• Before processing input, it is essential to classify it into different
+categories based on its source, format, and content.
+• Inputs can be classified into two categories: trusted and untrusted.
+• Trusted inputs come from reliable sources, such as internal systems or
+trusted users,
+• While untrusted inputs come from untrusted or unknown sources, such
+as user input from the web or other external systems.
+
+--- Page 5 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Reasons For Validate Input
+1. Prevent security attacks
+• SQL Injection
+• XSS (Cross Site Scripting)
+• Command Injection
+• Malicious scripts
+2. Protect database integrity
+3. Ensure data accuracy
+4. Prevent system crash
+5. Maintain system reliability
+
+--- Page 6 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Validate Input
+• Validating input is an essential step in ensuring software security.
+• Input validation refers to the process of checking the input for validity and
+verifying that it meets specific requirements or constraints.
+• Objectives: (1) validating that user input contains only alphanumeric
+characters, (2) verifying that input values are within acceptable ranges, and (3)
+validating that input data does not contain malicious code or characters that
+can lead to SQL injection or other types of attacks.
+• Input validation can be performed using different techniques, such as input
+filtering (Accept only the good stuff), input sanitization (clean what’s dirty), and
+input normalization (make it consistent).
+
+--- Page 7 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Syntactical (I)
+• Input validation should be applied on both syntactical and semantic levels.
+• Syntactical validation involves checking the input data for compliance with a
+specific format or syntax.
+• For example, if a user is asked to input an email address, the input should be
+validated to ensure that it contains the "@" symbol and ends with a valid top-
+level domain (TLD) like ".com", ".net", or ".org".
+• The domain part contains only letters, numbers, hyphens (-) and periods (.).
+• The email address is a reasonable length:
+• The local part (before the @) should be no more than 63 characters.
+• The total length should be no more than 254 characters.
+
+--- Page 8 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Syntactical (II)
+• The email address does not contain dangerous characters (such as backticks ( ` ` ),
+single ( ' )or double quotes ( " ), or null bytes ( \0 )).
+backticks ( ` ` ) single ( ' ) double quotes ( " ) null bytes ( \0 )
+Reason In Linux/Unix shells,
+backticks mean “execute
+this command”.
+In SQL, single quotes
+delimit strings:
+Used in many languages to
+wrap strings (JavaScript,
+HTML, SQL, etc.).
+Symbol: \0 (not
+visible, represents
+end of string in
+C/C++).
+Example: echo `ls`
+→ runs ls and replaces it
+with the output.
+SELECT * FROM
+users WHERE name
+= 'alice';
+<input
+value="USER_INPUT">
+char filename[20];
+strcpy(filename,
+"evil.php\0.jpg");
+Attack
+use:
+If input is passed into a
+shell command, backticks
+let attackers run arbitrary
+system commands
+(command injection).
+Adding ' OR '1'='1
+can break out of the
+string and cause SQL
+injection.
+In HTML attributes →
+breaking out of quotes
+leads to SQL injection
+The program thinks
+the string ends at
+evil.php, ignoring
+.jpg. = path
+manipulation
+
+--- Page 9 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Syntactical (III)
+• This helps to prevent input of invalid data and potential vulnerabilities
+that could arise from it
+• As such, the best way to validate email addresses:
+(1) to perform some basic initial validation (Syntactical)
+(2) then pass the address to the mail server and catch the exception if it rejects
+it. (Semantic)
+• This means that any application can be confident that its mail server
+is able to send emails to all addresses it is configured to accept.
+
+--- Page 10 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Semantic (I)
+• Semantic validation, on the other hand, involves checking the input data
+for compliance with the application's business rules and logic.
+• This ensures that the input data makes sense and valid in the context of
+the application.
+• For example, if a user is asked to input their age, the input should be
+validated to ensure that it falls within an acceptable range for the
+application, such as between 18 and 100 years old.
+• For example, to ensure email address is correct and legitimate: Send an
+email to the user and require that they click a link in the email or enter a
+code that has been sent to them.
+
+--- Page 11 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Semantic (II)
+• For example, to ensure email address is correct and legitimate:
+• At least 32 characters long.
+• Time limited (e.g., expiring after eight hours).
+• After validating the ownership of the email address, the user should then be
+required to authenticate on the application through the usual mechanism.
+
+--- Page 12 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Input validation strategies: Semantic (III)
+• This provides a basic level of assurance that: the email address is
+correct, the application can successfully send emails to it, the user
+has access to the mailbox.
+• Semantic validation helps to prevent data that is technically correct
+but not meaningful in the context of the application.
+
+--- Page 13 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention Measures (Handle input securely)
+• There are several prevention measures can be applied to handle input securely.
+(1) Another measure is to use prepared statements or parameterized queries to
+prevent SQL injection attacks.
+(2) These include input encoding, which involves converting input data into a
+secure format, such as HTML encoding, to prevent SQL Injection & cross-site
+scripting (XSS) attacks.
+(3) Input data should also be checked for buffer overflows, which can be avoided
+by disallowed any input value is larger than the allocated buffer size, leading
+to memory corruption and potentially remote code execution.
+(4) Additionally, implementing access controls and privilege management can
+limit the impact of input-related attacks by restricting user access to critical
+system resources.
+
+--- Page 14 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention Measures
+(5) Hide database errors- Never show raw error messages on your website
+(6) User Web Application Firewall (WAF)
+(7) Keep software and frameworks updated- Phyton, PHP , MySQL
+
+--- Page 15 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (I)
+SQL injection is an attack in which
+the SQL code is inserted or
+appended into application/user
+input parameters that are later
+passed to a back-end SQL server
+for parsing and execution.
+
+--- Page 16 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (II)
+• When an attacker can modify an SQL statement, the statement will
+execute with the same rights as the application user; when using the
+SQL server to execute commands that interact with the operating
+system, the process will run with the same permissions as the component
+that executed the command (e.g. database server, application server, or
+Web server), which is often highly privileged.
+• SQL injection has probably existed since SQL databases were first
+connected to Web applications.
+
+--- Page 17 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (III)
+How Web Applications Work?
+• Web applications are interactive and
+database-driven, allowing us to access
+e-mail, book holidays, purchase
+products, view news, and more.
+• Database-driven Web applications are
+common in today's Web-enabled
+society and are used to extract
+specific information from a database,
+such as product information, stock
+levels, prices, postage and packing
+costs.
+
+--- Page 18 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Imagine your program builds an SQL command like
+this:
+Phyton (Bad coding):
+SELECT * FROM users WHERE name = ‘ “ + user input
++ “ ‘ ;
+If someone types: John
+The query become: SELECT * FROM users WHERE
+name = ‘ John’ ;
+- * :show me all the columns from the table called
+users, but only for the row where the name is ‘John’.
+Result:
+
+--- Page 19 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Attacker manipulate the bad coding by
+typing input : John’ OR ‘1’=‘1
+The query become:
+SELECT * FROM users WHERE name = ‘
+John’ OR ‘1’=‘1’;
+- ‘1’=‘1’ makes the condition always true.
+- So, the attacker can see all the users
+without proper authentication = SQL
+INJECTION
+Result:
+
+--- Page 20 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Solution1: Parametrized query
+Phyton
+cursor.execute (SELECT * FROM users WHERE name = ? “, (user_input,))
+? Is a placeholder. The database knows it will a get a value later, but it doesn’t treat it
+as a code.
+Even if the user types like “John’ OR ‘1’=‘1’, the db will treat it as a text only, not a
+command.
+
+--- Page 21 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Solution2: Prepared Statement (hardcoding data)
+Phyton
+stmt = “SELECT * FROM students WHERE name = ?”
+cursor.execute (stmt, (“John”,))
+- stmt = “SELECT * FROM students WHERE name = ?” –the Prepared Statement
+- ? Is a placeholder. The database knows it will a get a value later, but it doesn’t treat
+it as a code.
+- cursor.execute (stmt, (“John”)) :run query with ‘John’ as the value for ?
+placeholder
+
+--- Page 22 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 1:
+Solution2: Prepared Statement (user input)
+Phyton
+// Ask the user to type a name
+name = input (“Enter students name to search: “)
+//Prepared Statement
+stmt= “SELECT * FROM students WHERE name = ?”
+//execute query with user input
+cursor.execute (stmt, (name,))
+
+--- Page 23 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 2:
+The store provides an option to view all products
+within the store that cost less than $100, allowing
+users to sift and sort through products of particular
+interest, and we could use the following URL:
+http://www.victim.com/products.php?val=100
+- ?val=100 is a query parameter: key=val, value=100
+- PHP (bad coding):
+$val = $_GET[‘val’];
+“SELECT * FROM products WHERE id=$val”;
+And $val is 100,
+- The query become (in sql):
+SELECT * FROM products WHERE id = 100;
+- If the DB has a row id = 100, the page
+can show the product details:
+
+--- Page 24 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IV) Example 2:
+- The attacker can manipulate the URL by
+inserting
+http://www.victim.com/products.php?val
+=100’ OR ‘1’=‘1
+- The result:
+(1) The attacker can see all data
+(2) OR the application might crash (affect
+Availability)
+(3) OR inproper error message where leak
+technical details.
+- Solution: Prepared Statement
+PHP
+$stmt = $pdo->prepare(“SELECT *
+FROM products WHERE is = ?”);
+$stmt->execute([$val]);
+- With the Prepared Statement, the db
+treat that whole text as a string valie,
+not SQL code.
+
+--- Page 25 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (VII) Example 3:
+• (Step 1) The attacker could log into the website by giving the following values in the
+input fields:
+• Username: admin
+• Password: ` OR 1=1 --
+• (Step 2) Now we are going to modify the password value to fetch data from
+CreditCardData table.
+• Let’s leave the username field empty:
+• Username:
+• Password: 'UNION SELECT SUBSTRING((SELECT ',' + s.[CardNumber] + ';' + s.[Expiry] +
+';' + s.[Name] FROM dbo.[CreditCardData] s FOR XML PATH('')),2,200000)--
+
+--- Page 26 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (VIII) Example 3:
+• This will expose all credit card data in the login success page:
+The above query concatenates all data from the CreditCardData table
+using separators for rows and columns and returns as a string value.
+
+--- Page 27 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IX) Example 3:
+Now let’s examine the actual query that is executed when the application
+runs:
+• SELECT [UserName] FROM dbo.[Login] WHERE [Username] = '' AND
+[Password]=''
+• UNION SELECT SUBSTRING((SELECT ',' + s.[CardNumber] + ';' + s.[Expiry] +
+';' + s.[Name]
+• FROM dbo.[CreditCardData] s FOR XML PATH('')),2,200000)--’
+• Since this is an SQL UNION statement, it combines the result of both
+queries.
+
+--- Page 28 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevent Sensitive Data Exposure
+• Prevent storage of unwanted data
+• Don’t store any sensitive information that is not required.
+• Classify the data processed, stored, or transmitted by our application.
+• Identify which data is sensitive according to privacy laws or business needs.
+• Encrypt all sensitive data stored
+• Encrypt all sensitive data that is stored by our application.
+• Use strong and updated standard algorithms, protocols, and keys to protect it.
+
+--- Page 29 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevent Sensitive Data Exposure (II)
+
+--- Page 30 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Summary
+• Proper input handling is essential to prevent software vulnerabilities and
+security breaches.
+• Input validation (both syntactic and semantic) is critical for ensuring data
+integrity and application logic.
+• Best practices such as input filtering, sanitization, and encoding help
+mitigate risks like SQL injection and XSS.
+• Securely handling sensitive data (e.g., passwords and credit cards) requires
+rest and transit encryption.
+• Prevention strategies like prepared statements, TLS, and access control
+should be implemented to protect systems.

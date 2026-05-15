@@ -1,0 +1,23 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Advantages of Return Codes
+• Simple and efficient (especially
+in low-level systems).
+• No need for advanced
+exception mechanisms.
+• Predictable behavior in
+embedded/OS programming.
+Security Concerns
+• Ignored return values: Developers
+may forget to check error codes →
+leading to vulnerabilities.
+• Ambiguity: Different functions may
+use inconsistent error codes.
+• Information leakage: Returning
+too-detailed codes may help
+attackers infer system internals.
+• Propagation complexity: Errors
+must be passed up manually
+through multiple function calls.

@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Context-dependent access controls II
+• The example scenario in Figure 4 is that the e-commerce website
+should prevent users from modifying the contents of their
+shopping cart after they have made a payment.
+• This can be also defined as a business logic error related to
+broken access control. Here, the user adds items into his cart and
+completes payment. However, he cannot change the items in his
+cart after payment because context-dependent access control does
+not allow him to perform actions in the wrong order.

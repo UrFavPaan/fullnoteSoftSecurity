@@ -1,0 +1,18 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Agenda
+• Return Codes
+• Concept of Return Codes
+• Advantages & Security
+Concerns
+• Best Practices
+• Exception
+• Exception Handling Model
+• Advantages & Security Risks
+• Best Practices
+• Main Categories of Exceptions
+• Prevention Techniques
+• Prevention to Resource Leak
+• Logging & Debugging

@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Credential Stuffing (I)
+Credential stuffing is a type of cyberattack where stolen account credentials typically
+consisting of lists of usernames and/or email addresses and the corresponding
+passwords (often from a data breach) are used to gain unauthorized access to user
+accounts through large-scale automated login requests directed against a web
+application.

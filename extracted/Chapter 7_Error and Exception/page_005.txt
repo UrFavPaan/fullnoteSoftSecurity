@@ -1,0 +1,24 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Concept of Return Codes
+• Normal return: indicates
+successful execution.
+• Error return: a distinct value
+that represents a problem.
+• Example return codes:
+• 0 → Success
+• -1 → Failure
+• NULL → Invalid
+pointer/resource not available
+• Three (3) common categories
+of return values:
+(1) We set the return codes during
+programming set (as programmer
+in the system)
+(2) We strictly follow existing
+codes during connecting to server
+(http state)
+(3) We follow existing predefined
+return codes in OS (Linux/UNIX)

@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What Is Broken Authentication? (I)
+A broken authentication refers to the vulnerabilities or weaknesses inherent in an
+online platform or application that allows hackers to bypass the login security and
+gain access to all the privileges owned by the hacked user.
+There are two main categories of vulnerabilities causes broken authentication:

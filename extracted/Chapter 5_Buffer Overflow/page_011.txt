@@ -1,0 +1,18 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention Measures (System & Compiler
+Level)
+Stack Canaries
+Special values are placed next to return addresses.
+Detect overwrites before returning; program aborts if altered.
+ASLR (Address Space Layout Randomization)
+Randomizes memory addresses of stack, heap, and libraries.
+Makes predicting targets for exploitation much harder.
+DEP / NX Bit (Data Execution Prevention)
+Mark’ memory regions (stack/heap) as non-executable.
+Prevents running injected shellcode from data areas.
+Runtime Protection Libraries (libsafe, StackGuard)
+Interpose or recompile code to detect/stop unsafe calls.
+StackGuard integrated into GCC’s stack protector; libsafe wraps libc.

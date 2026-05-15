@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+How to detect security issues early ?
+• Static analysis can help detect security issues early
+in the development process, before the code is
+deployed in production.
+• It is achieved by identifying potential vulnerabilities
+before they can be exploited by attackers.

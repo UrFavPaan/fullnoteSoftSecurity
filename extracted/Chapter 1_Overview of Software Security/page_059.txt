@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Summary
+▪ Most software systems today are insecure and contain numerous flaws and bugs
+that attackers exploit.
+▪ Defects, Bugs, Flaws, Risks, and vulnerabilities are the terms used in software.
+▪ There are three pillars in software security: risk management, touchpoints, and
+knowledge.
+▪ Threat modeling is a structured process used in cybersecurity to identify, assess,
+and mitigate security risks within a system, application, or network.

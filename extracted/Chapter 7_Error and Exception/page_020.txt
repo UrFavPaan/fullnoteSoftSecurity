@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Classification of Exceptions
+• Not all exceptions are the same.
+• Classifying exceptions helps developers design better error handling strategies.
+• In software security, classification ensures robust recovery, reduced vulnerability,
+and consistent handling.
+• Let’s see how we can use or throw an exception class in the program. It tells the
+system (compiler and JVM) what kind of problem might occur, so it can be handled
+properly.
+• Some situations must use checked, unchecked exceptions or cannot be handled at
+all.

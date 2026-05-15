@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Function
+Level Authorization (BFLA) I
+• Suppose that an application triggers API calls to fetch user
+information. Examine the following request-response cycles.

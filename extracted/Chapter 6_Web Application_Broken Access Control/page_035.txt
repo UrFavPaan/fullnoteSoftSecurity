@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Object
+Level Authorisation (BOLA) I
+• Assume you identified target.com uses an API to access data
+and interact with external software components, operating
+systems, or microservices.
+• Sign into your account and navigate to the “User
+Information” page.
+• You realized that the application fetches user information
+from an external service via a GET request as seen on the
+next page.

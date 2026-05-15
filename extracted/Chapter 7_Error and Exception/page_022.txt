@@ -1,0 +1,24 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Main Categories of Exceptions (Cont)
+2. Unchecked Exceptions (Runtime
+Exceptions)
+• Definition: Exceptions that occur during
+program execution, not checked at
+compile time. Exceptions that compiler
+does not force you to handle
+• Example: NullPointerException,
+ArrayIndexOutOfBoundsException
+• Cause: Often due to programming errors.
+• Security Concern: Attackers can exploit
+unhandled runtime exceptions to crash
+apps (DoS).
+Output:
+It shows:
+This part of the stack trace shows:
+The class name: Example2
+The method name: main
+The line number: 4
+So, the problem is exactly at line 4 inside Example2.java.

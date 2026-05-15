@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Pillar III: Knowledge (I)
+• Involves gathering, encapsulating, and sharing security knowledge.
+• Software Security Knowledge Catalogs:
+o Principles.
+o Guidelines.
+o Rules.
+o Vulnerabilities.
+o Exploits.
+o Attack Patterns.
+o Historical Risks.

@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common Attacks: Directory Traversal
+File Include IV
+Remote File Inclusion (RFI)
+RFI occurs when a web application includes a file from a
+remote server specified in a parameter of the web request.
+The attacker may craft a malicious URL that points to a file
+hosted on their own server, which is then included by the
+vulnerable application.

@@ -1,0 +1,10 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Remediation Guidelines
+• Access control vulnerabilities cannot be prevented by
+applying a single formula or simple, ordinary and common
+checks because; access rights, permissions, principles, and
+other factors often vary due to the differences in context,
+workflow, and purpose of the applications.

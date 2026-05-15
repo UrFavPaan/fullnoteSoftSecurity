@@ -1,0 +1,19 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+OWASP Top 10 Application Security Risks (I)
+Flaws in the system’s architecture or design that create security weaknesses (e.g., no threat modeling, insecure
+workflows). Secure design is a culture and methodology that constantly evaluates threats and ensures that code is
+robustly designed and tested to prevent known attack methods. Threat modeling should be integrated into
+refinement sessions (or similar activities); look for changes in data flows and access control or other security
+controls.
+4: Insecure Design
+5: Security Misconfiguration
+Poorly set security settings—like default passwords, open cloud storage, or unnecessary features left on.
+Using old libraries, frameworks, or software with known bugs that attackers can exploit.
+6: Vulnerable & Outdated Components
+7: Identification & Authentication Failures
+Weak login systems—like broken password resets, no multi-factor authentication, or session problems—that let
+attackers impersonate users. Confirmation of the user's identity, authentication, and session management is critical to
+protect against authentication-related attacks.

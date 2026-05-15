@@ -1,0 +1,15 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+CWE: Common Weakness Enumeration
+The software does not check or restrict input properly, which may allow unexpected or dangerous data.
+1. CWE-20: Improper Input Validation
+2. CWE-74: Injection
+User input is not handled safely, allowing malicious code or commands to be executed.
+The program copies data without checking size limits, causing memory corruption.
+3. CWE-120: Buffer Overflow
+4. CWE-119: Memory Bound Error
+The software allows operations outside the allocated memory, leading to crashes or exploits.
+5. CWE-384: Session Fixation
+The system reuses or accepts an attacker’s session ID, letting them hijack sessions.

@@ -1,0 +1,17 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+SQL Injection (III)
+How Web Applications Work?
+• Web applications are interactive and
+database-driven, allowing us to access
+e-mail, book holidays, purchase
+products, view news, and more.
+• Database-driven Web applications are
+common in today's Web-enabled
+society and are used to extract
+specific information from a database,
+such as product information, stock
+levels, prices, postage and packing
+costs.

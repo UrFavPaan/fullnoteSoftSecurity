@@ -1,0 +1,8 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Broken Function
+Level Authorization (BFLA) II
+• Let’s intercept the request and tamper with the API
+call.

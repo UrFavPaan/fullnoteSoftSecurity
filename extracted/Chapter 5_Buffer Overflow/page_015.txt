@@ -1,0 +1,20 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Impact of Buffer Overflows
+•
+Denial of Service (DoS)
+• Crash or hang → service downtime, repeated attacks can knock systems
+offline.
+•
+Data Leakage
+• Memory beyond the buffer may expose passwords, keys, or sensitive
+data.
+•
+Arbitrary Code Execution
+• Overwritten return addresses let attackers run malicious instructions.
+•
+Privilege Escalation
+• If a vulnerable program runs with admin/root, the attacker gains full
+system control.

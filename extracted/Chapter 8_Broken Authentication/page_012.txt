@@ -1,0 +1,9 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Password Spraying (I)
+• The term "password spraying" refers to the use of simple and weak passwords, such
+as "12345" or "password," by attackers attempting to breach secure accounts.
+• Password-complexity requirements help protect against Password Spraying. You can
+see some of the most commonly used (and therefore worst) passwords below:

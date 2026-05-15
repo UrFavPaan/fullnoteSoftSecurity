@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Debugging Techniques
+Print/Trace
+Debugging • Using print statements/logs to trace execution.
+Interactive
+Debugging • Using tools like GDB, Visual Studio Debugger.
+Remote
+Debugging • Debugging processes running on remote systems.
+Automated
+Debugging Tools • Static analysis, dynamic analysis, fuzz testing.

@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Reasons For Validate Input
+1. Prevent security attacks
+• SQL Injection
+• XSS (Cross Site Scripting)
+• Command Injection
+• Malicious scripts
+2. Protect database integrity
+3. Ensure data accuracy
+4. Prevent system crash
+5. Maintain system reliability

@@ -1,0 +1,690 @@
+--- Page 1 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Error & Exception
+By: Dr. Khairunnisa bt Osman
+Subject: Software Security (CCSB5133)
+Sem 2 (2025/2026)
+
+--- Page 2 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Agenda
+• Return Codes
+• Concept of Return Codes
+• Advantages & Security
+Concerns
+• Best Practices
+• Exception
+• Exception Handling Model
+• Advantages & Security Risks
+• Best Practices
+• Main Categories of Exceptions
+• Prevention Techniques
+• Prevention to Resource Leak
+• Logging & Debugging
+
+--- Page 3 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Introduction
+• Error and exception handling is a critical aspect of software security.
+• Improper handling can lead to system crashes, denial of service (DoS),
+or even exploitation by attackers.
+• Secure software must handle errors gracefully, prevent information
+leakage, and ensure that resources are always released correctly.
+
+--- Page 4 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Handling Error Return Code
+• In traditional programming (especially in C, C++, and system-level
+code), return codes are widely used to indicate success or failure of a
+function.
+• Instead of stopping execution, a function signals an error by returning a
+special value (e.g., -1, NULL, or an error constant).
+• The calling function is responsible for checking and handling the return
+code.
+
+--- Page 5 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Concept of Return Codes
+• Normal return: indicates
+successful execution.
+• Error return: a distinct value
+that represents a problem.
+• Example return codes:
+• 0 → Success
+• -1 → Failure
+• NULL → Invalid
+pointer/resource not available
+• Three (3) common categories
+of return values:
+(1) We set the return codes during
+programming set (as programmer
+in the system)
+(2) We strictly follow existing
+codes during connecting to server
+(http state)
+(3) We follow existing predefined
+return codes in OS (Linux/UNIX)
+
+--- Page 6 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Concept of Return Codes
+Example of the return codes
+during programming set (as
+programmer in the system)
+
+--- Page 7 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Concept of Return Codes
+Example of Return Codes in Web API (HTTP Status Codes):
+
+--- Page 8 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Common of Return Codes
+Example of Return Codes in OS (Linux/UNIX)
+
+--- Page 9 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Advantages of Return Codes
+• Simple and efficient (especially
+in low-level systems).
+• No need for advanced
+exception mechanisms.
+• Predictable behavior in
+embedded/OS programming.
+Security Concerns
+• Ignored return values: Developers
+may forget to check error codes →
+leading to vulnerabilities.
+• Ambiguity: Different functions may
+use inconsistent error codes.
+• Information leakage: Returning
+too-detailed codes may help
+attackers infer system internals.
+• Propagation complexity: Errors
+must be passed up manually
+through multiple function calls.
+
+--- Page 10 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Best Practices for Secure Use
+• Always check return values before using results.
+• Standardize error codes (e.g., EXIT_SUCCESS, EXIT_FAILURE).
+• Document return values clearly.
+• Avoid exposing sensitive details in error codes.
+• Consider combining with logging for better debugging and monitoring.
+
+--- Page 11 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Managing Exceptions
+• Exceptions are events that disrupt normal program execution.
+• Unlike return codes, exceptions allow separating normal logic from
+error-handling logic.
+• Widely used in modern languages: Java, Python, C#, C++.
+• Essential in software security to prevent crashes, leaks, and
+unintended information disclosure.
+
+--- Page 12 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is Exception Handling?
+• Mechanism to detect, raise, and handle abnormal conditions.
+• A program can transfer control to a catch block when an exception
+occurs.
+• Promotes cleaner, safer, and more maintainable code.
+
+--- Page 13 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is Exception Handling?
+
+--- Page 14 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Exception Handling Model
+Try block
+• Code that may cause an
+error.
+Catch block
+• Handles the error.
+Finally block
+• Executes cleanup code
+(e.g., releasing
+resources).
+
+--- Page 15 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example
+
+--- Page 16 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Advantages of Exceptions
+• Cleaner Code – Separates normal
+flow from error handling.
+• Flexibility – Different errors can be
+handled differently.
+• Scalability – Easier to maintain large
+systems.
+• Centralized Handling – Exceptions
+can be caught at higher levels.
+Security Risks of Poor Exception
+Handling
+• Unhandled Exceptions → Program
+crash → Denial of Service (DoS).
+• Overly generic catch blocks (e.g., catch
+(Exception e)) → May hide real issues.
+• Information Disclosure → Detailed
+exception messages may reveal
+sensitive system info.
+• Silent Failures → Catching errors but
+doing nothing can allow attacks to go
+unnoticed.
+
+--- Page 17 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Best Practices in Secure Exception Handling
+Catch specific
+exceptions, not
+general ones.
+Never expose
+stack traces or
+system internals to
+end-users.
+Always log
+exceptions
+securely (for
+admins, not users).
+Use finally or try-
+with-resources to
+release resources.
+Design custom
+exception classes
+for clarity.
+
+--- Page 18 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example – Secure
+Practice
+• Program tries to open a file named data.txt in read mode ("r").
+• with open(...) as file: → ensures the file will be automatically closed (prevents
+resource leaks).
+• data = file.read() → reads the entire content of the file.
+• Catches the case where the file doesn’t exist.
+• Instead of crashing, the program shows a user-friendly message.
+• Handles the case where the file exists, but the program doesn’t have permission to
+read it.
+• This is a generic exception handler.
+• It will catch any other error that was not specifically listed above.
+• Comment suggests that in real-world practice, details (e) should be logged for
+administrators, but not shown to users (to prevent leaking sensitive system info).
+• Finally always executes — whether an error occurred or not.
+• It’s usually used for cleanup tasks (closing files, releasing memory, freeing network
+connections).
+• Simply prints a message to signal the program is done.
+
+--- Page 19 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Return
+Codes vs
+Exceptions:
+Error
+Handling
+
+--- Page 20 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Classification of Exceptions
+• Not all exceptions are the same.
+• Classifying exceptions helps developers design better error handling strategies.
+• In software security, classification ensures robust recovery, reduced vulnerability,
+and consistent handling.
+• Let’s see how we can use or throw an exception class in the program. It tells the
+system (compiler and JVM) what kind of problem might occur, so it can be handled
+properly.
+• Some situations must use checked, unchecked exceptions or cannot be handled at
+all.
+
+--- Page 21 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Main Categories of Exceptions
+1. Checked Exceptions
+• Definition: Exceptions that must be
+handled at compile time (in
+languages like Java).
+• Example: IOException,
+SQLException.
+• Purpose: Force developers to
+anticipate recoverable errors.
+• Security Role: Encourages safe
+coding (e.g., validating file access,
+handling network errors).
+
+--- Page 22 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Main Categories of Exceptions (Cont)
+2. Unchecked Exceptions (Runtime
+Exceptions)
+• Definition: Exceptions that occur during
+program execution, not checked at
+compile time. Exceptions that compiler
+does not force you to handle
+• Example: NullPointerException,
+ArrayIndexOutOfBoundsException
+• Cause: Often due to programming errors.
+• Security Concern: Attackers can exploit
+unhandled runtime exceptions to crash
+apps (DoS).
+Output:
+It shows:
+This part of the stack trace shows:
+The class name: Example2
+The method name: main
+The line number: 4
+So, the problem is exactly at line 4 inside Example2.java.
+
+--- Page 23 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Main Categories of Exceptions (Cont)
+3. System Exceptions (Fatal Errors)
+• Definition: Errors related to the
+runtime environment or system
+resources.
+• Example: OutOfMemoryError,
+StackOverflowError.
+• Cause: Resource exhaustion, infinite
+loops, and memory leaks.
+• Security Concern: Attackers may
+deliberately consume resources →
+Denial of Service attack: System crashes
+instantly.
+Recurse: a method keeps calling itself without
+stopping).
+
+--- Page 24 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Additional Sub-classifications
+• Application-defined Exceptions → Custom exceptions for
+business/security rules.
+• Recoverable vs. Non-Recoverable Exceptions:
+• Recoverable: File not found, retry possible.
+• Non-Recoverable: Memory corruption, cannot proceed safely.
+
+--- Page 25 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Security Implications of Exception
+Classification
+• Checked exceptions: Encourage defensive coding.
+• Unchecked exceptions: Need secure programming practices to avoid
+vulnerabilities.
+• System exceptions: Must implement fail-safe defaults (e.g., safe
+shutdown, logging).
+
+--- Page 26 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Prevention of Resource Leak
+• Resource leak occurs when a program acquires a resource (e.g., memory, file
+handles, sockets, database connections) but fails to release it properly.
+• Common in long-running applications → leads to performance degradation,
+instability, or system crash.
+• In software security, attackers may exploit resource leaks to launch Denial of
+Service (DoS) attacks.
+• A resource leak does not leak confidential data, it leaks system resources,
+such as memory, files, or network connections where it affects the
+availability of the system.
+
+--- Page 27 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Examples of Resources
+Memory (heap
+allocation not
+freed).
+File handles
+(opened file not
+closed).
+Network sockets
+(not released after
+communication)
+Database
+connections (left
+open → connection
+pool exhaustion).
+Threads/Processes
+(not terminated
+properly).
+
+--- Page 28 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example of Resource Leak & Prevention I
+• Problem here: The file was opened
+but never closed without fclose(f).
+• This creates a resource leak:
+• Each time readFile() is called, a new
+file handle is allocated.
+• If fclose(f) is missing, these handles
+are never released.
+• Over time, this can exhaust system
+resources (file descriptors), leading to
+a crash or denial of service.
+
+--- Page 29 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example of Resource Leak & Prevention I
+• fclose (file) closes the file
+and free the resources
+
+--- Page 30 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example of Resource Leak & Prevention II
+file is never closed → resource leak.
+Automatically closes resources at the end of the block.
+
+--- Page 31 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Security Implications
+Denial of Service
+(DoS):
+• Attackers
+repeatedly
+trigger resource
+allocation
+without release
+→ exhaust
+system resources.
+Privilege
+Escalation:
+• Leaked handles
+may expose
+unintended
+access to files or
+sockets.
+Information
+Leakage:
+• Incomplete
+cleanup may
+leave sensitive
+data in memory.
+
+--- Page 32 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Techniques to Prevent Resource Leaks
+Structured Cleanup • Always release resources in a finally block or equivalent.
+Automatic Resource
+Management
+• Use try-with-resources in Java or with statement in Python.
+• Ensures resources are automatically closed.
+RAII (Resource
+Acquisition Is
+Initialization)
+• Resource wrapped in a class; destructor releases it automatically.
+Monitoring & Logging • Track resource usage to detect leaks early.
+• Use profiling tools to identify unreleased resources.
+Defensive
+Programming
+• Set unused pointers to NULL after freeing memory.
+• Implement timeouts for network and database connections.
+• Use connection pools with maximum limits.
+
+--- Page 33 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example of Prevention of Resource Leak
+- Java will automatically close reader when try block ends
+- No need for finally block to manual close resources
+
+--- Page 34 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Logging & Debugging
+• Logging: Recording events, errors, and system activities for later
+analysis.
+• Debugging: The process of identifying, analyzing, and fixing bugs in
+software.
+• Both are essential in secure software development because:
+• Logging provides visibility into system behavior.
+• Debugging ensures errors are fixed systematically.
+• Together, they support incident response, auditing, and forensics.
+
+--- Page 35 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Purpose of Logging
+Monitor normal
+and abnormal
+activities.
+Detect intrusions,
+suspicious
+behavior, or errors.
+Provide evidence
+in security
+investigations.
+Assist in
+compliance with
+standards (e.g., ISO
+27001, PCI DSS).
+
+--- Page 36 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Types of Logs
+System Logs • OS-level activities.
+Application
+Logs • Program-specific events.
+Security Logs • Authentication, access control, intrusion
+attempts.
+Audit Logs • Records of user actions, transactions, or
+changes.
+
+--- Page 37 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Security Risks Logging
+Sensitive Data
+Exposure:
+• Logging passwords,
+tokens, or personal data.
+Log Injection Attacks:
+• Attackers manipulate log
+entries.
+Log Tampering:
+• Unauthorized
+modification/deletion of
+logs.
+Over-logging:
+• Excessive logs may
+degrade performance
+and overwhelm analysis.
+
+--- Page 38 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Secure Logging Best Practices
+Never log
+confidential data
+(e.g., passwords,
+encryption keys).
+Use log levels:
+DEBUG, INFO,
+WARN, ERROR,
+FATAL.
+Ensure logs are tamper-proof (append-
+only, restricted access).
+Apply encryption
+& secure storage
+for sensitive logs.
+Monitor logs in
+real-time (SIEM
+systems, e.g.,
+Splunk, ELK).
+
+--- Page 39 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Purpose of Debugging
+Identify root
+cause of errors.
+Test security
+assumptions.
+Validate code
+behavior under
+edge cases.
+
+--- Page 40 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Debugging Techniques
+Print/Trace
+Debugging • Using print statements/logs to trace execution.
+Interactive
+Debugging • Using tools like GDB, Visual Studio Debugger.
+Remote
+Debugging • Debugging processes running on remote systems.
+Automated
+Debugging Tools • Static analysis, dynamic analysis, fuzz testing.
+
+--- Page 41 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Security Risks & Practices Debugging
+Security Risks
+• Debug Code Left in Production:
+May leak sensitive system info.
+• Verbose Error Messages: Stack
+traces can reveal system internals
+to attackers.
+• Backdoors: Temporary
+debugging shortcuts may be
+exploited.
+Secure Debugging Practices
+• Disable debugging features in
+production.
+• Limit access to debugging tools
+(authorized developers only).
+• Sanitize and control error
+messages shown to end-users.
+• Use logging + debugging together
+→ logs guide where to debug.
+
+--- Page 42 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Summary
+• Return codes: Simple but error-prone if unchecked.
+• Exceptions: Provide structured error handling, but it must be managed
+carefully.
+• Classification: Helps in designing robust error-handling strategies.
+• Resource management: Prevent leaks using structured cleanup
+mechanisms.
+• Logging: Critical for monitoring but must balance visibility with
+confidentiality.
+Golden Rule: Never expose internal error details to users; log securely for administrators.

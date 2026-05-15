@@ -1,0 +1,7 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Example of Resource Leak & Prevention II
+file is never closed → resource leak.
+Automatically closes resources at the end of the block.

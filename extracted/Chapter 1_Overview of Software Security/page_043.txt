@@ -1,0 +1,12 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Software Development Lifecycle (SDLC) (II)
+1.Planning: Identifying project goals, requirements, and feasibility.
+2.Design: Creating architecture and design specifications.
+3.Implementation: Writing and compiling the code.
+4.Testing: Validating the software against requirements and identifying
+defects.
+5.Deployment: Releasing the software to users.
+6.Maintenance: Ongoing support and updates post-deployment.

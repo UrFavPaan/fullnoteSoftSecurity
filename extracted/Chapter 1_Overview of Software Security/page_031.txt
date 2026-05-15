@@ -1,0 +1,14 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+4- Risk-Based Security Testing (I)
+• Testers must follow:
+• Risk-based approach:
+• Grounded in both system's architectural reality and the attacker's mindset.
+• Focused on areas of code where an attack is likely to succeed.
+• Different from Penetration Testing:
+• Level of approach: Inside-out approach.
+• Timing of testing: Before the software is complete.
+• Should start prior to system integration.
+• Risk analysts should identify and rank risks.

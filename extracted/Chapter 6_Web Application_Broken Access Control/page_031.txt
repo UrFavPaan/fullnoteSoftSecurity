@@ -1,0 +1,13 @@
+By:
+.com
+presentationgo.com
+© presentationgo.com
+Real-World Scenarios: Insecure Direct
+Object Reference (IDOR)
+• Insecure Direct Object References (IDOR) occur
+when an application provides direct access to
+objects based on user-supplied input, such as an ID
+or a key.
+• As a result of this vulnerability, attackers can bypass
+authorization and access resources in the system
+directly, for example, database records or files.
